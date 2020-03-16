@@ -1,0 +1,14 @@
+material alvar1
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture alvar1.png
+      }
+    }
+  }
+}
+

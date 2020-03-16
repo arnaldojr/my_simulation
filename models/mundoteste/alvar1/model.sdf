@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="alvar1">
+    <static>true</static>
+    <link name="box">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.25 0.025 0.25</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.25 0.025 0.25</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://mundoteste/alvar1/materials/scripts</uri>
+            <uri>model://mundoteste/alvar1/materials/textures</uri>
+            <name>alvar1</name>
+          </script>
+        </material>
+      </visual>
+    </link>    
+  </model>
+</sdf>
