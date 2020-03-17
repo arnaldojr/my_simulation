@@ -17,6 +17,28 @@
       <uri>model://ground_plane</uri>
     </include>
 
+     <!-- alvar1 -->
+    <include>
+      <uri>model://mundoteste/alvar1</uri>
+      <pose> 1.84 1.27 0.13 0 0 -0.356</pose>
+    </include>
+
+ <!-- creeper01 -->
+    <include>
+      <uri>model://mundoteste/creeper/creeper01</uri>
+      <pose> 0.84 0.23 0.10 0 0 -0.356</pose>
+    </include>
+ <!-- creeper02 -->
+    <include>
+      <uri>model://mundoteste/creeper/creeper02</uri>
+      <pose> 0.12 0.12 0.10 0 0 -0.356</pose>
+    </include>
+ <!-- creeper03 -->
+    <include>
+      <uri>model://mundoteste/creeper/creeper03</uri>
+      <pose> 0.61 0.29 0.17 0 0 -0.356</pose>
+    </include>
+
     <physics type="ode">
       <real_time_update_rate>1000.0</real_time_update_rate>
       <max_step_size>0.001</max_step_size>
