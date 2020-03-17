@@ -22,12 +22,12 @@
       <uri>model://mundoteste/alvar1</uri>
       <pose> 1.84 1.27 0.13 0 0 -0.356</pose>
     </include>
-
  <!-- creeper01 -->
     <include>
       <uri>model://mundoteste/creeper/creeper01</uri>
-      <pose> 0.84 0.23 0.10 0 0 -0.356</pose>
+      <pose> 2.12 0.12 0.10 0 0 -0.356</pose>
     </include>
+
  <!-- creeper02 -->
     <include>
       <uri>model://mundoteste/creeper/creeper02</uri>
