@@ -31,12 +31,12 @@
  <!-- creeper02 -->
     <include>
       <uri>model://mundoteste/creeper/creeper02</uri>
-      <pose> 0.12 0.12 0.10 0 0 -0.356</pose>
+      <pose> 0.12 2.12 0.10 0 0 -0.356</pose>
     </include>
  <!-- creeper03 -->
     <include>
       <uri>model://mundoteste/creeper/creeper03</uri>
-      <pose> 0.61 0.29 0.17 0 0 -0.356</pose>
+      <pose> 2.61 0.29 0.17 0 0 -0.356</pose>
     </include>
 
  <!-- mesa1 -->
