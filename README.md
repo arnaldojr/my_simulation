@@ -4,17 +4,27 @@ Mapas do simulador Gazebo para o robo turtlebot3 do laboratorio de informatica, 
 
 Para rodar faça:
 
+Abra um terminal Crtl+Alt+t digite:
+
+    cd catkin_ws/src
+
 Clone este repositorio dentro da pasta catkin_ws/src.
-> execute o comando catkin_make na pasta raiz catkin_ws
 
-execute no terminal o comando abaixo para adionar o path do gazebo no .bashrc.
+    git clone https://github.com/arnaldojr/my_simulation.git  
 
-> echo "export GAZEBO_MODEL_PATH=~/catkin_ws/src/my_simulation/models:${GAZEBO_MODEL_PATH}" >> ~/.bashrc
-> source ~/.bashrc
+Execute o comando catkin_make na pasta raiz catkin_ws
+    
+    cd ..
+    catkin_make
+    
+Execute no terminal o comando abaixo para adionar o path do gazebo no .bashrc.
 
-para executar rode o roslauch:
+    echo "export GAZEBO_MODEL_PATH=~/catkin_ws/src/my_simulation/models:${GAZEBO_MODEL_PATH}" >> ~/.bashrc
+    source ~/.bashrc
 
-> roslaunch my_simulation mundoteste.launch
+Para executar rode o roslauch:
+
+    roslaunch my_simulation mundoteste.launch
 
 
 
