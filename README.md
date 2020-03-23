@@ -14,6 +14,7 @@ execute no terminal o comando abaixo para adionar o path do gazebo no .bashrc.
 
 para executar rode o roslauch:
 
+
 > roslaunch my_simulation mundoteste.launch
 
 
