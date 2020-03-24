@@ -59,7 +59,7 @@ No menu lateral esquerdo do Rviz:
 
      rostopic echo /ar_pose_marker
 
-> roslaunch my_simulation mundoteste.launch
+
 
 
 
