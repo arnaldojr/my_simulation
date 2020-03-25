@@ -18,7 +18,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/borg/catkin_ws/src/my_simulation/models/mundoteste/creeper/creeper02/materials/textures/Creeper.dae</uri>
+            <uri>model://sala404_creepers/creeper/creeper02/materials/textures/Creeper.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -34,7 +34,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/borg/catkin_ws/src/my_simulation/models/mundoteste/creeper/creeper02/materials/textures/Creeper.dae</uri>
+            <uri>model://sala404_creepers/creeper/creeper02/materials/textures/Creeper.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
