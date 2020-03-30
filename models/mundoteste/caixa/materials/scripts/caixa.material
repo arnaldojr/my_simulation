@@ -1,4 +1,4 @@
-material creeper_02
+material caixa
 {
   technique
   {
@@ -6,7 +6,7 @@ material creeper_02
     {
       texture_unit
       {
-        texture MarkerData_2.png
+        texture caixa.png
       }
     }
   }
