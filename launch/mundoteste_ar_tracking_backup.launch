@@ -27,6 +27,8 @@
     <arg name="output_frame" default="/camera_link" />
     <!-- <arg name="output_frame" default="base_link" /> -->
     <node pkg="tf" type="static_transform_publisher" name="world_frames_connection" args="0 0 0 0 0 -1.57 /camera_link /mira/camera_link 100" />
+    <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0 0 0 0 0   /camera_link  /camera_rgb_optical_frame 100" />
+
     <node name="ar_track_alvar" pkg="ar_track_alvar" type="individualMarkersNoKinect" respawn="false" output="screen">
         <param name="marker_size"           type="double" value="$(arg marker_size)" />
         <param name="max_new_marker_error"  type="double" value="$(arg max_new_marker_error)" />
