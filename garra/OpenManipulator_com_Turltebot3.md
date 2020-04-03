@@ -7,6 +7,10 @@ preparamos um Script que executa a instalação de forma automatica, execute com
 Abra um terminal Crtl+Alt+t digite:
 
     roscd my_simulation
+    
+Atualize o Repositório
+
+    git pull
 
 Conceda permissão de execução para o script;
 
