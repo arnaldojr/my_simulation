@@ -18,8 +18,7 @@ cd ~/catkin_ws/src
 echo ============================ CLONANDO REPOSITORIOS ============================
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_manipulation.git
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_manipulation_simulations.git
-cd turtlebot3_manipulation_simulations
-git checkout melodic-devel
+
 cd ~/catkin_ws
 catkin_make
 
