@@ -37,6 +37,11 @@ Em um outro terminal Crtl+Shift+t:
 
     roslaunch turtlebot3_manipulation_moveit_config move_group.launch
     
+Aperte o "play" no Gazebo para liberar a simulação
+
+ ![aperte o play](play.png)
+ 
+    
 Em um outro terminal Crtl+Shift+t
 
     roslaunch turtlebot3_manipulation_moveit_config moveit_rviz.launch
@@ -45,7 +50,7 @@ Em um outro terminal Crtl+Shift+t
     
  Controle o OpenManipulator:
  
- ![Link do Video](https://www.youtube.com/watch?v=Z76LYP4Fktw)
+ ![Tutorial em Video](https://www.youtube.com/watch?v=1D5vyUJ60l8)
  
  
 
