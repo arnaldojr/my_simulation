@@ -25,4 +25,4 @@ sudo apt install ros-melodic-moveit
 catkin_make
 
 echo ============================ SO TESTAR JOVEM! ============================
-roslaunch turtlebot3_manipulation_gazebo turtlebot3_manipulation.launch 
+
