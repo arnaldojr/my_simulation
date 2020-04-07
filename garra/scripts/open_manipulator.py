@@ -45,11 +45,11 @@ if __name__ == '__main__':
     try:
         manip = openManipulator()
         raw_input("Press Enter to start!")
-        print ("movimento pra baixo")
+        print ("moving to down")
         manip.rotate_joint1_90(0)     
-        print ("movimento pra esquerda")
+        print ("moving to right")
         manip.rotate_joint1_90(-pi/2)
-        print ("home")
+        print ("moving to home")
         manip.go_to_pose_controlled("home")
 
 
