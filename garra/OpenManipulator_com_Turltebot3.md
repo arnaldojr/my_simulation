@@ -69,6 +69,12 @@ Em um outro terminal Crtl+Shift+t
  
  
  
+ Em um outro terminal Crtl+Shift+t, rode o programa exemplo:
+
+    rosrun my_simulation open_manipulator.py 
+    
+    
+ 
  ### Tutorial em Video https://www.youtube.com/watch?v=1D5vyUJ60l8 
  
  
