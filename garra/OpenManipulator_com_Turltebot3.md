@@ -46,29 +46,7 @@ Em um outro terminal Crtl+Shift+t
 
     roslaunch turtlebot3_manipulation_moveit_config moveit_rviz.launch
     
-    
-    
- Controle o OpenManipulator:
- 
- 
- [![Demo CountPages alpha](https://j.gifs.com/GvoMnK.gif)](https://www.youtube.com/watch?v=1D5vyUJ60l8)
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+  
  Em um outro terminal Crtl+Shift+t, rode o programa exemplo:
 
     rosrun my_simulation open_manipulator.py 
