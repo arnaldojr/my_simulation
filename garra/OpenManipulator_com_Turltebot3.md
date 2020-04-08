@@ -23,7 +23,11 @@ Conceda permissão de execução para o script;
 Execute o script
     
     ./instala_garra.sh
-  
+
+Conceda permissão de execução para o programa py;
+
+    cd scripts
+    chmod a+x open_manipulator.py 
 
 
 ### Testando!!
