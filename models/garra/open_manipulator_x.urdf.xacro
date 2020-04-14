@@ -274,14 +274,14 @@
     </inertial>
   </link>
  <!-- Realsense Camera Joint Position -->
-  <joint name="camera_joint" type="fixed">
+  <joint name="raspicam_joint" type="fixed">
     <axis xyz="0 1 0" />
     <origin xyz="0.070 0.040 0.052" rpy="0 0 0"/> 
     <parent link="link5"/>
-    <child link="camera_link"/>
+    <child link="raspicam_link"/>
   </joint>
 
-  <link name="camera_link">
+  <link name="raspicam_link">
     <collision>
       <origin xyz="0.075 0.041 0.053" rpy="0 0 0"/>
       <geometry>
@@ -290,18 +290,18 @@
     </collision>
   </link>
 
-  <joint name="camera_rgb_joint" type="fixed">
+  <joint name="raspicam_rgb_joint" type="fixed">
     <origin xyz="0.073 0.044 0.059" rpy="0 0 0"/>
-    <parent link="camera_link"/>
-    <child link="camera_rgb_frame"/>
+    <parent link="raspicam_link"/>
+    <child link="raspicam_rgb_frame"/>
   </joint>
-  <link name="camera_rgb_frame"/>
+  <link name="raspicam_rgb_frame"/>
 
-  <joint name="camera_rgb_optical_joint" type="fixed">
+  <joint name="raspicam_rgb_optical_joint" type="fixed">
     <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
-    <parent link="camera_rgb_frame"/>
-    <child link="camera_rgb_optical_frame"/>
+    <parent link="raspicam_rgb_frame"/>
+    <child link="raspicam_rgb_optical_frame"/>
   </joint>
-  <link name="camera_rgb_optical_frame"/>
+  <link name="raspicam_rgb_optical_frame"/>
 
 </robot>
