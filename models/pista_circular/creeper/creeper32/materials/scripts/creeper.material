@@ -1,0 +1,14 @@
+material creeper_03
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture MarkerData_3.png
+      }
+    }
+  }
+}
+
