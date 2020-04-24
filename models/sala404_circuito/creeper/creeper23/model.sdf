@@ -18,7 +18,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://sala404_creepers/creeper/creeper03/materials/textures/Creeper.dae</uri>
+             <uri>model://sala404_circuito/creeper/creeper23/materials/textures/Creeper.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -34,7 +34,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://sala404_creepers/creeper/creeper03/materials/textures/Creeper.dae</uri>
+             <uri>model://sala404_circuito/creeper/creeper23/materials/textures/Creeper.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
