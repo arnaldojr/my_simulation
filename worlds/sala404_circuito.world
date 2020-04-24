@@ -12,34 +12,34 @@
       <pose> -2.0 2.0 2.0 0 0 0</pose>
     </include>
 
-  <!-- Piso da sala - pistinha -->
+  <!-- Piso da sala - circuito -->
     <include>
       <uri>model://sala404_circuito/pisosala</uri>
       <pose> 0 0 0 0 0 -1.57</pose>
     </include>
 
- <!-- dog -->
-    <include>
-      <uri>model://sala404_circuito/objeto/dog</uri>
-      <pose> 3.5 1.8 0.375 0 0 0</pose>
-    </include> 
-
  <!-- cat -->
     <include>
       <uri>model://sala404_circuito/objeto/cat</uri>
-      <pose> 2.5 1.8 0.375 0 0 0</pose>
+      <pose> 4.1 0 0.375 0 0 1.57</pose>
     </include>
  
  <!-- bird -->
     <include>
       <uri>model://sala404_circuito/objeto/bird</uri>
-      <pose> 4.5 1.8 0.375 0 0 0</pose>
+      <pose> -4.1 0 0.375 0 0 1.57</pose>
     </include>
 
  <!-- bicycle -->
     <include>
       <uri>model://sala404_circuito/objeto/bicycle</uri>
-      <pose> 2.5 3.8 0.375 0 0 0</pose>
+      <pose> 0 3 0.375 0 0 1.57</pose>
+    </include>
+
+<!-- dog -->
+    <include>
+      <uri>model://sala404_circuito/objeto/dog</uri>
+      <pose> 0 -3 0.375 0 0 1.57</pose>
     </include>
 
  <!-- creeper11 -->
