@@ -45,49 +45,49 @@
  <!-- creeper11 -->
     <include>
       <uri>model://sala404_circuito/creeper/creeper11</uri>
-      <pose> -3.5 1.25 0.13 0 0 0</pose>
+      <pose> 0 4.5 0.13 0 0 0</pose>
     </include>
  <!-- creeper12 -->
     <include>
       <uri>model://sala404_circuito/creeper/creeper12</uri>
-      <pose> -3.5 2.75 0.13 0 0 0</pose>
+      <pose> -6 0 0.13 0 0 1.57</pose>
     </include>
  <!-- creeper13 -->
     <include>
       <uri>model://sala404_circuito/creeper/creeper13</uri>
-      <pose> -3.5 2 0.13 0 0 0</pose>
+      <pose> 5.5 -3.5 0.13 0 0 0</pose>
     </include>
 
  <!-- creeper21 -->
     <include>
       <uri>model://sala404_circuito/creeper/creeper21</uri>
-      <pose> -2.5 1.25 0.13 0 0 0</pose>
+      <pose> 6 0 0.13 0 0 1.57</pose>
     </include>
  <!-- creeper22 -->
     <include>
       <uri>model://sala404_circuito/creeper/creeper22</uri>
-      <pose> -2.5 2.75 0.13 0 0 0</pose>
+      <pose> -5.5 3.5 0.13 0 0 0</pose>
     </include>
  <!-- creeper23 -->
     <include>
       <uri>model://sala404_circuito/creeper/creeper23</uri>
-      <pose> -2.5 2 0.13 0 0 0</pose>
+      <pose> -3 -3 0.13 0 0 0</pose>
     </include>
 
  <!-- creeper31 -->
     <include>
-      <uri>model://sala404_circuito/creeper/creeper11</uri>
-      <pose> -1.5 1.25 0.13 0 0 0</pose>
+      <uri>model://sala404_circuito/creeper/creeper31</uri>
+      <pose> 5.5 3.5 0.13 0 0 1.57</pose>
     </include>
  <!-- creeper32 -->
     <include>
       <uri>model://sala404_circuito/creeper/creeper32</uri>
-      <pose> -1.5 2.75 0.13 0 0 0</pose>
+      <pose> 0 -4.5 0.13 0 0 0</pose>
     </include>
  <!-- creeper33 -->
     <include>
       <uri>model://sala404_circuito/creeper/creeper33</uri>
-      <pose> -1.5 2 0.13 0 0 0</pose>
+      <pose> -4.3 -2 0.13 0 0 1.57</pose>
     </include>
 
 <!-- mapa sala -->
