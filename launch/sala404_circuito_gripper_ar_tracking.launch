@@ -41,9 +41,10 @@
       <remap from="camera_image"  to="$(arg cam_image_topic)" />
       <remap from="camera_info"   to="$(arg cam_info_topic)" />
   </node>
+  
 
   <!-- send robot urdf to param server -->
-  <include file="$(find turtlebot3_manipulation_description)/launch/turtlebot3_manipulation_upload.launch">
+  <include file="$(find insper_garra)/launch/turtlebot3_manipulation_upload.launch">
     <arg name="model" value="$(arg model)"/>
   </include>
 
