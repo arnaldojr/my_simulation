@@ -180,7 +180,7 @@
         <technique sid="common">
           <phong>
             <emission>
-              <color sid="emission">0 0 0.5 1</color>
+              <color sid="emission">0.06520238 0.5701031 1 1</color>
             </emission>
             <ambient>
               <color sid="ambient">0 0 0 1</color>
