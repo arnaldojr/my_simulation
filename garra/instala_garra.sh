@@ -1,5 +1,5 @@
-
 #!/bin/bash
+sudo apt update
 echo ============================= RESOLVENDO CONFLITOS =============================
 sudo apt-get install -y ros-melodic-industrial-core
 sudo apt-get install -y ros-melodic-ros-controllers
