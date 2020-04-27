@@ -35,7 +35,7 @@ Conceda permissão de execução para o programa py;
 
 Abra um novo terminal Crtl+Alt+t digite:
 
-    roslaunch turtlebot3_manipulation_gazebo turtlebot3_manipulation.launch
+    roslaunch my_simulation sala404_circuito_gripper_ar_tracking.launch
     
 Em um outro terminal Crtl+Shift+t:
 
