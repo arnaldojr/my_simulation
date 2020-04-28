@@ -25,34 +25,6 @@
     <arg name="cam_image_topic" default="/camera/rgb/image_raw" />
     <arg name="cam_info_topic" default="/camera/rgb/camera_info" />
     <arg name="output_frame" default="/camera_link" />
-    <!-- <arg name="output_frame" default="base_link" /> -->
-    <!--     <node pkg="tf" type="static_transform_publisher" name="world_frames_connection" args="0 0 0 0 0 0 /camera_link /mira/camera_link 100" /> -->
-
-    <!-- 
-
-    <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 1.571 0 0   /camera_link  /camera_rgb_optical_frame 100" />
-
-  -->
-
-  <!-- 
-    <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 0 0 1.571   /camera_link  /camera_rgb_optical_frame 100" />
--->
-
-<!--
-    <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 0 0 0  /camera_link  /camera_rgb_optical_frame 100" />
-
--->
-
-<!--
-    <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 0 0 1.571   /camera_link  /camera_rgb_optical_frame 100" />
--->
-<!-- 
-
-    <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 0 0 3.14159   /camera_link  /camera_rgb_optical_frame 100" />
-
--->
-<!--    <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 0 0 1.571   /camera_link  /camera_rgb_optical_frame 100" /> -->
-
 
     <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 1.571 0 1.571   /camera_link  /camera_rgb_optical_frame 100" />
 
