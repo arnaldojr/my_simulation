@@ -49,46 +49,52 @@
     </include>
  <!-- creeper12 -->
     <include>
-      <uri>model://creeper_fisica/creeper_fisica/creeper12_verde</uri>
+      <uri>model://creeper_fisica/creeper_fisica/creeper12_rosa</uri>
       <pose> -6 0 0.13 0 0 1.57</pose>
     </include>
  <!-- creeper13 -->
     <include>
-      <uri>model://creeper_fisica/creeper_fisica/creeper13_rosa</uri>
+      <uri>model://creeper_fisica/creeper_fisica/creeper13_azul</uri>
       <pose> 5.5 -3.5 0.13 0 0 0</pose>
+    </include>
+
+ <!-- creeper13 -->
+    <include>
+      <uri>model://creeper_fisica/creeper_fisica/creeper13_rosa</uri>
+      <pose> 5.5 3.5 0.13 0 0 1.57</pose>
     </include>
 
  <!-- creeper21 -->
     <include>
-      <uri>model://creeper_fisica/creeper_fisica/creeper21_azul</uri>
+      <uri>model://creeper_fisica/creeper_fisica/creeper21_verde</uri>
       <pose> 6 0 0.13 0 0 1.57</pose>
     </include>
+
+
  <!-- creeper22 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper22_verde</uri>
       <pose> -5.5 3.5 0.13 0 0 0</pose>
     </include>
- <!-- creeper23 -->
+
+
+ <!-- creeper22 -->
     <include>
-      <uri>model://creeper_fisica/creeper_fisica/creeper23_rosa</uri>
+      <uri>model://creeper_fisica/creeper_fisica/creeper22_rosa</uri>
       <pose> -3 -3 0.13 0 0 0</pose>
     </include>
 
- <!-- creeper31 -->
+ <!-- creeper23 -->
     <include>
-      <uri>model://creeper_fisica/creeper_fisica/creeper31_azul</uri>
-      <pose> 5.5 3.5 0.13 0 0 1.57</pose>
-    </include>
- <!-- creeper32 -->
-    <include>
-      <uri>model://creeper_fisica/creeper_fisica/creeper32_verde</uri>
+      <uri>model://creeper_fisica/creeper_fisica/creeper23_azul</uri>
       <pose> 0 -4.5 0.13 0 0 0</pose>
     </include>
- <!-- creeper33 -->
+ <!-- creeper23 -->
     <include>
-      <uri>model://creeper_fisica/creeper_fisica/creeper33_rosa</uri>
+      <uri>model://creeper_fisica/creeper_fisica/creeper23_rosa</uri>
       <pose> -4.3 -2 0.13 0 0 1.57</pose>
     </include>
+
 
 <!-- mapa sala -->
     <include>

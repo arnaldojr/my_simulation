@@ -19,7 +19,7 @@
            <pose frame=''>0.000002 0.000002 0.000002 0.000002 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://creeper_fisica/creeper_fisica/creeper12_azul/materials/textures/Creeper_Azul.dae</uri>
+            <uri>model://creeper_fisica/creeper_fisica/creeper13_azul/materials/textures/Creeper_Azul.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>

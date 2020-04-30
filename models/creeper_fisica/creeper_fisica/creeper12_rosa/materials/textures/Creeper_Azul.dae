@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0</authoring_tool>
     </contributor>
-    <created>2020-04-28T14:32:24</created>
-    <modified>2020-04-28T14:32:24</modified>
+    <created>2020-04-30T11:39:58</created>
+    <modified>2020-04-30T11:39:58</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -170,8 +170,11 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="MarkerData_Azul_png" name="MarkerData_Azul_png">
-      <init_from>MarkerData_Azul.png</init_from>
+    <image id="MarkerData_Costas_png" name="MarkerData_Costas_png">
+      <init_from>MarkerData_Costas.png</init_from>
+    </image>
+    <image id="MarkerData_png" name="MarkerData_png">
+      <init_from>MarkerData.png</init_from>
     </image>
   </library_images>
   <library_effects>
@@ -180,16 +183,16 @@
         <technique sid="common">
           <phong>
             <emission>
-              <color sid="emission">0.06520238 0.5701031 1 1</color>
+              <color sid="emission">0.003541369 0.6167694 1 1</color>
             </emission>
             <ambient>
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0.06520238 0.5701031 1 1</color>
+              <color sid="diffuse">0.003541369 0.6167694 1 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">0.06520238 0.5701031 1 1</color>
+              <color sid="specular">0.008349343 0.4307651 1 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -201,16 +204,16 @@
         </technique>
       </profile_COMMON>
     </effect>
-    <effect id="MarkerData_Azul-effect">
+    <effect id="MarkerData_Costas-effect">
       <profile_COMMON>
-        <newparam sid="MarkerData_Azul_png-surface">
+        <newparam sid="MarkerData_Costas_png-surface">
           <surface type="2D">
-            <init_from>MarkerData_Azul_png</init_from>
+            <init_from>MarkerData_Costas_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="MarkerData_Azul_png-sampler">
+        <newparam sid="MarkerData_Costas_png-sampler">
           <sampler2D>
-            <source>MarkerData_Azul_png-surface</source>
+            <source>MarkerData_Costas_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -222,7 +225,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <texture texture="MarkerData_Azul_png-sampler"/>
+              <texture texture="MarkerData_Costas_png-sampler"/>
             </diffuse>
             <specular>
               <color sid="specular">1 1 1 1</color>
@@ -231,7 +234,7 @@
               <float sid="shininess">50</float>
             </shininess>
             <transparent opaque="A_ONE">
-              <texture texture="MarkerData_Azul_png-sampler"/>
+              <texture texture="MarkerData_Costas_png-sampler"/>
             </transparent>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
@@ -240,13 +243,49 @@
         </technique>
       </profile_COMMON>
     </effect>
+    <effect id="MarkerData-effect">
+      <profile_COMMON>
+        <newparam sid="MarkerData_png-surface">
+          <surface type="2D">
+            <init_from>MarkerData_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="MarkerData_png-sampler">
+          <sampler2D>
+            <source>MarkerData_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">1 1 1 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="MarkerData_png-sampler"/>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="MarkerData_png-sampler"/>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
   </library_effects>
   <library_materials>
     <material id="Steel_-_Satin_001-material" name="Steel_-_Satin_001">
       <instance_effect url="#Steel_-_Satin_001-effect"/>
     </material>
-    <material id="MarkerData_Azul-material" name="MarkerData_Azul">
-      <instance_effect url="#MarkerData_Azul-effect"/>
+    <material id="MarkerData_Costas-material" name="MarkerData_Costas">
+      <instance_effect url="#MarkerData_Costas-effect"/>
+    </material>
+    <material id="MarkerData-material" name="MarkerData">
+      <instance_effect url="#MarkerData-effect"/>
     </material>
   </library_materials>
   <library_geometries>
@@ -292,45 +331,87 @@
         </triangles>
       </mesh>
     </geometry>
-    <geometry id="MarkerData_Azul-mesh" name="MarkerData_Azul">
+    <geometry id="MarkerData_Costas-mesh" name="MarkerData_Costas">
       <mesh>
-        <source id="MarkerData_Azul-mesh-positions">
-          <float_array id="MarkerData_Azul-mesh-positions-array" count="48">-0.5 -0.5 0.01825386 0.5 -0.5 0.01825386 -0.5 0.5 0.01825386 0.5 0.5 0.01825386 -0.5 0.5 -0.06077814 -0.5 -0.5 -0.06077814 0.5 -0.5 -0.06077814 0.5 0.5 -0.06077814 -0.5 0.5 0.0638886 -0.5 -0.5 0.0638886 0.5 -0.5 0.0638886 0.5 0.5 0.0638886 -0.5 0.5 -0.01514339 -0.5 -0.5 -0.01514339 0.5 -0.5 -0.01514339 0.5 0.5 -0.01514339</float_array>
+        <source id="MarkerData_Costas-mesh-positions">
+          <float_array id="MarkerData_Costas-mesh-positions-array" count="24">-0.5 -0.5 0 0.5 -0.5 0 -0.5 0.5 0 0.5 0.5 0 -0.5 0.5 -0.08734858 -0.5 -0.5 -0.08734858 0.5 -0.5 -0.08734858 0.5 0.5 -0.08734858</float_array>
           <technique_common>
-            <accessor source="#MarkerData_Azul-mesh-positions-array" count="16" stride="3">
+            <accessor source="#MarkerData_Costas-mesh-positions-array" count="8" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="MarkerData_Azul-mesh-normals">
-          <float_array id="MarkerData_Azul-mesh-normals-array" count="18">0 0 1 0 0 -1 0 -1 0 1 0 0 -1 0 0 0 1 0</float_array>
+        <source id="MarkerData_Costas-mesh-normals">
+          <float_array id="MarkerData_Costas-mesh-normals-array" count="18">0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0</float_array>
           <technique_common>
-            <accessor source="#MarkerData_Azul-mesh-normals-array" count="6" stride="3">
+            <accessor source="#MarkerData_Costas-mesh-normals-array" count="6" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="MarkerData_Azul-mesh-map-0">
-          <float_array id="MarkerData_Azul-mesh-map-0-array" count="144">1 0 0 1 0 0 0 1 1 0 0 0 0 0 1 0 0 0 1 0 1 1 1 0 0 1 0 0 0 1 1 1 0 1 1 1 0 1 1 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 1 1 1 0 1 0 0 0 0 1 0 1 0 1 1 1 1 1 1 0 1 1 0 1 0 1 1 1 1 0 0 0 1 0 1 0 1 0 1 1 1 1 0 1 0 0 0 0 1 1 0 1 0 1 0 1 1 1 1 0 1 0 1 1 0 1 1 0 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1 0 1 0 1 1 1</float_array>
+        <source id="MarkerData_Costas-mesh-map-0">
+          <float_array id="MarkerData_Costas-mesh-map-0-array" count="72">1 0 0 1 0 0 0 1 1 0 0 0 1 0 1 1 1 0 0 1 0 0 0 1 1 1 0 1 1 1 0 0 1 0 0 0 1 0 1 1 0 1 0 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 0 0 1 1 0 1 0 1 0 0 1 0 1 0</float_array>
           <technique_common>
-            <accessor source="#MarkerData_Azul-mesh-map-0-array" count="72" stride="2">
+            <accessor source="#MarkerData_Costas-mesh-map-0-array" count="36" stride="2">
               <param name="S" type="float"/>
               <param name="T" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <vertices id="MarkerData_Azul-mesh-vertices">
-          <input semantic="POSITION" source="#MarkerData_Azul-mesh-positions"/>
+        <vertices id="MarkerData_Costas-mesh-vertices">
+          <input semantic="POSITION" source="#MarkerData_Costas-mesh-positions"/>
         </vertices>
-        <triangles material="MarkerData_Azul-material" count="24">
-          <input semantic="VERTEX" source="#MarkerData_Azul-mesh-vertices" offset="0"/>
-          <input semantic="NORMAL" source="#MarkerData_Azul-mesh-normals" offset="1"/>
-          <input semantic="TEXCOORD" source="#MarkerData_Azul-mesh-map-0" offset="2" set="0"/>
-          <p>1 0 0 2 0 1 0 0 2 4 1 3 6 1 4 5 1 5 5 2 6 1 2 7 0 2 8 6 3 9 3 3 10 1 3 11 4 4 12 0 4 13 2 4 14 7 5 15 2 5 16 3 5 17 8 1 18 10 1 19 9 1 20 14 0 21 12 0 22 13 0 23 10 5 24 13 5 25 9 5 26 11 4 27 14 4 28 10 4 29 9 3 30 12 3 31 8 3 32 8 2 33 15 2 34 11 2 35 1 0 36 3 0 37 2 0 38 4 1 39 7 1 40 6 1 41 5 2 42 6 2 43 1 2 44 6 3 45 7 3 46 3 3 47 4 4 48 5 4 49 0 4 50 7 5 51 4 5 52 2 5 53 8 1 54 11 1 55 10 1 56 14 0 57 15 0 58 12 0 59 10 5 60 14 5 61 13 5 62 11 4 63 15 4 64 14 4 65 9 3 66 13 3 67 12 3 68 8 2 69 12 2 70 15 2 71</p>
+        <triangles material="MarkerData_Costas-material" count="12">
+          <input semantic="VERTEX" source="#MarkerData_Costas-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#MarkerData_Costas-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#MarkerData_Costas-mesh-map-0" offset="2" set="0"/>
+          <p>1 0 0 2 0 1 0 0 2 4 1 3 6 1 4 5 1 5 6 2 6 3 2 7 1 2 8 4 3 9 0 3 10 2 3 11 7 4 12 2 4 13 3 4 14 5 5 15 1 5 16 0 5 17 1 0 18 3 0 19 2 0 20 4 1 21 7 1 22 6 1 23 6 2 24 7 2 25 3 2 26 4 3 27 5 3 28 0 3 29 7 4 30 4 4 31 2 4 32 5 5 33 6 5 34 1 5 35</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="MarkerData-mesh" name="MarkerData">
+      <mesh>
+        <source id="MarkerData-mesh-positions">
+          <float_array id="MarkerData-mesh-positions-array" count="24">-0.5 -0.5 0 0.5 -0.5 0 -0.5 0.5 0 0.5 0.5 0 -0.5 0.5 0.06425458 -0.5 -0.5 0.06425458 0.5 -0.5 0.06425458 0.5 0.5 0.06425458</float_array>
+          <technique_common>
+            <accessor source="#MarkerData-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MarkerData-mesh-normals">
+          <float_array id="MarkerData-mesh-normals-array" count="18">0 0 -1 0 0 1 0 1 0 0 -1 0 1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#MarkerData-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MarkerData-mesh-map-0">
+          <float_array id="MarkerData-mesh-map-0-array" count="72">0 1 1 0 0 0 1 0 0 1 0 0 0 1 1 1 1 1 1 0 0 0 0 0 1 1 1 0 1 0 0 0 0 1 0 1 0 1 1 1 1 0 1 0 1 1 0 1 0 1 0 1 1 1 1 0 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#MarkerData-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="MarkerData-mesh-vertices">
+          <input semantic="POSITION" source="#MarkerData-mesh-positions"/>
+        </vertices>
+        <triangles material="MarkerData-material" count="12">
+          <input semantic="VERTEX" source="#MarkerData-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#MarkerData-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#MarkerData-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 1 0 1 0 0 2 6 1 3 4 1 4 5 1 5 2 2 6 7 2 7 3 2 8 1 3 9 5 3 10 0 3 11 3 4 12 6 4 13 1 4 14 0 5 15 4 5 16 2 5 17 2 0 18 3 0 19 1 0 20 6 1 21 7 1 22 4 1 23 2 2 24 4 2 25 7 2 26 1 3 27 6 3 28 5 3 29 3 4 30 7 4 31 6 4 32 0 5 33 5 5 34 4 5 35</p>
         </triangles>
       </mesh>
     </geometry>
@@ -356,19 +437,29 @@
           </bind_material>
         </instance_geometry>
       </node>
-      <node id="MarkerData_Azul" name="MarkerData_Azul" type="NODE">
-        <matrix sid="transform">-1.22671e-8 -7.11702e-9 0.162483 0.002715666 0.1624828 1.94262e-4 1.22756e-8 0.001011917 -1.94262e-4 0.1624828 7.10235e-9 0.2279906 0 0 0 1</matrix>
-        <instance_geometry url="#MarkerData_Azul-mesh" name="MarkerData_Azul">
+      <node id="Lamp_001" name="Lamp_001" type="NODE">
+        <matrix sid="transform">-0.2908646 -0.7711008 0.5663933 -1.042405 0.9551712 -0.1998833 0.2183912 -0.7016031 -0.05518904 0.6045247 0.7946723 1.448378 0 0 0 1</matrix>
+        <instance_light url="#Lamp_001-light"/>
+      </node>
+      <node id="MarkerData_Costas" name="MarkerData_Costas" type="NODE">
+        <matrix sid="transform">-7.12865e-9 7.12865e-9 0.1630844 0.01341223 0.1630844 3.11603e-16 7.12865e-9 -0.001092896 0 0.1630844 -7.12865e-9 0.2284721 0 0 0 1</matrix>
+        <instance_geometry url="#MarkerData_Costas-mesh" name="MarkerData_Costas">
           <bind_material>
             <technique_common>
-              <instance_material symbol="MarkerData_Azul-material" target="#MarkerData_Azul-material"/>
+              <instance_material symbol="MarkerData_Costas-material" target="#MarkerData_Costas-material"/>
             </technique_common>
           </bind_material>
         </instance_geometry>
       </node>
-      <node id="Lamp_001" name="Lamp_001" type="NODE">
-        <matrix sid="transform">-0.2908646 -0.7711008 0.5663933 -1.042405 0.9551712 -0.1998833 0.2183912 -0.7016031 -0.05518904 0.6045247 0.7946723 1.448378 0 0 0 1</matrix>
-        <instance_light url="#Lamp_001-light"/>
+      <node id="MarkerData" name="MarkerData" type="NODE">
+        <matrix sid="transform">1.23365e-8 -7.14255e-9 -0.1634025 -6.70543e-4 -0.1634025 -5.39248e-16 -1.23365e-8 0.001108967 0 0.1634025 -7.14255e-9 0.2287262 0 0 0 1</matrix>
+        <instance_geometry url="#MarkerData-mesh" name="MarkerData">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MarkerData-material" target="#MarkerData-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
       </node>
     </visual_scene>
   </library_visual_scenes>

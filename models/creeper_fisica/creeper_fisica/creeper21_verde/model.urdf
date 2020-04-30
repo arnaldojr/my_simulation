@@ -19,7 +19,7 @@
            <pose frame=''>0.000002 0.000002 0.000002 0.000002 -0 0</pose>
         <geometry>
           <mesh>
-           <uri>model://creeper_fisica/creeper_fisica/creeper13_verde/materials/textures/Creeper_Verde.dae</uri>
+           <uri>model://creeper_fisica/creeper_fisica/creeper21_verde/materials/textures/Creeper_Verde.dae</uri>
           <scale>1 1 1</scale>
           </mesh>
         </geometry>
