@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/borg/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/borg/catkin_ws/src/image_transport_plugins/compressed_depth_image_transport/include/**",
+        "/home/borg/catkin_ws/src/image_transport_plugins/compressed_image_transport/include/**",
+        "/home/borg/catkin_ws/src/vision_opencv/cv_bridge/include/**",
+        "/home/borg/catkin_ws/src/image_pipeline/depth_image_proc/include/**",
+        "/home/borg/catkin_ws/src/DynamixelSDK/ros/include/**",
+        "/home/borg/catkin_ws/src/dynamixel-workbench/dynamixel_workbench_controllers/include/**",
+        "/home/borg/catkin_ws/src/dynamixel-workbench/dynamixel_workbench_operators/include/**",
+        "/home/borg/catkin_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox/include/**",
+        "/home/borg/catkin_ws/src/vision_opencv/image_geometry/include/**",
+        "/home/borg/catkin_ws/src/image_pipeline/image_proc/include/**",
+        "/home/borg/catkin_ws/src/rqt_image_view/include/**",
+        "/home/borg/catkin_ws/src/image_pipeline/stereo_image_proc/include/**",
+        "/home/borg/catkin_ws/src/image_transport_plugins/theora_image_transport/include/**",
+        "/home/borg/catkin_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup/include/**",
+        "/home/borg/catkin_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_gui/include/**",
+        "/home/borg/catkin_ws/src/turtlebot3_applications/turtlebot3_panorama/include/**",
+        "/home/borg/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}
