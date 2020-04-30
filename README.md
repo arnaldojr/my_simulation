@@ -59,7 +59,14 @@ No menu lateral esquerdo do Rviz:
 
      rostopic echo /ar_pose_marker
 
-> roslaunch my_simulation mundoteste.launch
+
+# Videos para trabalhar com o Gazebo
+
+Abaixo temos duas playlists com videos que ajudam na utilização do simulador Gazebo
+
+https://www.youtube.com/watch?v=Nay-DI0EqzI&list=PLVU3UhXa4-X_XYVuaVmQkJdzWCxmREhrK
+
+https://www.youtube.com/watch?v=X9Sp60IPk0M&list=PLM8rZg4fCalht-rexa91MO1y3jxm9mwOa
 
 
 
