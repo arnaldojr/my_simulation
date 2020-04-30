@@ -28,18 +28,6 @@
     <arg name="cam_info_topic" default="/camera/rgb/camera_info" />
     <arg name="output_frame" default="/camera_link" />
 
-<!-- original flip ao redor do x / paralelo ao y
-
-  <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 1.571 0 1.571   /camera_link  /camera_rgb_optical_frame 100" />
--->
-
-<!-- flip ao redor do y // paralelo ao eixo x
-  <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 -1.571 0 1.571   /camera_link  /camera_rgb_optical_frame 100" />
--->
-
-<!-- flipado ao redor de x e y ao redor de y
-  <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 1.571 0 -1.571   /camera_link  /camera_rgb_optical_frame 100" />
--->
 
 <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 -1.571 0 -1.571   /camera_link  /camera_rgb_optical_frame 100" />
 
