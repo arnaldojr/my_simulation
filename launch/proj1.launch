@@ -10,7 +10,7 @@
   <!-- startup simulated world -->
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find my_simulation)/worlds/temp.world"/>   
+    <arg name="world_name" value="$(find my_simulation)/worlds/temp_solo.world"/>   
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
@@ -21,15 +21,27 @@
 
   <!-- Inclue ar_track_alvar -->
 
-  <arg name="marker_size" default="10.0" />
+  <arg name="marker_size" default="15.5" />
     <arg name="max_new_marker_error" default="0.08" />
     <arg name="max_track_error" default="0.08" />
     <arg name="cam_image_topic" default="/camera/rgb/image_raw" />
     <arg name="cam_info_topic" default="/camera/rgb/camera_info" />
     <arg name="output_frame" default="/camera_link" />
 
+<!-- original flip ao redor do x / paralelo ao y
 
   <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 1.571 0 1.571   /camera_link  /camera_rgb_optical_frame 100" />
+-->
+
+<!-- flip ao redor do y // paralelo ao eixo x
+  <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 -1.571 0 1.571   /camera_link  /camera_rgb_optical_frame 100" />
+-->
+
+<!-- flipado ao redor de x e y ao redor de y
+  <node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 1.571 0 -1.571   /camera_link  /camera_rgb_optical_frame 100" />
+-->
+
+<node pkg="tf" type="static_transform_publisher" name="camera_link_camera_frame" args="0 0.0 0 -1.571 0 -1.571   /camera_link  /camera_rgb_optical_frame 100" />
 
 
   <node name="ar_track_alvar" pkg="ar_track_alvar" type="individualMarkersNoKinect" respawn="false" output="screen">
