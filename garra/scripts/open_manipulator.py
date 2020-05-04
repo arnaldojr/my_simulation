@@ -95,7 +95,7 @@ if __name__ == '__main__':
         print ("moving to home")
         manip.go_to_pose_controlled("home")
         print ("Pegando o Creeper")
-        manip.rotate_joint_x(-pi/2)        
+        manip.rotate_joint_x(0)        
         manip.rotate_joint_y(0) 
         manip.rotate_joint_z(0) 
         manip.rotate_joint_gripper(0) 
