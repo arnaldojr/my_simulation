@@ -37,21 +37,21 @@ Em um outro terminal Crtl+Shift+t abra a interface de controle;
   
  ## O resultado deve ser parecido com isso 
   
- ![O resultado deve ser parecido com isso](https://github.com/arnaldojr/my_simulation/blob/master/garra/img/0.png)
+ ![O resultado deve ser parecido com isso](img/0.jpeg)
  
  
  
  - Clique em Timer Start 
  - Clique em Task space para configurar as posições X,Y e Z da garra
   
- ![imagem1](https://github.com/arnaldojr/my_simulation/blob/master/garra/img/1.png) 
+ ![imagem1](img/1.jpeg) 
  
  - Clique em "Read Kinematic pose" para atualizar as posições nos eixos
  - Clique no botão "Gripper open" para abrir ou "Gripper close" para fechar a garra
  - Altere os valores de X,Y e Z para configurar as novas posições 
  - Clique em "Send" para enviar os comandos via para o robô no Gazebo
  
-  ![imagem2](https://github.com/arnaldojr/my_simulation/blob/master/garra/img/2.png) 
+  ![imagem2](img/2.jpeg) 
  
 
 
