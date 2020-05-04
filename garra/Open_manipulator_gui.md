@@ -49,7 +49,7 @@ Em um outro terminal Crtl+Shift+t abra a interface de controle;
  - Clique em "Read Kinematic pose" para atualizar as posições nos eixos
  - Clique no botão "Gripper open" para abrir ou "Gripper close" para fechar a garra
  - Altere os valores de X,Y e Z para configurar as novas posições 
- - Clique em "Send" para enviar os comandos via para o robô no Gazebo
+ - Clique em "Send" para enviar os comandos para o robô no Gazebo
  
   ![imagem2](img/2.jpeg) 
  
@@ -58,6 +58,7 @@ Em um outro terminal Crtl+Shift+t abra a interface de controle;
     
     
     
+    
+    
  
 
-    
