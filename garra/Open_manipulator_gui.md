@@ -56,9 +56,9 @@ Em um outro terminal Crtl+Shift+t abra a interface de controle;
 
 ## Demonstração em video 
 
-[![Watch the video](img/2.jpg)](https://www.youtube.com/watch?v=hJwQbf5KGqc)
+[![Watch the video](img/img-video.png)](https://www.youtube.com/watch?v=hJwQbf5KGqc)
 
-![Interface de controle - Open Manipulator](https://www.youtube.com/watch?v=hJwQbf5KGqc) 
+
  
 
 
