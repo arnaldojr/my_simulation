@@ -19,8 +19,8 @@
         </geometry>
         <material>
           <script>
-            <uri>model://turtlebot3_rooms/ar_marker/materials/scripts</uri>
-            <uri>model://turtlebot3_rooms/ar_marker/materials/textures</uri>
+            <uri>model://cerveja/ar_marker/materials/scripts</uri>
+            <uri>model://cerveja/ar_marker/materials/textures</uri>
             <name>ar_marker</name>
           </script>
         </material>

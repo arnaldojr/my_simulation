@@ -859,8 +859,8 @@
             </geometry>
             <material>
               <script>
-                  <uri>model://turtlebot3_rooms/ar_marker/materials/scripts</uri>
-                  <uri>model://turtlebot3_rooms/ar_marker/materials/textures</uri>
+                  <uri>model://cerveja/ar_marker/materials/scripts</uri>
+                  <uri>model://cerveja/ar_marker/materials/textures</uri>
                   <name>ar_marker</name>
               </script>
             </material>
@@ -885,8 +885,8 @@
             </geometry>
             <material>
               <script>
-                  <uri>model://turtlebot3_rooms/ar_marker/materials/scripts</uri>
-                  <uri>model://turtlebot3_rooms/ar_marker/materials/textures</uri>
+                  <uri>model://cerveja/ar_marker/materials/scripts</uri>
+                  <uri>model://cerveja/ar_marker/materials/textures</uri>
                   <name>ar_marker</name>
               </script>
             </material>
@@ -1101,8 +1101,8 @@
             </geometry>
             <material>
               <script>
-                <uri>model://turtlebot3_rooms/small_beer/materials/scripts</uri>
-                <uri>model://turtlebot3_rooms/small_beer/materials/textures</uri>
+                <uri>model://cerveja/small_beer/materials/scripts</uri>
+                <uri>model://cerveja/small_beer/materials/textures</uri>
                 <name>Beer/Diffuse</name>
               </script>
             </material>
