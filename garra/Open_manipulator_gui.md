@@ -52,6 +52,11 @@ Em um outro terminal Crtl+Shift+t abra a interface de controle;
  - Clique em "Send" para enviar os comandos para o robô no Gazebo
  
   ![imagem2](img/2.jpg) 
+
+
+## Demonstração em video 
+
+![Interface de controle - Open Manipulator](https://www.youtube.com/watch?v=hJwQbf5KGqc&feature=youtu.be) 
  
 
 
