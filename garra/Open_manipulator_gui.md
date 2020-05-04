@@ -51,7 +51,7 @@ Em um outro terminal Crtl+Shift+t abra a interface de controle;
  - Altere os valores de X,Y e Z para configurar as novas posições 
  - Clique em "Send" para enviar os comandos para o robô no Gazebo
  
-  ![imagem2](img/2.jpeg) 
+  ![imagem2](img/2.jpg) 
  
 
 
