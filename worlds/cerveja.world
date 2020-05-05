@@ -32,9 +32,15 @@
       </ode>
     </physics>
 
-    <!-- Load world -->
+    <!-- Load world 
     <include>
       <uri>model://cerveja</uri>
+    </include> -->
+
+        <!-- carrega base -->
+    <include>
+      <uri>model://base</uri>
+      <pose> 1 0 0.0 0 0 0</pose>
     </include>
 
     <scene>
