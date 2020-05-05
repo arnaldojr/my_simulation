@@ -57,7 +57,11 @@ Em um outro terminal Crtl+Shift+t
     
     
  
- ### Tutorial em Video https://www.youtube.com/watch?v=1D5vyUJ60l8 
+ ### Tutorial em Video
+ 
+ https://youtu.be/Sq5ZDQDoR4w
+ 
+ https://www.youtube.com/watch?v=1D5vyUJ60l8 
  
  
 
