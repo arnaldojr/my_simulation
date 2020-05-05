@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
 
 # Fonte:
 # https://github.com/ros-planning/moveit/blob/master/moveit_commander/demos/plan.py
@@ -114,6 +116,9 @@ class MoveGroupPythonIntefaceTutorial(object):
         gripper_name = "gripper"
         gripper_group = moveit_commander.MoveGroupCommander(gripper_name)
 
+        # Miranda: não funcionou bem
+        # gripper_sub_name = "gripper_sub"
+        # gripper_sub_group = moveit_commander.MoveGroupCommander(gripper_sub_name)
 
         ## Print: Methods available in move_group
         print("Methods available in move_group")
@@ -162,9 +167,11 @@ class MoveGroupPythonIntefaceTutorial(object):
         self.robot = robot
         self.scene = scene
         self.move_group = move_group
+        self.gripper_group = gripper_group
         self.display_trajectory_publisher = display_trajectory_publisher
         self.planning_frame = planning_frame
         self.eef_link = eef_link
+        self.eef_link_gripper = eef_link_gripper
         self.group_names = group_names
 
 
@@ -214,8 +221,9 @@ class MoveGroupPythonIntefaceTutorial(object):
         ## thing we want to do is move it to a slightly better configuration.
         # We can get the joint values from the group and adjust some of the values:
         current_position = move_group.get_current_joint_values()
+        print("Current gripper position", current_position)
         
-        open_angles =  (0.01)
+        open_angles =  (0.019,0.019)
         
         joint_goal = open_angles 
 
@@ -246,8 +254,11 @@ class MoveGroupPythonIntefaceTutorial(object):
         ## thing we want to do is move it to a slightly better configuration.
         # We can get the joint values from the group and adjust some of the values:
         current_position = move_group.get_current_joint_values()
+
+        current_position = move_group.get_current_joint_values()
+        print("Current gripper position", current_position)
         
-        close_angles =  (-0.01)
+        close_angles =  (-0.01, -0.01)
         
         joint_goal = close_angles 
 
