@@ -59,6 +59,9 @@ Em um outro terminal Crtl+Shift+t abra a interface de controle;
 [![Watch the video](img/img-video.png)](https://www.youtube.com/watch?v=hJwQbf5KGqc)
 
 
+
+
+[![Watch the video](img/img-video2.png)](https://youtu.be/Sq5ZDQDoR4w)
  
 
 
