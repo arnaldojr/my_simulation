@@ -17,9 +17,14 @@ Atualize o Repositório
 ### Agora vamos rodar os launchs necessários
 
 
-Abra um novo terminal Crtl+Alt+t digite:
+Abra um novo terminal Crtl+Alt+t e escolha um dos mapas disponiveis para usar:
 
     roslaunch my_simulation proj1.launch 
+    
+    roslaunch my_simulation proj1_estreita.launch 
+    
+    roslaunch my_simulation proj1_base.launch
+    
     
 Em um outro terminal Crtl+Shift+t:
 
