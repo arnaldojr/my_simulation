@@ -53,7 +53,7 @@ Em um outro terminal Crtl+Shift+t
   
  Em um outro terminal Crtl+Shift+t, rode o programa exemplo:
 
-    rosrun my_simulation open_manipulator.py 
+    rosrun my_simulation garra_demo.py
     
     
  
