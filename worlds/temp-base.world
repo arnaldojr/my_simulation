@@ -41,7 +41,7 @@
       <uri>model://sala404_circuito/objeto/dog</uri>
       <pose> 0 -3 0.375 0 0 1.57</pose>
     </include>
-
+<!-- ------------------------------------creper11----------------------- -->
  <!-- creeper11 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper11_azul</uri>
@@ -54,55 +54,107 @@
       <pose> 0 4.5 0 0 0 0</pose>
     </include>
 
-
+<!-- ------------------------------------creper12----------------------- -->
  <!-- creeper12 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper12_rosa</uri>
-      <pose> -6 0 0.13 0 0 1.57</pose>
+      <pose> -6 0 0.31 0 0 1.57</pose>
     </include>
+<!-- carrega base creeper12 -->
+    <include>
+      <uri>model://base</uri>
+      <pose> -6 0 0 0 0 0</pose>
+    </include>
+
+<!-- ------------------------------------creper13----------------------- -->
  <!-- creeper13 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper13_azul</uri>
-      <pose> 5.5 -3.5 0.13 0 0 0</pose>
+      <pose> 5.5 -3.5 0.31 0 0 0</pose>
     </include>
+
+<!-- carrega base creeper13 -->
+    <include>
+      <uri>model://base</uri>
+      <pose> 5.5 -3.5 0 0 0 0</pose>
+    </include> 
+
+<!-- ------------------------------------creper13----------------------- -->
 
  <!-- creeper13 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper13_rosa</uri>
-      <pose> 5.5 3.5 0.13 0 0 1.57</pose>
+      <pose> 5.5 3.5 0.31 0 0 1.57</pose>
     </include>
 
+<!-- carrega base creeper13 -->
+    <include>
+      <uri>model://base</uri>
+      <pose> 5.5 3.5 0 0 0 0</pose>
+    </include> 
+<!-- ------------------------------------creper21----------------------- -->
  <!-- creeper21 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper21_verde</uri>
-      <pose> 6 0 0.13 0 0 1.57</pose>
+      <pose> 6 0 0.31 0 0 1.57</pose>
     </include>
 
+<!-- carrega base creeper21 -->
+    <include>
+      <uri>model://base</uri>
+      <pose> 6 0 0 0 0 0</pose>
+    </include> 
+<!-- ------------------------------------creper22----------------------- -->
 
  <!-- creeper22 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper22_verde</uri>
-      <pose> -5.5 3.5 0.13 0 0 0</pose>
+      <pose> -5.5 3.5 0.31 0 0 0</pose>
     </include>
 
+<!-- carrega base creeper22 -->
+    <include>
+      <uri>model://base</uri>
+      <pose> -5.5 3.5 0 0 0 0</pose>
+    </include> 
+<!-- ------------------------------------creper22----------------------- -->
 
  <!-- creeper22 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper22_rosa</uri>
-      <pose> -3 -3 0.13 0 0 0</pose>
+      <pose> -3 -3 0.31 0 0 0</pose>
     </include>
 
+<!-- carrega base creeper22 -->
+    <include>
+      <uri>model://base</uri>
+      <pose> -3 -3 0 0 0 0</pose>
+    </include> 
+<!-- ------------------------------------creper23----------------------- -->
  <!-- creeper23 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper23_azul</uri>
-      <pose> 0 -4.5 0.13 0 0 0</pose>
+      <pose> 0 -4.5 0.31 0 0 0</pose>
     </include>
+<!-- carrega base creeper23 -->
+    <include>
+      <uri>model://base</uri>
+      <pose> 0 -4.5 0 0 0 0</pose>
+    </include> 
+<!-- ------------------------------------creper22----------------------- -->
+
  <!-- creeper23 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper23_rosa</uri>
-      <pose> -4.3 -2 0.13 0 0 1.57</pose>
+      <pose> -4.3 -2 0.31 0 0 1.57</pose>
     </include>
+<!-- carrega base creeper22 -->
+    <include>
+      <uri>model://base</uri>
+      <pose> -4.3 -2 0 0 0 0</pose>
+    </include> 
 
+<!-- ------------------------------------mapa sala----------------------- -->
 
 <!-- mapa sala -->
     <include>
