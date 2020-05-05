@@ -35,8 +35,8 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <cylinder>
-            <radius>0.027905</radius>
-            <length>0.389511</length>
+            <radius>0.02</radius>
+            <length>0.38</length>
           </cylinder>
         </geometry>
         <surface>
