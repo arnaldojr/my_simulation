@@ -14,7 +14,7 @@
 
   <!-- Piso da sala - circuito -->
     <include>
-      <uri>model://sala404_circuito/pisosala</uri>
+      <uri>model://sala404_circuito/pisosala-estreito</uri>
       <pose> 0 0 0 0 0 -1.57</pose>
     </include>
 
