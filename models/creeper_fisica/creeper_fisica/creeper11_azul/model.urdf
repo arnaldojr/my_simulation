@@ -3,7 +3,7 @@
   <model name='creeper_caixa_11_azul'>
     <link name='link_0'>
       <inertial>
-        <mass>0.00121622</mass>
+        <mass>0.00021622</mass>
         <inertia>
           <ixx>1.56137e-05</ixx>
           <ixy>0</ixy>
@@ -42,21 +42,12 @@
         <surface>
           <friction>
             <ode>
-              <mu>1.01</mu>
-              <mu2>1.01</mu2>
-              <fdir1>0 0 0</fdir1>
-              <slip1>0</slip1>
-              <slip2>0</slip2>
+              <mu>1000</mu>
+              <mu2>500</mu2>
+              <fdir1>0 0 1</fdir1>
+              <slip1>0.0</slip1>
+              <slip2>0.0</slip2>
             </ode>
-            <torsional>
-              <coefficient>1</coefficient>
-              <patch_radius>0</patch_radius>
-              <surface_radius>0</surface_radius>
-              <use_patch_radius>1</use_patch_radius>
-              <ode>
-                <slip>0</slip>
-              </ode>
-            </torsional>
           </friction>
           <bounce>
             <restitution_coefficient>0</restitution_coefficient>
