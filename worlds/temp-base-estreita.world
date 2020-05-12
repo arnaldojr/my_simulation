@@ -70,7 +70,7 @@
  <!-- creeper13 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper13_azul</uri>
-      <pose> 5.5 -3.5 0.31 0 0 0</pose>
+      <pose> 5.5 -3.5 0.31 0 0 1.57</pose>
     </include>
 
 <!-- carrega base creeper13 -->
@@ -84,7 +84,7 @@
  <!-- creeper13 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper13_rosa</uri>
-      <pose> 5.5 3.5 0.31 0 0 1.57</pose>
+      <pose> 5.5 3.5 0.31 0 0 0</pose>
     </include>
 
 <!-- carrega base creeper13 -->
@@ -109,7 +109,7 @@
  <!-- creeper22 -->
     <include>
       <uri>model://creeper_fisica/creeper_fisica/creeper22_verde</uri>
-      <pose> -5.5 3.5 0.31 0 0 0</pose>
+      <pose> -5.5 3.5 0.31 0 0 1.57</pose>
     </include>
 
 <!-- carrega base creeper22 -->
