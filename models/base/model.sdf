@@ -101,8 +101,8 @@
         </surface>
       </collision>
     </link>
-  
- <!--<model name='ar_marker'>
+ <!-- 
+<model name='ar_marker'>
         <static>1</static>
         <link name='link'>
           <visual name='visual'>
@@ -113,16 +113,16 @@
             </geometry>
             <material>
               <script>
-                  <uri>model://cerveja/ar_marker/materials/scripts</uri>
-                  <uri>model://cerveja/ar_marker/materials/textures</uri>
+                  <uri>model://base/ar_marker/materials/scripts</uri>
+                  <uri>model://base/ar_marker/materials/textures</uri>
                   <name>ar_marker</name>
               </script>
             </material>
           </visual>
         </link>
-        <pose frame=''>0 0 0.096 0 0 0</pose>
-      </model> -->
-
+        <pose frame=''>-0.097 0 0.076 0 0 1.57</pose>
+      </model>
+--> 
 
 </model>
 
