@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='creeper_caixa'>
+  <model name='creeper_caixa_13_rosa'>
     <link name='link_0'>
       <inertial>
         <mass>0.00121622</mass>
@@ -15,7 +15,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-      <visual name='visual'>
+      <visual name='visual_13_rosa'>
          <pose frame=''>0 -0.0 -0.05 0 -0 0</pose>
         <geometry>
           <mesh>
@@ -29,7 +29,7 @@
         <transparency>0</transparency>
         <cast_shadows>1</cast_shadows>
       </visual>
-      <collision name='collision'>
+      <collision name='collision_13_rosa'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
         <pose frame=''>0 0 0 0 -0 0</pose>

@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='creeper_caixa'>
+  <model name='creeper_caixa_13_azul'>
     <link name='link_0'>
       <inertial>
         <mass>0.00121622</mass>
