@@ -160,7 +160,7 @@
       <collision name='base_link_fixed_joint_lump__T_de_baixo_collision_2'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-    	 <pose frame=''>0 0 0.19 0 -0 0</pose>
+    	 <pose frame=''>0 0 0.145 0 -0 0</pose>
         <geometry>
           <box>
            <size>0.06 0.08 0.02</size>
