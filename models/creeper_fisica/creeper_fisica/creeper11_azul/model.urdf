@@ -70,10 +70,9 @@
         <max_contacts>10</max_contacts>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
-          <cylinder>
-            <radius>0.02</radius>
-            <length>0.38</length>
-          </cylinder>
+         <box>
+            <size>0.03 0.04 0.4</size>
+          </box>
         </geometry>
         <surface>
           <friction>
@@ -127,7 +126,7 @@
         <pose frame=''>0 0 -0.19 0 -0 0</pose>
         <geometry>
           <box>
-           <size>0.06 0.08 0.01</size>
+           <size>0.06 0.08 0.02</size>
           </box>
         </geometry>
         <surface>
@@ -182,7 +181,7 @@
     	 <pose frame=''>0 0 0.19 0 -0 0</pose>
         <geometry>
           <box>
-           <size>0.06 0.08 0.01</size>
+           <size>0.06 0.08 0.02</size>
           </box>
         </geometry>
         <surface>
