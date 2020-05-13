@@ -20,6 +20,8 @@ git clone https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
 git clone https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_manipulation.git
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_manipulation_simulations.git
+git clone  https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins 
+
 
 cd ~/catkin_ws
 catkin_make

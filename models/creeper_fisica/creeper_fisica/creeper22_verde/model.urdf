@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='creeper_caixa'>
+  <model name='creeper_caixa_22_verde'>
     <link name='link_0'>
       <inertial>
         <mass>0.00121622</mass>
@@ -16,11 +16,11 @@
       </inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
       <visual name='visual'>
-           <pose frame=''>0.000002 0.000002 0.000002 0.000002 -0 0</pose>
+         <pose frame=''>0 -0.0 -0.05 0 -0 0</pose>
         <geometry>
           <mesh>
            <uri>model://creeper_fisica/creeper_fisica/creeper22_verde/materials/textures/Creeper_Verde.dae</uri>
-          <scale>1 1 1</scale>
+            <scale>1 1 1</scale>
           </mesh>
         </geometry>
         <material>
@@ -29,14 +29,14 @@
         <transparency>0</transparency>
         <cast_shadows>1</cast_shadows>
       </visual>
-      <collision name='collision'>
+      <collision name='collision_22_verde'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <cylinder>
-            <radius>0.027905</radius>
-            <length>0.389511</length>
+            <radius>0.02</radius>
+            <length>0.38</length>
           </cylinder>
         </geometry>
         <surface>
@@ -88,7 +88,7 @@
     </link>
     <link name='link_1'>
       <inertial>
-        <mass>0.00108386</mass>
+        <mass>0.00118386</mass>
         <inertia>
           <ixx>2.1166e-06</ixx>
           <ixy>0</ixy>
@@ -101,8 +101,9 @@
       </inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
 
+ 
       <visual name='visual'>
-        <pose frame=''>0.000001 0.000001 0.000001 0.000001 -0 0</pose>
+        <pose frame=''>0.0000001 0.0000001 0.0000001 0.0000001 -0 0</pose>
         <geometry>
           <box>
             <size>0.000001 0.000001 0.000001</size>
@@ -119,10 +120,10 @@
       <collision name='collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 -0.0 -0.185 0 -0 0</pose>
         <geometry>
           <box>
-           <size>0.000001 0.000001 0.000001</size>
+           <size>0.1 0.1 0.02</size>
           </box>
         </geometry>
         <surface>
