@@ -42,6 +42,21 @@
       <remap from="camera_info"   to="$(arg cam_info_topic)" />
   </node>
 
+  <!--   <arg name="marker_size3" default="10.5" />
+  <node name="ar_track_alvar3" pkg="ar_track_alvar" type="individualMarkersNoKinect" respawn="false" output="screen">
+      <param name="marker_size"           type="double" value="$(arg marker_size3)" />
+      <param name="max_new_marker_error"  type="double" value="$(arg max_new_marker_error)" />
+      <param name="max_track_error"       type="double" value="$(arg max_track_error)" />
+      <param name="output_frame"          type="string" value="$(arg output_frame)" />
+
+      <remap from="camera_image"  to="$(arg cam_image_topic)" />
+      <remap from="camera_info"   to="$(arg cam_info_topic)" />
+  </node>
+-->
+
+
+
+
 
 <!-- Inclue ar_track_alvar camera da garra -->
 
