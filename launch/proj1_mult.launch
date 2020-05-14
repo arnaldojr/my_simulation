@@ -43,7 +43,16 @@
       <remap from="camera_info"   to="$(arg cam_info_topic)" />
   </node>
 -->
-	<arg name="bundle_files" default="$(find my_simulation)/launch/markers_11_azul.xml $(find my_simulation)/launch/markers_21_verde.xml " />
+	<arg name="bundle_files" default="$(find my_simulation)/alvar_bundles/markers_11_azul.xml
+                                    $(find my_simulation)/alvar_bundles/markers_12_rosa.xml
+                                    $(find my_simulation)/alvar_bundles/markers_13_azul.xml
+                                    $(find my_simulation)/alvar_bundles/markers_13_rosa.xml
+                                    $(find my_simulation)/alvar_bundles/markers_21_verde.xml
+                                    $(find my_simulation)/alvar_bundles/markers_22_rosa.xml
+                                    $(find my_simulation)/alvar_bundles/markers_22_verde.xml
+                                    $(find my_simulation)/alvar_bundles/markers_23_azul.xml
+                                    $(find my_simulation)/alvar_bundles/markers_23_rosa.xml "
+    />
 
 
 	<node name="ar_track_alvar" pkg="ar_track_alvar" type="findMarkerBundlesNoKinect" respawn="false" output="screen"  
