@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<multimarker markers="2">
+    <marker index="13" status="1">
+        <corner x="-7.5" y="-7.5" z="0.9" />
+        <corner x="7.5" y="-7.5" z="0.9" />
+        <corner x="7.5" y="7.5" z="0.9" />
+        <corner x="-7.5" y="7.5" z="0.9" />
+    </marker>
+    <marker index="130" status="1">
+        <corner x="-1.68" y="-39.14" z="6.5" />
+        <corner x="1.41" y="-39.14" z="6.5" />
+        <corner x="1.41" y="-36.02" z="6.5" />
+        <corner x="-1.68" y="-36.02" z="6.5" />
+    </marker>
+</multimarker>
