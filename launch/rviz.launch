@@ -19,6 +19,6 @@
 
   <!-- start rviz -->
   <group if="$(arg open_rviz)">
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find insper_garra)/rviz/turtlebot3_manipulation_view.rviz"/>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_simulation)/rviz/turtlebot3_manipulation_view.rviz"/>
   </group>
 </launch>
