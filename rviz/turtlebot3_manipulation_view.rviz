@@ -176,7 +176,7 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        ar_marker_11:
+        ar_marker_22:
           Value: true
         base_footprint:
           Value: true
@@ -239,7 +239,7 @@ Visualization Manager:
                 camera_rgb_frame:
                   {}
                 camera_rgb_optical_frame:
-                  ar_marker_11:
+                  ar_marker_22:
                     {}
               caster_back_left_link:
                 {}
@@ -311,10 +311,20 @@ Visualization Manager:
       Visibility:
         Grid: true
         LaserScan: true
+        Marker: true
         RobotModel: true
         TF: true
         Value: true
       Zoom Factor: 1
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: visualization_marker
+      Name: Marker
+      Namespaces:
+        basic_shapes: true
+        main_shapes: true
+      Queue Size: 100
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 206; 206; 206
