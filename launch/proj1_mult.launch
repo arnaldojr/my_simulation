@@ -43,22 +43,11 @@
       <remap from="camera_info"   to="$(arg cam_info_topic)" />
   </node>
 -->
+	<arg name="bundle_files" default="$(find my_simulation)/launch/markers_11_azul.xml $(find my_simulation)/launch/markers_21_verde.xml " />
 
-	<arg name="bundle_files" default="$(find my_simulation)/launch/markers_11_azul.xml " />
 
-	<node name="ar_track_alvar" pkg="ar_track_alvar" type="findMarkerBundlesNoKinect" respawn="false" output="screen" >
-      <param name="marker_size"           type="double" value="$(arg marker_size)" />
-      <param name="max_new_marker_error"  type="double" value="$(arg max_new_marker_error)" />
-      <param name="max_track_error"       type="double" value="$(arg max_track_error)" />
-      <param name="output_frame"          type="string" value="$(arg output_frame)" />
-      <remap from="bundle_files"  to="$(arg bundle_files)" />
-      <remap from="camera_image"  to="$(arg cam_image_topic)" />
-      <remap from="camera_info"   to="$(arg cam_info_topic)" />
-    </node>
-
-<!-- Args antigos
+	<node name="ar_track_alvar" pkg="ar_track_alvar" type="findMarkerBundlesNoKinect" respawn="false" output="screen"  
   args="$(arg marker_size) $(arg max_new_marker_error) $(arg max_track_error) $(arg cam_image_topic) $(arg cam_info_topic) $(arg output_frame) $(arg bundle_files)" />
--->
 
 
   
