@@ -23,7 +23,7 @@
         <pose frame=''>0 0 -0.05 0 -0 0</pose>
         <geometry>
   	<mesh>
-        <uri>model://creeper_fisica/creeper_fisica/creeper23_rosa/materials/textures/Creeper_Azul._base.dae</uri>
+        <uri>model://creeper_fisica/creeper_fisica/creeper23_rosa/materials/textures/Creeper_Azul_menor.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
