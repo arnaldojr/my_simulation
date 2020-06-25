@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <model name="caixa">
+  <model name="caixa_estampa_bicycle">
     <static>true</static>
     <link name="box">
       <pose>0 0 0 0 0 0</pose>
@@ -19,9 +19,9 @@
         </geometry>
         <material>
           <script>
-            <uri>model://sala404_creepers/caixa/materials/scripts</uri>
-            <uri>model://sala404_creepers/caixa/materials/textures</uri>
-            <name>caixa</name>
+            <uri>model://quarto_andar/caixa_estampa/bicycle/materials/scripts</uri>
+            <uri>model://quarto_andar/caixa_estampa/bicycle/materials/textures</uri>
+            <name>caixa_estampa_bicycle</name>
           </script>
         </material>
       </visual>

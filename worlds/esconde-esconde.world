@@ -60,27 +60,27 @@
 
  <!-- caixa bird-->
     <include>
-      <uri>model://quarto_andar/caixa_estampa/bird</uri>
+      <uri>model://sala404_circuito/objeto/bird</uri>
       <pose> -1.730373 -0.044334 0.500000 0 -0 0</pose>
     </include>
 
 
  <!-- caixa cat-->
     <include>
-      <uri>model://quarto_andar/caixa_estampa/cat</uri>
+      <uri>model://sala404_circuito/objeto/cat</uri>
       <pose> -2.503649 -1.290043 0.500000 0 -0 0</pose>
     </include>
 
 
  <!-- caixa bicycle-->
     <include>
-      <uri>model://quarto_andar/caixa_estampa/bicycle</uri>
+      <uri>model://sala404_circuito/objeto/bicycle</uri>
       <pose> 1.139915 2.226578 0.500000 0 -0 0</pose>
     </include>
 
  <!-- caixa dog-->
     <include>
-      <uri>model://quarto_andar/caixa_estampa/dog</uri>
+      <uri>model://sala404_circuito/objeto/dog</uri>
       <pose> 1.020805 -1.742469 0.500000 0 -0 0</pose>
     </include>
 
