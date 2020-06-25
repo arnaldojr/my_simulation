@@ -60,48 +60,48 @@
 
  <!-- caixa bird-->
     <include>
-      <uri>model://quarto_andar/caixa</bird/uri>
-      <pose> -18.730373 -0.044334 0.500000 0 -0 0</pose>
+      <uri>model://quarto_andar/caixa_estampa/bird</uri>
+      <pose> -1.730373 -0.044334 0.500000 0 -0 0</pose>
     </include>
 
 
  <!-- caixa cat-->
     <include>
-      <uri>model://quarto_andar/caixa</cat/uri>
-      <pose> -21.503649 -1.290043 0.500000 0 -0 0</pose>
+      <uri>model://quarto_andar/caixa_estampa/cat</uri>
+      <pose> -2.503649 -1.290043 0.500000 0 -0 0</pose>
     </include>
 
 
  <!-- caixa bicycle-->
     <include>
-      <uri>model://quarto_andar/caixa</bicycle/uri>
-      <pose> 13.139915 2.226578 0.500000 0 -0 0</pose>
+      <uri>model://quarto_andar/caixa_estampa/bicycle</uri>
+      <pose> 1.139915 2.226578 0.500000 0 -0 0</pose>
     </include>
 
  <!-- caixa dog-->
     <include>
-      <uri>model://quarto_andar/caixa</dog/uri>
-      <pose> 10.020805 -1.742469 0.500000 0 -0 0</pose>
+      <uri>model://quarto_andar/caixa_estampa/dog</uri>
+      <pose> 1.020805 -1.742469 0.500000 0 -0 0</pose>
     </include>
 
 
 <!---------- posição das esferas ------------------------------->
  <!-- esfera vermelha-->
     <include>
-      <uri>model://quarto_andar/esferas</bola_vermelha/uri>
-      <pose> -15.214409 -0.137852 0.500000 0 -0 0</pose>
+      <uri>model://quarto_andar/esferas/bola_vermelha</uri>
+      <pose> -1.214409 -0.137852 0.500000 0 -0 0</pose>
     </include>
 
  <!-- esfera verde-->
     <include>
-      <uri>model://quarto_andar/esferas</bola_verde/uri>
-      <pose> 13.598763 -7.618453 0.500000 0 -0 0</pose>
+      <uri>model://quarto_andar/esferas/bola_verde</uri>
+      <pose> 1.598763 -7.618453 0.500000 0 -0 0</pose>
     </include>
 
  <!-- esfera azul-->
     <include>
-      <uri>model://quarto_andar/esferas</bola_azul/uri>
-      <pose> 19.141525 0.793486 0.500000 0 -0 0</pose>
+      <uri>model://quarto_andar/esferas/bola_azul</uri>
+      <pose> 1.141525 0.793486 0.500000 0 -0 0</pose>
     </include>
 
 <!---------- posição dos construction_barrel--------------------->
