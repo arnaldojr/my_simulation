@@ -61,27 +61,27 @@
  <!-- caixa bird-->
     <include>
       <uri>model://sala404_circuito/objeto/bird</uri>
-      <pose> -1.730373 -0.044334 0.500000 0 -0 0</pose>
+      <pose> -18.885860 0.847646 0.500000 0 -0 0</pose>
     </include>
 
 
  <!-- caixa cat-->
     <include>
       <uri>model://sala404_circuito/objeto/cat</uri>
-      <pose> -2.503649 -1.290043 0.500000 0 -0 0</pose>
+      <pose> -22.302927 -2.495094 0.500000 0 -0 0</pose>
     </include>
 
 
  <!-- caixa bicycle-->
     <include>
       <uri>model://sala404_circuito/objeto/bicycle</uri>
-      <pose> 1.139915 2.226578 0.500000 0 -0 0</pose>
+      <pose> 12.820928 1.652521 0.500000 0 -0 0</pose>
     </include>
 
  <!-- caixa dog-->
     <include>
       <uri>model://sala404_circuito/objeto/dog</uri>
-      <pose> 1.020805 -1.742469 0.500000 0 -0 0</pose>
+      <pose> 9.551270 -2.029870 0.500000 0 -0 0</pose>
     </include>
 
 
@@ -89,19 +89,19 @@
  <!-- esfera vermelha-->
     <include>
       <uri>model://quarto_andar/esferas/bola_vermelha</uri>
-      <pose> -1.214409 -0.137852 0.500000 0 -0 0</pose>
+      <pose> -15.134972 -0.137852 0.420000 0 -0 0</pose>
     </include>
 
  <!-- esfera verde-->
     <include>
       <uri>model://quarto_andar/esferas/bola_verde</uri>
-      <pose> 1.598763 -7.618453 0.500000 0 -0 0</pose>
+      <pose> 12.598763 -7.618453 0.500000 0 -0 0</pose>
     </include>
 
  <!-- esfera azul-->
     <include>
       <uri>model://quarto_andar/esferas/bola_azul</uri>
-      <pose> 1.141525 0.793486 0.500000 0 -0 0</pose>
+      <pose> 18.141525 0.793486 0.500000 0 -0 0</pose>
     </include>
 
 <!---------- posição dos construction_barrel--------------------->
