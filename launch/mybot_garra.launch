@@ -1,23 +1,31 @@
 <launch>
-  <arg name="model" default="$(find mybot_description)/urdf/insper.urdf.xacro"/>
- 
-  <include file="$(find my_simulation)/launch/garra.launch">
-    <arg name="model" value="$(arg model)" />
+  <arg name="world" default="empty"/> 
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="debug" default="false"/>
+ <!-- Load the World -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find my_simulation)/worlds/empty.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
   </include>
 
-  <rosparam command="load"
-            file="$(find  mybot_description)/config/joints.yaml"
-            ns="r2d2_joint_state_controller" />
-  <rosparam command="load"
-            file="$(find  mybot_description)/config/head.yaml"
-            ns="r2d2_head_controller" />
-  <rosparam command="load"
-            file="$(find  mybot_description)/config/gripper.yaml"
-            ns="r2d2_gripper_controller" />
 
-  <node name="r2d2_controller_spawner" pkg="controller_manager" type="spawner"
-    args="r2d2_joint_state_controller
-          r2d2_head_controller
-          r2d2_gripper_controller
-          --shutdown-timeout 3"/>
+
+<!-- Load the URDF Model -->
+  <param name="robot_description" command="$(find xacro)/xacro '$(find mybot_description)/urdf/mybot.urdf.xacro'"/>
+
+<!-- Load controller PID gains, required for PositionJointInterface controllers -->
+  <rosparam file="$(find mybot_description)/config/gazebo_ros_control_params.yaml" command="load"/>
+
+
+<!-- Spawn Pepper in Gazebo -->
+  <node name="mybot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf -param robot_description -model mybot" />
+  
+
 </launch>
