@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0</authoring_tool>
     </contributor>
-    <created>2020-10-06T11:02:56</created>
-    <modified>2020-10-06T11:02:56</modified>
+    <created>2020-10-19T11:34:49</created>
+    <modified>2020-10-19T11:34:49</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -189,8 +189,8 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="MarkerData_png_001" name="MarkerData_png_001">
-      <init_from>MarkerData.png.001.png</init_from>
+    <image id="MarkerData_png" name="MarkerData_png">
+      <init_from>MarkerData.png</init_from>
     </image>
   </library_images>
   <library_effects>
@@ -208,7 +208,7 @@
               <color sid="diffuse">0.00303527 1 0.07227185 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">0.00303527 1 0.07227185 1</color>
+              <color sid="specular">0.001517635 0.5 0.03613592 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -220,20 +220,20 @@
         </technique>
       </profile_COMMON>
     </effect>
-    <effect id="MarkerData_001-effect">
+    <effect id="MarkerData-effect">
       <profile_COMMON>
-        <newparam sid="MarkerData_png_001-surface">
+        <newparam sid="MarkerData_png-surface">
           <surface type="2D">
-            <init_from>MarkerData_png_001</init_from>
+            <init_from>MarkerData_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="MarkerData_png_001-sampler">
+        <newparam sid="MarkerData_png-sampler">
           <sampler2D>
-            <source>MarkerData_png_001-surface</source>
+            <source>MarkerData_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
-          <phong>
+          <lambert>
             <emission>
               <color sid="emission">1 1 1 1</color>
             </emission>
@@ -241,21 +241,15 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <texture texture="MarkerData_png_001-sampler"/>
+              <texture texture="MarkerData_png-sampler"/>
             </diffuse>
-            <specular>
-              <color sid="specular">0.03125 0.03125 0.03125 1</color>
-            </specular>
-            <shininess>
-              <float sid="shininess">50</float>
-            </shininess>
             <transparent opaque="A_ONE">
-              <texture texture="MarkerData_png_001-sampler"/>
+              <texture texture="MarkerData_png-sampler"/>
             </transparent>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
             </index_of_refraction>
-          </phong>
+          </lambert>
         </technique>
       </profile_COMMON>
     </effect>
@@ -264,8 +258,8 @@
     <material id="Steel_-_Satin_001_001-material" name="Steel_-_Satin_001_001">
       <instance_effect url="#Steel_-_Satin_001_001-effect"/>
     </material>
-    <material id="MarkerData_001-material" name="MarkerData_001">
-      <instance_effect url="#MarkerData_001-effect"/>
+    <material id="MarkerData-material" name="MarkerData">
+      <instance_effect url="#MarkerData-effect"/>
     </material>
   </library_materials>
   <library_geometries>
@@ -311,87 +305,87 @@
         </triangles>
       </mesh>
     </geometry>
-    <geometry id="MarkerData_002-mesh" name="MarkerData.002">
+    <geometry id="MarkerData-mesh" name="MarkerData">
       <mesh>
-        <source id="MarkerData_002-mesh-positions">
-          <float_array id="MarkerData_002-mesh-positions-array" count="24">-0.5 -0.5 0 0.5 -0.5 0 -0.5 0.5 0 0.5 0.5 0 -0.5 0.5 0.06425458 -0.5 -0.5 0.06425458 0.5 -0.5 0.06425458 0.5 0.5 0.06425458</float_array>
+        <source id="MarkerData-mesh-positions">
+          <float_array id="MarkerData-mesh-positions-array" count="24">-0.5 -0.5 -0.1391869 0.5 -0.5 -0.1391869 -0.5 0.5 -0.1391869 0.5 0.5 -0.1391869 -0.5 0.5 -0.2317839 -0.5 -0.5 -0.2317839 0.5 -0.5 -0.2317839 0.5 0.5 -0.2317839</float_array>
           <technique_common>
-            <accessor source="#MarkerData_002-mesh-positions-array" count="8" stride="3">
+            <accessor source="#MarkerData-mesh-positions-array" count="8" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="MarkerData_002-mesh-normals">
-          <float_array id="MarkerData_002-mesh-normals-array" count="18">0 0 -1 0 0 1 0 1 0 0 -1 0 1 0 0 -1 0 0</float_array>
+        <source id="MarkerData-mesh-normals">
+          <float_array id="MarkerData-mesh-normals-array" count="18">0 0 1 0 0 -1 1 0 0 -1 0 0 0 1 0 0 -1 0</float_array>
           <technique_common>
-            <accessor source="#MarkerData_002-mesh-normals-array" count="6" stride="3">
+            <accessor source="#MarkerData-mesh-normals-array" count="6" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="MarkerData_002-mesh-map-0">
-          <float_array id="MarkerData_002-mesh-map-0-array" count="72">0 1 1 0 0 0 1 0 0 1 0 0 0 1 1 1 1 1 1 0 0 0 0 0 1 1 1 0 1 0 0 0 0 1 0 1 0 1 1 1 1 0 1 0 1 1 0 1 0 1 0 1 1 1 1 0 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1</float_array>
+        <source id="MarkerData-mesh-map-0">
+          <float_array id="MarkerData-mesh-map-0-array" count="72">1 0 0 1 0 0 0 1 1 0 0 0 1 0 1 1 1 0 0 1 0 0 0 1 1 1 0 1 1 1 0 0 1 0 0 0 1 0 1 1 0 1 0 1 1 1 1 0 1 0 1 1 1 1 0 1 0 0 0 0 1 1 0 1 0 1 0 0 1 0 1 0</float_array>
           <technique_common>
-            <accessor source="#MarkerData_002-mesh-map-0-array" count="36" stride="2">
+            <accessor source="#MarkerData-mesh-map-0-array" count="36" stride="2">
               <param name="S" type="float"/>
               <param name="T" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <vertices id="MarkerData_002-mesh-vertices">
-          <input semantic="POSITION" source="#MarkerData_002-mesh-positions"/>
+        <vertices id="MarkerData-mesh-vertices">
+          <input semantic="POSITION" source="#MarkerData-mesh-positions"/>
         </vertices>
-        <triangles material="MarkerData_001-material" count="12">
-          <input semantic="VERTEX" source="#MarkerData_002-mesh-vertices" offset="0"/>
-          <input semantic="NORMAL" source="#MarkerData_002-mesh-normals" offset="1"/>
-          <input semantic="TEXCOORD" source="#MarkerData_002-mesh-map-0" offset="2" set="0"/>
-          <p>2 0 0 1 0 1 0 0 2 6 1 3 4 1 4 5 1 5 2 2 6 7 2 7 3 2 8 1 3 9 5 3 10 0 3 11 3 4 12 6 4 13 1 4 14 0 5 15 4 5 16 2 5 17 2 0 18 3 0 19 1 0 20 6 1 21 7 1 22 4 1 23 2 2 24 4 2 25 7 2 26 1 3 27 6 3 28 5 3 29 3 4 30 7 4 31 6 4 32 0 5 33 5 5 34 4 5 35</p>
+        <triangles material="MarkerData-material" count="12">
+          <input semantic="VERTEX" source="#MarkerData-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#MarkerData-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#MarkerData-mesh-map-0" offset="2" set="0"/>
+          <p>1 0 0 2 0 1 0 0 2 4 1 3 6 1 4 5 1 5 6 2 6 3 2 7 1 2 8 4 3 9 0 3 10 2 3 11 7 4 12 2 4 13 3 4 14 5 5 15 1 5 16 0 5 17 1 0 18 3 0 19 2 0 20 4 1 21 7 1 22 6 1 23 6 2 24 7 2 25 3 2 26 4 3 27 5 3 28 0 3 29 7 4 30 4 4 31 2 4 32 5 5 33 6 5 34 1 5 35</p>
         </triangles>
       </mesh>
     </geometry>
-    <geometry id="MarkerData_003-mesh" name="MarkerData.003">
+    <geometry id="MarkerData_001-mesh" name="MarkerData.001">
       <mesh>
-        <source id="MarkerData_003-mesh-positions">
-          <float_array id="MarkerData_003-mesh-positions-array" count="24">-0.5 -0.5 0 0.5 -0.5 0 -0.5 0.5 0 0.5 0.5 0 -0.5 0.5 0.06425458 -0.5 -0.5 0.06425458 0.5 -0.5 0.06425458 0.5 0.5 0.06425458</float_array>
+        <source id="MarkerData_001-mesh-positions">
+          <float_array id="MarkerData_001-mesh-positions-array" count="24">-0.5 -0.5 -0.1391869 0.5 -0.5 -0.1391869 -0.5 0.5 -0.1391869 0.5 0.5 -0.1391869 -0.5 0.5 -0.2317839 -0.5 -0.5 -0.2317839 0.5 -0.5 -0.2317839 0.5 0.5 -0.2317839</float_array>
           <technique_common>
-            <accessor source="#MarkerData_003-mesh-positions-array" count="8" stride="3">
+            <accessor source="#MarkerData_001-mesh-positions-array" count="8" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="MarkerData_003-mesh-normals">
-          <float_array id="MarkerData_003-mesh-normals-array" count="18">0 0 -1 0 0 1 0 1 0 0 -1 0 1 0 0 -1 0 0</float_array>
+        <source id="MarkerData_001-mesh-normals">
+          <float_array id="MarkerData_001-mesh-normals-array" count="18">0 0 -1 0 0 1 -1 0 0 1 0 0 0 -1 0 0 1 0</float_array>
           <technique_common>
-            <accessor source="#MarkerData_003-mesh-normals-array" count="6" stride="3">
+            <accessor source="#MarkerData_001-mesh-normals-array" count="6" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="MarkerData_003-mesh-map-0">
-          <float_array id="MarkerData_003-mesh-map-0-array" count="72">0 1 1 0 0 0 1 0 0 1 0 0 0 1 1 1 1 1 1 0 0 0 0 0 1 1 1 0 1 0 0 0 0 1 0 1 0 1 1 1 1 0 1 0 1 1 0 1 0 1 0 1 1 1 1 0 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1</float_array>
+        <source id="MarkerData_001-mesh-map-0">
+          <float_array id="MarkerData_001-mesh-map-0-array" count="72">0 1 1 0 0 0 1 0 0 1 0 0 1 1 1 0 1 0 0 0 0 1 0 1 0 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 0 1 0 1 1 0 1 1 1 1 1 1 0 0 0 0 0 0 1 0 1 0 1 1 1 1 0 1 0 0 0</float_array>
           <technique_common>
-            <accessor source="#MarkerData_003-mesh-map-0-array" count="36" stride="2">
+            <accessor source="#MarkerData_001-mesh-map-0-array" count="36" stride="2">
               <param name="S" type="float"/>
               <param name="T" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <vertices id="MarkerData_003-mesh-vertices">
-          <input semantic="POSITION" source="#MarkerData_003-mesh-positions"/>
+        <vertices id="MarkerData_001-mesh-vertices">
+          <input semantic="POSITION" source="#MarkerData_001-mesh-positions"/>
         </vertices>
-        <triangles material="MarkerData_001-material" count="12">
-          <input semantic="VERTEX" source="#MarkerData_003-mesh-vertices" offset="0"/>
-          <input semantic="NORMAL" source="#MarkerData_003-mesh-normals" offset="1"/>
-          <input semantic="TEXCOORD" source="#MarkerData_003-mesh-map-0" offset="2" set="0"/>
-          <p>2 0 0 1 0 1 0 0 2 6 1 3 4 1 4 5 1 5 2 2 6 7 2 7 3 2 8 1 3 9 5 3 10 0 3 11 3 4 12 6 4 13 1 4 14 0 5 15 4 5 16 2 5 17 2 0 18 3 0 19 1 0 20 6 1 21 7 1 22 4 1 23 2 2 24 4 2 25 7 2 26 1 3 27 6 3 28 5 3 29 3 4 30 7 4 31 6 4 32 0 5 33 5 5 34 4 5 35</p>
+        <triangles material="MarkerData-material" count="12">
+          <input semantic="VERTEX" source="#MarkerData_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#MarkerData_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#MarkerData_001-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 1 0 1 0 0 2 6 1 3 4 1 4 5 1 5 3 2 6 6 2 7 1 2 8 0 3 9 4 3 10 2 3 11 2 4 12 7 4 13 3 4 14 1 5 15 5 5 16 0 5 17 2 0 18 3 0 19 1 0 20 6 1 21 7 1 22 4 1 23 3 2 24 7 2 25 6 2 26 0 3 27 5 3 28 4 3 29 2 4 30 4 4 31 7 4 32 1 5 33 6 5 34 5 5 35</p>
         </triangles>
       </mesh>
     </geometry>
@@ -417,16 +411,6 @@
           </bind_material>
         </instance_geometry>
       </node>
-      <node id="MarkerData" name="MarkerData" type="NODE">
-        <matrix sid="transform">3.77489e-9 -2.18557e-9 -0.05 -6.70543e-4 -0.05 0 -3.77489e-9 8.44879e-4 0 0.05 -2.18557e-9 0.2040423 0 0 0 1</matrix>
-        <instance_geometry url="#MarkerData_002-mesh" name="MarkerData">
-          <bind_material>
-            <technique_common>
-              <instance_material symbol="MarkerData_001-material" target="#MarkerData_001-material"/>
-            </technique_common>
-          </bind_material>
-        </instance_geometry>
-      </node>
       <node id="Camera_001" name="Camera_001" type="NODE">
         <matrix sid="transform">0.6859207 -0.3240135 0.6515582 7.481132 0.7276763 0.3054209 -0.6141704 -6.50764 -4.01133e-9 0.8953956 0.4452714 5.343665 0 0 0 1</matrix>
         <instance_camera url="#Camera_001-camera"/>
@@ -435,12 +419,22 @@
         <matrix sid="transform">-0.2908646 -0.7711008 0.5663933 -1.87346 0.9551712 -0.1998833 0.2183912 -0.3136385 -0.05518904 0.6045247 0.7946723 1.163328 0 0 0 1</matrix>
         <instance_light url="#Lamp_001-light"/>
       </node>
-      <node id="MarkerData_001" name="MarkerData_001" type="NODE">
-        <matrix sid="transform">-2.18557e-9 2.18557e-9 0.05 8.27901e-4 0.05 0 2.18557e-9 8.44879e-4 0 0.05 -2.18557e-9 0.2040423 0 0 0 1</matrix>
-        <instance_geometry url="#MarkerData_003-mesh" name="MarkerData_001">
+      <node id="MarkerData" name="MarkerData" type="NODE">
+        <matrix sid="transform">-3.7749e-9 -2.18557e-9 0.05 0.01278934 0.05 -4.37114e-9 3.77489e-9 0.001096239 4.37114e-9 0.05 2.18557e-9 0.2028877 0 0 0 1</matrix>
+        <instance_geometry url="#MarkerData-mesh" name="MarkerData">
           <bind_material>
             <technique_common>
-              <instance_material symbol="MarkerData_001-material" target="#MarkerData_001-material"/>
+              <instance_material symbol="MarkerData-material" target="#MarkerData-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="MarkerData_001" name="MarkerData_001" type="NODE">
+        <matrix sid="transform">3.7749e-9 -2.18557e-9 0.05 0.006342545 -0.05 -4.37114e-9 3.77489e-9 3.75503e-4 -4.37114e-9 0.05 2.18557e-9 0.2028877 0 0 0 1</matrix>
+        <instance_geometry url="#MarkerData_001-mesh" name="MarkerData_001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MarkerData-material" target="#MarkerData-material"/>
             </technique_common>
           </bind_material>
         </instance_geometry>

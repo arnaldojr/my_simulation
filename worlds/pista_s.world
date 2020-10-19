@@ -46,7 +46,7 @@
  <!-- creeper_11 -->
     <include>
       <uri>model://pista_s/creepers/creeper_11</uri>
-       <pose> -4.65 -0.48 0 0 0 1.599950</pose>
+       <pose> -4.5 -0.48 0 0 0 1.599950</pose>
     </include>
  <!-- creeper_12 -->
     <include>
@@ -56,7 +56,7 @@
  <!-- creeper_13 -->
     <include>
       <uri>model://pista_s/creepers/creeper_13</uri>
-      <pose> 3.85 -1.5 0 0 0 -1.63</pose>
+      <pose> 4.15 -1.5 0 0 0 -1.63</pose>
     </include>
 
 
