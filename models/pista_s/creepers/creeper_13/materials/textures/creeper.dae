@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0</authoring_tool>
     </contributor>
-    <created>2020-10-19T11:17:11</created>
-    <modified>2020-10-19T11:17:11</modified>
+    <created>2020-10-19T15:35:37</created>
+    <modified>2020-10-19T15:35:37</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -208,7 +208,7 @@
               <color sid="diffuse">0.00303527 1 0.07227185 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">0.001517635 0.5 0.03613592 1</color>
+              <color sid="specular">0.00303527 1 0.07227185 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -418,7 +418,7 @@
         </instance_geometry>
       </node>
       <node id="MarkerData" name="MarkerData" type="NODE">
-        <matrix sid="transform">3.77489e-9 -2.18557e-9 -0.05 -6.70543e-4 -0.05 0 -3.77489e-9 8.44879e-4 0 0.05 -2.18557e-9 0.2040423 0 0 0 1</matrix>
+        <matrix sid="transform">4.52987e-9 -2.62268e-9 -0.06 -6.6906e-4 -0.06 0 -4.52987e-9 1.81933e-4 0 0.06 -2.62268e-9 0.2037131 0 0 0 1</matrix>
         <instance_geometry url="#MarkerData_002-mesh" name="MarkerData">
           <bind_material>
             <technique_common>
@@ -436,7 +436,7 @@
         <instance_light url="#Lamp_001-light"/>
       </node>
       <node id="MarkerData_001" name="MarkerData_001" type="NODE">
-        <matrix sid="transform">-2.18557e-9 2.18557e-9 0.05 8.27901e-4 0.05 1.49012e-9 2.18557e-9 8.44879e-4 -1.49012e-9 0.05 -2.18557e-9 0.2040423 0 0 0 1</matrix>
+        <matrix sid="transform">-2.62268e-9 2.62268e-9 0.06 8.27901e-4 0.06 1.78814e-9 2.62268e-9 -2.35908e-4 -1.78814e-9 0.06 -2.62268e-9 0.2035227 0 0 0 1</matrix>
         <instance_geometry url="#MarkerData_003-mesh" name="MarkerData_001">
           <bind_material>
             <technique_common>

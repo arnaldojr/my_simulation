@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0</authoring_tool>
     </contributor>
-    <created>2020-10-06T11:02:56</created>
-    <modified>2020-10-06T11:02:56</modified>
+    <created>2020-10-19T15:35:37</created>
+    <modified>2020-10-19T15:35:37</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -189,7 +189,7 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="MarkerData_png_001" name="MarkerData_png_001">
+    <image id="MarkerData_png_001_png" name="MarkerData_png_001_png">
       <init_from>MarkerData.png.001.png</init_from>
     </image>
   </library_images>
@@ -205,10 +205,10 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="emission">0.06520238 0.5701031 1 1</color>
+              <color sid="diffuse">0.06520238 0.5701031 1 1</color>
             </diffuse>
             <specular>
-            <color sid="emission">0.06520238 0.5701031 1 1</color>
+              <color sid="specular">0.06520238 0.5701031 1 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -222,14 +222,14 @@
     </effect>
     <effect id="MarkerData_001-effect">
       <profile_COMMON>
-        <newparam sid="MarkerData_png_001-surface">
+        <newparam sid="MarkerData_png_001_png-surface">
           <surface type="2D">
-            <init_from>MarkerData_png_001</init_from>
+            <init_from>MarkerData_png_001_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="MarkerData_png_001-sampler">
+        <newparam sid="MarkerData_png_001_png-sampler">
           <sampler2D>
-            <source>MarkerData_png_001-surface</source>
+            <source>MarkerData_png_001_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -241,16 +241,16 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <texture texture="MarkerData_png_001-sampler"/>
+              <texture texture="MarkerData_png_001_png-sampler"/>
             </diffuse>
             <specular>
-              <color sid="specular">0.03125 0.03125 0.03125 1</color>
+              <color sid="specular">0.015625 0.015625 0.015625 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
             </shininess>
             <transparent opaque="A_ONE">
-              <texture texture="MarkerData_png_001-sampler"/>
+              <texture texture="MarkerData_png_001_png-sampler"/>
             </transparent>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
@@ -418,7 +418,7 @@
         </instance_geometry>
       </node>
       <node id="MarkerData" name="MarkerData" type="NODE">
-        <matrix sid="transform">3.77489e-9 -2.18557e-9 -0.05 -6.70543e-4 -0.05 0 -3.77489e-9 8.44879e-4 0 0.05 -2.18557e-9 0.2040423 0 0 0 1</matrix>
+        <matrix sid="transform">4.52987e-9 -2.62268e-9 -0.06 -6.6906e-4 -0.06 0 -4.52987e-9 1.81933e-4 0 0.06 -2.62268e-9 0.2037131 0 0 0 1</matrix>
         <instance_geometry url="#MarkerData_002-mesh" name="MarkerData">
           <bind_material>
             <technique_common>
@@ -436,7 +436,7 @@
         <instance_light url="#Lamp_001-light"/>
       </node>
       <node id="MarkerData_001" name="MarkerData_001" type="NODE">
-        <matrix sid="transform">-2.18557e-9 2.18557e-9 0.05 8.27901e-4 0.05 0 2.18557e-9 8.44879e-4 0 0.05 -2.18557e-9 0.2040423 0 0 0 1</matrix>
+        <matrix sid="transform">-2.62268e-9 2.62268e-9 0.06 8.27901e-4 0.06 1.78814e-9 2.62268e-9 -2.35908e-4 -1.78814e-9 0.06 -2.62268e-9 0.2035227 0 0 0 1</matrix>
         <instance_geometry url="#MarkerData_003-mesh" name="MarkerData_001">
           <bind_material>
             <technique_common>
