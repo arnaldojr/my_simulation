@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='creeper_0'>
+  <model name='creeper_11'>
     <link name='link'>
       <pose frame=''>0 -0 0.115 0 -0 0</pose>
       <inertial>

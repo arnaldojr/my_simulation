@@ -1,4 +1,4 @@
-material creeper_01
+material bird
 {
   technique
   {
@@ -6,7 +6,7 @@ material creeper_01
     {
       texture_unit
       {
-        texture MarkerData_1.png
+        texture bird.png
       }
     }
   }
