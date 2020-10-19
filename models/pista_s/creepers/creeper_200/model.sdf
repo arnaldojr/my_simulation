@@ -6,24 +6,22 @@
       <pose>0 0 0 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box>
-           <size>0.27 0.27 0.27</size>
-          </box>
+          <mesh>
+            <uri>model://pista_s/creepers/creeper_200/materials/textures/caixa.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
         </geometry>
       </collision>
-      <visual name="visual">
+      <visual name='visual'>
+        <pose frame=''>0 0 0 0 0 0</pose>
         <geometry>
-          <box>
-            <size>0.27 0.27 0.27</size>
-          </box>
+          <mesh>
+            <uri>model://pista_s/creepers/creeper_200/materials/textures/caixa.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
         </geometry>
-        <material>
-          <script>
-            <uri>model://pista_s/creepers/creeper_200/materials/scripts</uri>
-            <uri>model://pista_s/creepers/creeper_200/materials/textures</uri>
-            <name>caixa</name>
-          </script>
-        </material>
+        <transparency>0</transparency>
+        <cast_shadows>1</cast_shadows>
       </visual>
     </link>    
   </model>
