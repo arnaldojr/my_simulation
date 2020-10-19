@@ -22,25 +22,25 @@
  <!-- cat -->
     <include>
       <uri>model://pista_s/objeto/cat</uri>
-      <pose> 4.46 1.611 0 0 0 0</pose>
+      <pose> 4.46 1.611 0.251305 0 0 0</pose>
     </include>
  
  <!-- bird -->
     <include>
       <uri>model://pista_s/objeto/bird</uri>
-      <pose> -1.06 3.52 0 0 0 0</pose>
+      <pose> -1.06 3.52 0.251305 0 0 0</pose>
     </include>
 
  <!-- bicycle -->
     <include>
       <uri>model://pista_s/objeto/bicycle</uri>
-      <pose> 3.62 -3.60 0 0 0 0</pose>
+      <pose> 3.62 -3.60 0.251305 0 0 0</pose>
     </include>
 
 <!-- dog -->
     <include>
       <uri>model://pista_s/objeto/dog</uri>
-      <pose> -5.41 -3.65 0 0 0 0</pose>
+      <pose> -5.41 -3.65 0.251305 0 0 0</pose>
     </include>
 
  <!-- creeper_11 -->
