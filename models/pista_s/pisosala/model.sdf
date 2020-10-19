@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <model name="pisosala">
+  <model name="pisosala_s">
     <static>true</static>
     <link name="course_link">
       <collision name="course_collision">
@@ -22,19 +22,11 @@
       <visual name="course_visual">
         <cast_shadows>false</cast_shadows>
         <geometry>
-	        <plane>
-            <normal>0 0 1</normal>
-            <size>10 13</size>
-          </plane>
+          <mesh>
+            <uri>model://pista_s/pisosala/materials/scripts/piso.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
         </geometry>
-	      <material>
-          <script>
-            <!--uri>file://materials/scripts/floor.material</uri-->
-            <uri>model://sala404_circuito/pisosala/materials/scripts</uri>
-            <uri>model://sala404_circuito/pisosala/materials/textures</uri>
-            <name>pisosala</name>
-          </script>
-        </material>
       </visual>
     </link>
   </model>

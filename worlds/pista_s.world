@@ -18,37 +18,40 @@
       <pose> 0 0 0 0 0 -1.57</pose>
     </include>
 
- <!-- creeper_0 -->
+ <!-- creeper_11 -->
     <include>
-      <uri>model://pista_s/creepers/creeper_0</uri>
+      <uri>model://pista_s/creepers/creeper_11</uri>
       <pose> 0 4.5 0.13 0 0 0</pose>
     </include>
- <!-- creeper_1 -->
+ <!-- creeper_12 -->
     <include>
-      <uri>model://pista_s/creepers/creeper_1</uri>
+      <uri>model://pista_s/creepers/creeper_12</uri>
       <pose> -6 0 0.13 0 0 1.57</pose>
     </include>
- <!-- creeper_2 -->
+ <!-- creeper_13 -->
     <include>
-      <uri>model://pista_s/creepers/creeper_2</uri>
+      <uri>model://pista_s/creepers/creeper_13</uri>
       <pose> 5.5 -3.5 0.13 0 0 0</pose>
     </include>
 
- <!-- creeper_3 -->
+
+ <!-- creeper_21 -->
     <include>
-      <uri>model://pista_s/creepers/creeper_3</uri>
+      <uri>model://pista_s/creepers/creeper_21</uri>
       <pose> 6 0 0.13 0 0 1.57</pose>
     </include>
- <!-- creeper_4 -->
+ <!-- creeper_22 -->
     <include>
-      <uri>model://pista_s/creepers/creeper_4</uri>
+      <uri>model://pista_s/creepers/creeper_22</uri>
       <pose> -5.5 3.5 0.13 0 0 0</pose>
     </include>
- <!-- creeper_5 -->
+ <!-- creeper_23 -->
     <include>
-      <uri>model://pista_s/creepers/creeper_5</uri>
-      <pose> -3 -3 0.13 0 0 0</pose>
+      <uri>model://pista_s/creepers/creeper_23</uri>
+      <pose> -3 -6 0.13 0 0 0</pose>
     </include>
+
+
 
 <!-- mapa sala -->
     <include>
