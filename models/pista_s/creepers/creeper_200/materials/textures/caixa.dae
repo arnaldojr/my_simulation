@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0</authoring_tool>
     </contributor>
-    <created>2020-10-19T11:57:05</created>
-    <modified>2020-10-19T11:57:05</modified>
+    <created>2020-10-20T17:46:09</created>
+    <modified>2020-10-20T17:46:09</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -40,7 +40,7 @@
               <texture texture="caixa_png-sampler"/>
             </diffuse>
             <specular>
-              <color sid="specular">1 1 1 1</color>
+              <color sid="specular">0.5 0.5 0.5 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -60,16 +60,16 @@
         <technique sid="common">
           <phong>
             <emission>
-              <color sid="emission">0.8 0.8 0.8 1</color>
+              <color sid="emission">1 1 1 1</color>
             </emission>
             <ambient>
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0.8 0.8 0.8 1</color>
+              <color sid="diffuse">1 1 1 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">1 1 1 1</color>
+              <color sid="specular">0.5 0.5 0.5 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -170,7 +170,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="caixa" name="caixa" type="NODE">
-        <matrix sid="transform">0.27 0 0 0.001517951 0 -1.18021e-8 -0.09828756 -0.01056504 0 0.27 -4.29629e-9 6.50965e-4 0 0 0 1</matrix>
+        <matrix sid="transform">0.27 0 0 0.001514833 0 -1.18021e-8 -0.09828756 -0.01388664 0 0.27 -4.29629e-9 -2.32386e-4 0 0 0 1</matrix>
         <instance_geometry url="#caixa-mesh" name="caixa">
           <bind_material>
             <technique_common>
@@ -180,7 +180,7 @@
         </instance_geometry>
       </node>
       <node id="Cube" name="Cube" type="NODE">
-        <matrix sid="transform">0.135 0 0 0 0 -5.90104e-9 -0.01 0 0 0.135 -4.37114e-10 0 0 0 0 1</matrix>
+        <matrix sid="transform">0.1680048 0 0 0 0 -7.34372e-9 -0.0124448 0 0 0.1680048 -5.4398e-10 0 0 0 0 1</matrix>
         <instance_geometry url="#Cube_001-mesh" name="Cube">
           <bind_material>
             <technique_common>

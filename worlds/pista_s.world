@@ -101,27 +101,27 @@
  <!-- creeper_50 -->
     <include>
       <uri>model://pista_s/creepers/creeper_50</uri>
-      <pose> -5.06 1.30 0.140368 0 0 0</pose>
+      <pose> -5.06 1.30 0.162 0 0 0</pose>
     </include>
 
 
  <!-- creeper_100 -->
     <include>
       <uri>model://pista_s/creepers/creeper_100</uri>
-      <pose> -0.11 4.70 0.140368 0 0 0</pose>
+      <pose> -0.11 4.70 0.162 0 0 0</pose>
     </include>
 
  <!-- creeper_150 -->
     <include>
       <uri>model://pista_s/creepers/creeper_150</uri>
-      <pose> 4.68 -2.5 0.140368 0 0 3.150000</pose>
+      <pose> 4.68 -2.5 0.162 0 0 3.150000</pose>
     </include>
 
 
  <!-- creeper_200 -->
     <include>
       <uri>model://pista_s/creepers/creeper_200</uri>
-      <pose> -0.92 0.148 0.140368 0 0 1.6</pose>
+      <pose> -0.92 0.148 0.162 0 0 1.6</pose>
     </include>
 
 
