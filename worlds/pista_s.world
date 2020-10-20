@@ -49,9 +49,9 @@
        <pose> -4.5 -0.48 0 0 0 1.599950</pose>
     </include>
 
- <!-- creeper_11_verde -->
+ <!-- creeper_11_rosa -->
     <include>
-      <uri>model://pista_s/creepers/creeper_11_verde</uri>
+      <uri>model://pista_s/creepers/creeper_11_rosa</uri>
        <pose> -5.7 -0.48 0 0 0 1.599950</pose>
     </include>
 
@@ -61,9 +61,9 @@
       <pose> -1 -1.8 0 0 0 1.549944</pose>
     </include>
 
-  <!-- creeper_12_verde -->
+  <!-- creeper_12_rosa -->
     <include>
-      <uri>model://pista_s/creepers/creeper_12_verde</uri>
+      <uri>model://pista_s/creepers/creeper_12_rosa</uri>
       <pose> 0.42 -1.8 0 0 0 1.549944</pose>
     </include>
 
@@ -83,7 +83,7 @@
   <!-- creeper_21_laranja -->
     <include>
       <uri>model://pista_s/creepers/creeper_21_laranja</uri>
-      <pose> 8 0 0 0 0 0</pose>
+      <pose> 3.5 0 0 0 0 0</pose>
     </include>
 
  <!-- creeper_22 -->

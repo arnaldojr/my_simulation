@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='creeper_12_verde'>
+  <model name='creeper_11_rosa'>
     <link name='link'>
       <pose frame=''>0 -0 0.115 0 -0 0</pose>
       <inertial>
@@ -23,7 +23,7 @@
         <pose frame=''>0 0 -0.15 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://pista_s/creepers/creeper_12_verde/materials/textures/creeper.dae</uri>
+            <uri>model://pista_s/creepers/creeper_11_rosa/materials/textures/creeper.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
