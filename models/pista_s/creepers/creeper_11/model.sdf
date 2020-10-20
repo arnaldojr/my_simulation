@@ -20,7 +20,7 @@
       <kinematic>0</kinematic>
       <gravity>1</gravity>
       <visual name='visual'>
-        <pose frame=''>0 0 -0.12 0 -0 0</pose>
+        <pose frame=''>0 0 -0.15 0 -0 0</pose>
         <geometry>
           <mesh>
             <uri>model://pista_s/creepers/creeper_11/materials/textures/creeper.dae</uri>
