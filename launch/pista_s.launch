@@ -26,7 +26,7 @@
 
   <!-- push robot_description to factory and spawn robot in gazebo -->
    <node name="mybot_spawn" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" 
-    args="-urdf -param robot_description -model mybot" />
+    args="-urdf -param robot_description -model mybot -x 0.0 -y 0.0 -Y 0.0" />
 
   
 
