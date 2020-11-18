@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="bicycle">
+    <static>true</static>
+    <link name="box">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.5 0.5 0.5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.5 0.5 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://pista_s/objeto/bicycle/materials/scripts</uri>
+            <uri>model://pista_s/objeto/bicycle/materials/textures</uri>
+            <name>bicycle</name>
+          </script>
+        </material>
+      </visual>
+    </link>    
+  </model>
+</sdf>

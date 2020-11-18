@@ -1,0 +1,50 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl Arrow
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /home/borg/catkin_ws/src/my_simulation/models/cloverleaf_interchange/materials/textures/arrow.png
+map_Ka /home/borg/catkin_ws/src/my_simulation/models/cloverleaf_interchange/materials/textures/arrow.png
+
+newmtl Concrete
+Ns 9.803922
+Ka 0.588200 0.588200 0.588200
+Kd 0.588200 0.588200 0.588200
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /home/borg/catkin_ws/src/my_simulation/models/cloverleaf_interchange/materials/textures/concrete.png
+map_Ka /home/borg/catkin_ws/src/my_simulation/models/cloverleaf_interchange/materials/textures/concrete.png
+
+newmtl Grass
+Ns 9.803922
+Ka 0.588200 0.588200 0.588200
+Kd 0.588200 0.588200 0.588200
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /home/borg/catkin_ws/src/my_simulation/models/cloverleaf_interchange/materials/textures/grass.png
+map_Ka /home/borg/catkin_ws/src/my_simulation/models/cloverleaf_interchange/materials/textures/grass.png
+
+newmtl Road
+Ns 9.803922
+Ka 0.588200 0.588200 0.588200
+Kd 0.588200 0.588200 0.588200
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /home/borg/catkin_ws/src/my_simulation/models/cloverleaf_interchange/materials/textures/road.png
+map_Ka /home/borg/catkin_ws/src/my_simulation/models/cloverleaf_interchange/materials/textures/road.png
