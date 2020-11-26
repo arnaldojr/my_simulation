@@ -5,7 +5,7 @@
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
-  
+
   <rosparam file="$(find mybot_description)/config/mybot_control.yaml" command="load"/>
 
   <!-- startup simulated world -->
