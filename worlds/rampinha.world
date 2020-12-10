@@ -19,7 +19,7 @@
 
     <!-- cenario -->
     <include>
-      <uri>model://rampinha</uri>
+      <uri>model://rampa</uri>
     </include>
 
     <!-- caixa_azul -->
