@@ -44,6 +44,13 @@
     </include>
 
 
+<!-- caixa_vermelha -->
+    <include>
+      <uri>model://pista_s/objeto/cubo_vermelho</uri>
+      <pose> -0.20 3.28 0.100 0 0 0</pose>
+    </include>
+
+
 
  <!-- creeper_11 -->
     <include>

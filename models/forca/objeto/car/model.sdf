@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="car">
+    <static>true</static>
+    <link name="box">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+             <size>0.5 0.5 0.5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+             <size>0.5 0.5 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://forca/objeto/car/materials/scripts</uri>
+            <uri>model://forca/objeto/car/materials/textures</uri>
+            <name>car</name>
+          </script>
+        </material>
+      </visual>
+    </link>    
+  </model>
+</sdf>

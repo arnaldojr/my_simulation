@@ -14,124 +14,110 @@
 
   <!-- Piso da sala - circuito -->
     <include>
-      <uri>model://pista_s/pisosala</uri>
+      <uri>model://forca/pisosala</uri>
       <pose> 0 0 0 0 0 -1.57</pose>
     </include>
 
+ <!-- mesa1 -->
+    <include>
+      <uri>model://mundoteste/mesa</uri>
+      <pose> 0.004 2.667 0 0 0 0</pose>
+    </include> 
 
- <!-- cat -->
-    <include>
-      <uri>model://pista_s/objeto/cat</uri>
-      <pose> 4.46 1.611 0.251305 0 0 0</pose>
-    </include>
- 
- <!-- bird -->
-    <include>
-      <uri>model://pista_s/objeto/bird</uri>
-      <pose> -1.06 3.52 0.251305 0 0 0</pose>
-    </include>
 
- <!-- bicycle -->
+ <!-- cow -->
     <include>
-      <uri>model://pista_s/objeto/bicycle</uri>
-      <pose> 3.62 -3.60 0.251305 0 0 0</pose>
+      <uri>model://forca/objeto/cow</uri>
+      <pose> 1.68 -4.28 0.251305 0 0 0</pose>
     </include>
 
 <!-- dog -->
     <include>
-      <uri>model://pista_s/objeto/dog</uri>
-      <pose> -5.41 -3.65 0.251305 0 0 0</pose>
+      <uri>model://forca/objeto/dog</uri>
+      <pose> -2.60 -4.35 0.251305 0 0 0</pose>
     </include>
-
-
 
  <!-- creeper_11 -->
     <include>
       <uri>model://pista_s/creepers/creeper_11</uri>
-       <pose> -4.5 -0.48 0 0 0 1.599950</pose>
+       <pose> 0.92 4.45 0 0 0 1.599950</pose>
     </include>
 
  <!-- creeper_11_rosa -->
     <include>
       <uri>model://pista_s/creepers/creeper_11_rosa</uri>
-       <pose> -5.7 -0.48 0 0 0 1.599950</pose>
+       <pose> -2.73 2.98 0 0 0 1.599950</pose>
     </include>
 
  <!-- creeper_12 -->
     <include>
       <uri>model://pista_s/creepers/creeper_12</uri>
-      <pose> -1 -1.8 0 0 0 1.549944</pose>
+      <pose> -0.357 -2.42 0 0 0 1.549944</pose>
     </include>
 
   <!-- creeper_12_rosa -->
     <include>
       <uri>model://pista_s/creepers/creeper_12_rosa</uri>
-      <pose> 0.42 -1.8 0 0 0 1.549944</pose>
+      <pose> 0.77 -1.8 0 0 0 1.549944</pose>
     </include>
 
  <!-- creeper_13 -->
     <include>
       <uri>model://pista_s/creepers/creeper_13</uri>
-      <pose> 4.15 -1.5 0 0 0 -1.63</pose>
+      <pose> -1.03 -4.73 0 0 0 -1.63</pose>
     </include>
 
 
  <!-- creeper_21 -->
     <include>
       <uri>model://pista_s/creepers/creeper_21</uri>
-      <pose> 5 0 0 0 0 0</pose>
+      <pose> -0.647 0.63 0 0 0 0</pose>
     </include>
 
   <!-- creeper_21_laranja -->
     <include>
       <uri>model://pista_s/creepers/creeper_21_laranja</uri>
-      <pose> 3.5 0 0 0 0 0</pose>
+      <pose> 2.5 -3.150 0 0 0 0</pose>
     </include>
 
  <!-- creeper_22 -->
     <include>
       <uri>model://pista_s/creepers/creeper_22</uri>
-      <pose> 0.5 2 0 0 0 1.549952</pose>    
+      <pose> 0.48 1.52 0 0 0 1.549952</pose>    
      
     </include>
  <!-- creeper_23 -->
     <include>
       <uri>model://pista_s/creepers/creeper_23</uri>
-      <pose> -3 -2.8 0 0 0 0</pose>
+      <pose> -2.60 3.09 0 0 0 0</pose>
     </include>
 
  <!-- creeper_50 -->
     <include>
       <uri>model://pista_s/creepers/creeper_50</uri>
-      <pose> -5.06 1.30 0.162 0 0 0</pose>
+      <pose> 3.20 -4.36 0.162 0 0 0</pose>
     </include>
 
 
  <!-- creeper_100 -->
     <include>
       <uri>model://pista_s/creepers/creeper_100</uri>
-      <pose> -0.11 4.70 0.162 0 0 0</pose>
+      <pose> -2.09 4.90 0.162 0 0 0</pose>
     </include>
 
  <!-- creeper_150 -->
     <include>
       <uri>model://pista_s/creepers/creeper_150</uri>
-      <pose> 4.68 -2.5 0.162 0 0 3.150000</pose>
+      <pose> 0.49 -3.69 0.162 0 0 -3.133</pose>
     </include>
 
 
  <!-- creeper_200 -->
     <include>
       <uri>model://pista_s/creepers/creeper_200</uri>
-      <pose> -0.92 0.148 0.162 0 0 1.6</pose>
+      <pose> -2.158 -5.11 0.162 0 0 2.217</pose>
     </include>
 
-
-<!-- mapa sala -->
-    <include>
-      <uri>model://pista_s/parede</uri>
-      <pose> 0 0 0 0 0 0</pose>
-    </include>
 
     <physics type="ode">
       <real_time_update_rate>1000.0</real_time_update_rate>
