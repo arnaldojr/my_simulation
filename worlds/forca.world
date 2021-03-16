@@ -25,16 +25,29 @@
     </include> 
 
 
+<!-- car -->
+    <include>
+      <uri>model://forca/objeto/car</uri>
+      <pose> 4.31 -2.97 0.251305 0 0 0</pose>
+    </include>
+
+ <!-- horse -->
+    <include>
+      <uri>model://forca/objeto/horse</uri>
+      <pose> 0.78 2.30 0.251305 0 0 0</pose>
+    </include>
+   
+
  <!-- cow -->
     <include>
       <uri>model://forca/objeto/cow</uri>
-      <pose> 1.68 -4.28 0.251305 0 0 0</pose>
+      <pose> 4.707 2.73 0.251305 0 0 0</pose>
     </include>
 
 <!-- dog -->
     <include>
       <uri>model://forca/objeto/dog</uri>
-      <pose> -2.60 -4.35 0.251305 0 0 0</pose>
+      <pose> -4.72 -3.24 0.251305 0 0 0</pose>
     </include>
 
  <!-- creeper_11 -->

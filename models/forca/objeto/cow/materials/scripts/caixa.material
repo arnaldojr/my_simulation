@@ -1,4 +1,4 @@
-material cat
+material cow
 {
   technique
   {
@@ -6,7 +6,7 @@ material cat
     {
       texture_unit
       {
-        texture cat.png
+        texture caixa.png
       }
     }
   }

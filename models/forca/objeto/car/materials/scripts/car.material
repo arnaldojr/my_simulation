@@ -1,4 +1,4 @@
-material bicycle
+material car
 {
   technique
   {
@@ -6,7 +6,7 @@ material bicycle
     {
       texture_unit
       {
-        texture bicycle.png
+        texture car.png
       }
     }
   }
