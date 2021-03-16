@@ -28,7 +28,7 @@
  <!-- bird -->
     <include>
       <uri>model://pista_s/objeto/bird</uri>
-      <pose> -8.06 3.52 0.251305 0 0 0</pose>
+      <pose> -5.06 3.52 0.251305 0 0 0</pose>
     </include>
 
  <!-- bicycle -->
