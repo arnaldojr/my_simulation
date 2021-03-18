@@ -33,10 +33,10 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.15 0.075 0 1</ambient>
-          <diffuse>0.15 0.075 0 1</diffuse>
-          <specular>0.15 0.075 0 1</specular>
-          <emissive>0.15 0.075 0 1</emissive>
+          <ambient>0.22 0.184 0.135 1</ambient>
+          <diffuse>0.22 0.184 0.135 1</diffuse>
+          <specular>0.22 0.184 0.135 1</specular>
+          <emissive>0.22 0.184 0.135 1</emissive>
         </material>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <transparency>0</transparency>
