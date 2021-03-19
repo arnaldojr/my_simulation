@@ -18,19 +18,10 @@
       <pose> 0 0 0 0 0 -1.57</pose>
     </include>
 
- <!-- mesa1 -->
-    <include>
-      <uri>model://mundoteste/mesa</uri>
-      <pose> 3.206 -0.04 0 0 0 0</pose>
-
-    </include> 
-
-
-
 <!-- car -->
     <include>
       <uri>model://forca/objeto/car</uri>
-      <pose> 4.31 -2.97 0.251305 0 0 0</pose>
+      <pose> 3.17 -2.97 0.251305 0 0 0</pose>
     </include>
 
  <!-- horse -->
@@ -49,142 +40,204 @@
 <!-- dog -->
     <include>
       <uri>model://forca/objeto/dog</uri>
-      <pose> -3.102 -3.125 0.251305 0 0 -0.52</pose>
+      <pose> -5.176 -3.165 0.251305 0 0 -0.52</pose>
     </include>
 
 
 <!-- caixa_01 -->
     <include>
       <uri>model://forca/caixas/caixa_1</uri>
-      <pose> -4.95 1.05 0.251305 0 0 0</pose>
+      <pose> -6.05 4.86 0.251305 0 0 0</pose>
     </include>
 
 <!-- caixa_02 -->
     <include>
       <uri>model://forca/caixas/caixa_2</uri>
-      <pose> -5.75 1.03 0.251305 0 0 0</pose>
+      <pose> -5.51 4.86 0.251305 0 0 0</pose>
     </include>
 
 <!-- caixa_03 -->
     <include>
       <uri>model://forca/caixas/caixa_3</uri>
-      <pose> -6.27 0.45 0.251305 0 0 0</pose>
+      <pose> -4.95 4.85 0.251305 0 0 0</pose>
     </include>
 
 <!-- caixa_04 -->
     <include>
       <uri>model://forca/caixas/caixa_4</uri>
-      <pose> -5.54 -0.38 0.251305 0 0 0</pose>
+      <pose> -6.13 3.17 0.251305 0 0 0</pose>
     </include>    
 
 <!-- caixa_05 -->
     <include>
       <uri>model://forca/caixas/caixa_5</uri>
-      <pose> -4.57 -0.62 0.251305 0 0 0</pose>
+      <pose> -5.633 3.18 0.251305 0 0 0</pose>
+    </include>
+
+<!-- caixa_06 -->
+    <include>
+      <uri>model://forca/caixas/caixa_6</uri>
+      <pose> -4.64 3.65 0.251305 0 0 0</pose>
+    </include>
+
+<!-- caixa_07 -->
+    <include>
+      <uri>model://forca/caixas/caixa_7</uri>
+      <pose> -3.27 3.15 0.251305 0 0 0</pose>
+    </include>
+
+<!-- caixa_08 -->
+    <include>
+      <uri>model://forca/caixas/caixa_8</uri>
+      <pose> -2.77 3.16 0.251305 0 0 0</pose>
+    </include>
+
+<!-- caixa_09 -->
+    <include>
+      <uri>model://forca/caixas/caixa_9</uri>
+      <pose> -2.27 3.16 0.251305 0 0 0</pose>
+    </include>
+
+<!-- caixa_10 -->
+    <include>
+      <uri>model://forca/caixas/caixa_10</uri>
+      <pose> -1.73 3.16 0.251305 0 0 0</pose>
+    </include>
+
+<!-- caixa_11 -->
+    <include>
+      <uri>model://forca/caixas/caixa_11</uri>
+      <pose> -1.72 3.67 0.251305 0 0 0</pose>
+    </include>
+
+<!-- caixa_12 -->
+    <include>
+      <uri>model://forca/caixas/caixa_12</uri>
+      <pose> -1.633 4.74 0.251305 0 0 0</pose>
+    </include>
+
+<!-- caixa_13 -->
+    <include>
+      <uri>model://forca/caixas/caixa_13</uri>
+      <pose> -2.637 4.75 0.251305 0 0 0</pose>
+    </include>
+
+<!-- caixa_14 -->
+    <include>
+      <uri>model://forca/caixas/caixa_14</uri>
+      <pose> -3.23 4.76 0.251305 0 0 0</pose>
+    </include>
+
+<!-- caixa_15 -->
+    <include>
+      <uri>model://forca/caixas/caixa_15</uri>
+      <pose> 3.03 1.23 0.251305 0 0 0</pose>
+    </include>
+
+<!-- caixa_16 -->
+    <include>
+      <uri>model://forca/caixas/caixa_16</uri>
+      <pose> 3.02 0.73 0.251305 0 0 0</pose>
+    </include>
+
+<!-- caixa_17 -->
+    <include>
+      <uri>model://forca/caixas/caixa_17</uri>
+      <pose> 3.03 0.23 0.251305 0 0 0</pose>
+    </include>
+
+ <!-- caixa_18 -->
+    <include>
+      <uri>model://forca/caixas/caixa_18</uri>
+      <pose> 3.04 -0.28 0.251305 0 0 0</pose>
+    </include>   
+
+<!-- caixa_19 -->
+    <include>
+      <uri>model://forca/caixas/caixa_19</uri>
+      <pose> 3.04 -0.78 0.251305 0 0 0</pose>
+    </include>
+
+
+<!-- caixa_20 -->
+    <include>
+      <uri>model://forca/caixas/caixa_20</uri>
+      <pose> 3.55 -0.77 0.251305 0 0 0</pose>
     </include>
 
 <!-- coke -->
     <include>
       <uri>model:///forca/objeto/small_beer</uri>
-      <pose> -5.38 0.24 0.251305 0 0 0</pose>
+      <pose> -1.74 4.23 0.251305 0 0 0</pose>
+    </include> 
+
+
+<!-- cilindro_01 -->
+    <include>
+      <uri>model://forca/objeto/cilindro_01</uri>
+      <pose> 1.49 4.82 0.251305 0 0 0</pose>
+    </include>
+
+
+
+<!--  creeper_11_azul -->
+    <include>
+      <uri>model://forca/creepers/creeper_11_azul</uri>
+      <pose> 1.71 -2.45 0 0 0 -1.17</pose>
+    </include>
+
+<!--  creeper_11_laranja -->
+    <include>
+      <uri>model://forca/creepers/creeper_11_laranja</uri>
+      <pose> 2.75 2.74 0 0 0 -2.72</pose>
+    </include>
+
+ <!--  creeper_12_azul -->
+    <include>
+      <uri>model://forca/creepers/creeper_12_azul</uri>
+      <pose> -1.26 -0.66 0 0 0 0</pose>
+    </include>
+
+<!--  creeper_13_verde -->
+    <include>
+      <uri>model://forca/creepers/creeper_13_verde</uri>
+      <pose> 5.49 1.66 0 0 0 -1.57</pose>
+    </include>
+
+ <!-- creeper_21_verde --> 
+    <include>
+      <uri>model://forca/creepers/creeper_21_verde</uri>
+       <pose> -2.60 0.49 0 0 0 2.849</pose>
+    </include>
+
+
+<!--  creeper_22_azul -->
+    <include>
+      <uri>model://forca/creepers/creeper_22_azul</uri>
+      <pose> -4.30 -1.94 s0 0 0 0.700</pose>    
+      </include>
+      
+<-- creeper_23_verde -->
+    <include>
+      <uri>model://forca/creepers/creeper_23_verde</uri>
+      <pose> -3.45 -2.88 0 0 0 1.04</pose>
     </include> 
 
 
 
- <!-- creeper_11 
+ <!--  creeper_51_azul -->
     <include>
-      <uri>model://pista_s/creepers/creeper_11</uri>
-       <pose> 0.92 4.45 0 0 0 1.599950</pose>
+      <uri>model://forca/creepers/creeper_51_azul</uri>
+      <pose> -5.80 3.69 0 0 0 0</pose>
     </include>
 
-  creeper_11_rosa 
+ <!--  creeper_52_verde -->
     <include>
-      <uri>model://pista_s/creepers/creeper_11_rosa</uri>
-       <pose> -2.73 2.98 0 0 0 1.599950</pose>
-    </include>
-
-  creeper_12 
-    <include>
-      <uri>model://pista_s/creepers/creeper_12</uri>
-      <pose> -0.357 -2.42 0 0 0 1.549944</pose>
-    </include>
-
-  creeper_12_rosa 
-    <include>
-      <uri>model://pista_s/creepers/creeper_12_rosa</uri>
-      <pose> 0.77 -1.8 0 0 0 1.549944</pose>
-    </include>
-
-  creeper_13 
-    <include>
-      <uri>model://pista_s/creepers/creeper_13</uri>
-      <pose> -1.03 -4.73 0 0 0 -1.63</pose>
+      <uri>model://forca/creepers/creeper_52_verde</uri>
+      <pose> -2.30 3.69 0 0 0 0</pose>
     </include>
 
 
-  creeper_21 
-    <include>
-      <uri>model://pista_s/creepers/creeper_21</uri>
-      <pose> -0.647 0.63 0 0 0 0</pose>
-    </include>
-creeper_21_laranja 
-    <include>
-      <uri>model://pista_s/creepers/creeper_21_laranja</uri>
-      <pose> 2.5 -3.150 0 0 0 0</pose>
-    </include>
-
- creeper_22 
-    <include>
-      <uri>model://pista_s/creepers/creeper_22</uri>
-      <pose> 0.48 1.52 0 0 0 1.549952</pose>    
-     
-    </include>
- creeper_23 
-    <include>
-      <uri>model://pista_s/creepers/creeper_23</uri>
-      <pose> -2.60 3.09 0 0 0 0</pose>
-    </include> -->
-    
-    
- <!--   creeper_50 -->
-    <include>
-      <uri>model://pista_s/creepers/creeper_50</uri>
-      <pose> 5.37 -1.96 0.162 0 0 -2.32</pose>
-    </include>
-
-
- <!-- creeper_100 -->
-    <include>
-      <uri>model://pista_s/creepers/creeper_100</uri>
-      <pose> -4.88 2.41 0.162 0 0 0.740</pose>
-    </include>
-
- <!-- creeper_150 --> 
-    <include>
-      <uri>model://pista_s/creepers/creeper_150</uri>
-      <pose> -4.44 -3.19 0.162 0 0 2.63</pose>
-    </include>
-
-
- <!-- creeper_200 -->
-    <include>
-      <uri>model://pista_s/creepers/creeper_200</uri>
-      <pose> 0.502 0.69 0.162 0 0 -0.056</pose>
-    </include>
-
-<!-- creeper_25 -->
-    <include>
-      <uri>model://forca/creepers/creeper_25</uri>
-      <pose> 5.47 2.06 0.162 0 0 -0.98</pose>
-    </include>-->
-
-
-
- <!-- creeper_15 --> 
-    <include>
-      <uri>model://forca/creepers/creeper_15</uri>
-      <pose> -3.50 -0.32 0.162 0 0 1.63</pose>
-    </include>
 
 
     <physics type="ode">
