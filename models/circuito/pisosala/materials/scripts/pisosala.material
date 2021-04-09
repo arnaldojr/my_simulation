@@ -6,7 +6,7 @@ material pisosala
     {
       texture_unit
       {
-        texture pisosala.png
+        texture pisosala.jpeg
       }
     }
   }

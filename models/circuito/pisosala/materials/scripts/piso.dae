@@ -11,8 +11,9 @@
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_images>
+  
     <image id="pisosala_png" name="pisosala_png">
-      <init_from>pisosala.png</init_from>
+      <init_from>pisosala.jpeg</init_from>
     </image>
   </library_images>
   <library_effects>

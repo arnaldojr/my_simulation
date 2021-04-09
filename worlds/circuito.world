@@ -20,21 +20,21 @@
   <!-- caixa_azul -->
     <include>
       <uri>model://circuito/cubo_azul</uri>
-      <pose> -2.46 2.50 0.75 0 0 0</pose>
+      <pose> -3.92 2.50 0.75 0 0 0</pose>
     </include>
 
 
   <!-- caixa_vermelho -->
     <include>
       <uri>model://circuito/cubo_vermelho</uri>
-      <pose> -0.058 2.5 0.75 0 0 0</pose>
+      <pose> -0.058 4.5 0.75 0 0 0</pose>
     </include>
 
 
   <!-- caixa_verde -->
     <include>
       <uri>model://circuito/cubo_verde</uri>
-      <pose> 2.65 2.5 0.75 0 0 0</pose>
+      <pose> 3.95 2.5 0.75 0 0 0</pose>
     </include>
 
 
