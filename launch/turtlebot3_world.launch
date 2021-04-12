@@ -1,0 +1,39 @@
+<launch>
+  <arg name="world" default="empty"/> 
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="debug" default="false"/>
+
+  <rosparam file="$(find mybot_description)/config/mybot_control.yaml" command="load"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find my_simulation)/worlds/turtlebot3_world.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <!-- send robot urdf to param server -->
+  <param name="robot_description" command="$(find xacro)/xacro '$(find mybot_description)/urdf/mybot.urdf.xacro'"/>
+
+
+  <!-- push robot_description to factory and spawn robot in gazebo -->
+   <node name="mybot_spawn" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" 
+    args="-urdf -param robot_description -model mybot  -x -2.0 -y 0.5 -Y 0.0" />
+
+  
+
+  <rosparam file="$(find mybot_description)/config/mybot_control.yaml" command="load"/>
+  <node name="joint_state_controller_spawner" pkg="controller_manager" type="controller_manager" output="screen"
+    args="spawn joint_state_controller" respawn="false"/>
+  
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  
+ <rosparam file="$(find mybot_description)/config/gazebo_ros_control_params.yaml" command="load" />
+ <node name="arm_controller_spawner" pkg="controller_manager" type="controller_manager" respawn="false" output="screen" args="spawn"/>
+
+</launch>
