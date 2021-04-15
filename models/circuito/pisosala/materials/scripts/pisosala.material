@@ -1,0 +1,14 @@
+material pisosala
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture pisosala.jpeg
+      }
+    }
+  }
+}
+
