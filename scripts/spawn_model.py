@@ -32,11 +32,11 @@ for y in range(9):
    
     pwd = '/home/borg/catkin_ws/src/my_simulation/models/forca/creepers/{}/model.sdf'.format(creeper)
 
-    print("creeper",creeper)
-    print ("endreço",pwd)
-    print("pose",pose)
-    print ("lista",creepers)
-    print ("posicoes",poses)
+    print("creeper escolhido:",creeper)
+    print("posição no mapa: ",pose)
+    print("=====================================================================================================================")
+    print ("lista de creepers disponiveis: ",creepers)
+    print ("posicoes disponiveis no mapa: ",poses)
 
     spawn_model_client = rospy.ServiceProxy('/gazebo/spawn_sdf_model', SpawnModel)
     spawn_model_client(
