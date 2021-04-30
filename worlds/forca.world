@@ -237,8 +237,30 @@
       <pose> -2.30 3.69 0 0 0 0</pose>
     </include>
 
+ <!--  creeper_50 -->
+    <include>
+      <uri>model://forca/creepers/creeper_50</uri>
+      <pose> -4.79 2.256 0.1744 0 0 0.700</pose>
+    </include>
 
 
+ <!--  creeper_100 -->
+    <include>
+      <uri>model://forca/creepers/creeper_100</uri>
+      <pose> -3.4 -0.32 0.1744 0 0 1.63</pose>
+    </include>
+
+ <!--  creeper_150 -->
+    <include>
+      <uri>model://forca/creepers/creeper_150</uri>
+      <pose> -4.315 -3.09 0.1744 0 0 2.66</pose>
+    </include>
+
+ <!--  creeper_200 -->
+    <include>
+      <uri>model://forca/creepers/creeper_200</uri>
+      <pose> 1.72 -0.063 0.1744 0 0 -1.64</pose>
+    </include>
 
     <physics type="ode">
       <real_time_update_rate>1000.0</real_time_update_rate>

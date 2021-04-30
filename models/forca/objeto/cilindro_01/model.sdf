@@ -34,9 +34,9 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>1 0 0.9 1</ambient>
-          <diffuse>1 0 0.8 1</diffuse>
-          <specular>1 0 0.9 1</specular>
+          <ambient>0.128 0.128 0.128 1</ambient>
+          <diffuse>0.128 0.128 0.128 1</diffuse>
+          <specular>0.128 0.128 0.128 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <pose>0 0 0 0 -0 0</pose>
@@ -133,9 +133,9 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>1 0 0.9 1</ambient>
-          <diffuse>1 0 0.8 1</diffuse>
-          <specular>1 0 0.9 1</specular>
+          <ambient>0.128 0.128 0.128 1</ambient>
+          <diffuse>0.128 0.128 0.128 1</diffuse>
+          <specular>0.128 0.128 0.128 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <pose>0 0 0 0 -0 0</pose>
@@ -232,9 +232,9 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>1 0 0.9 1</ambient>
-          <diffuse>1 0 0.8 1</diffuse>
-          <specular>1 0 0.9 1</specular>
+          <ambient>0.128 0.128 0.128 1</ambient>
+          <diffuse>0.128 0.128 0.128 1</diffuse>
+          <specular>0.128 0.128 0.128 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <pose>0 0 0 0 -0 0</pose>
@@ -331,9 +331,9 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>1 0 0.9 1</ambient>
-          <diffuse>1 0 0.8 1</diffuse>
-          <specular>1 0 0.9 1</specular>
+          <ambient>0.128 0.128 0.128 1</ambient>
+          <diffuse>0.128 0.128 0.128 1</diffuse>
+          <specular>0.128 0.128 0.128 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <pose>0 0 0 0 -0 0</pose>
@@ -430,9 +430,9 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>1 0 0.9 1</ambient>
-          <diffuse>1 0 0.8 1</diffuse>
-          <specular>1 0 0.9 1</specular>
+          <ambient>0.128 0.128 0.128 1</ambient>
+          <diffuse>0.128 0.128 0.128 1</diffuse>
+          <specular>0.128 0.128 0.128 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <pose>0 0 0 0 -0 0</pose>
@@ -529,9 +529,9 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>1 0 0.9 1</ambient>
-          <diffuse>1 0 0.8 1</diffuse>
-          <specular>1 0 0.9 1</specular>
+          <ambient>0.128 0.128 0.128 1</ambient>
+          <diffuse>0.128 0.128 0.128 1</diffuse>
+          <specular>0.128 0.128 0.128 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <pose>0 0 0 0 -0 0</pose>
@@ -628,9 +628,9 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>1 0 0.9 1</ambient>
-          <diffuse>1 0 0.8 1</diffuse>
-          <specular>1 0 0.9 1</specular>
+          <ambient>0.128 0.128 0.128 1</ambient>
+          <diffuse>0.128 0.128 0.128 1</diffuse>
+          <specular>0.128 0.128 0.128 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <pose>0 0 0 0 -0 0</pose>
@@ -727,9 +727,9 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>1 0 0.9 1</ambient>
-          <diffuse>1 0 0.8 1</diffuse>
-          <specular>1 0 0.9 1</specular>
+          <ambient>0.128 0.128 0.128 1</ambient>
+          <diffuse>0.128 0.128 0.128 1</diffuse>
+          <specular>0.128 0.128 0.128 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <pose>0 0 0 0 -0 0</pose>
@@ -826,9 +826,9 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>1 0 0.9 1</ambient>
-          <diffuse>1 0 0.8 1</diffuse>
-          <specular>1 0 0.9 1</specular>
+          <ambient>0.128 0.128 0.128 1</ambient>
+          <diffuse>0.128 0.128 0.128 1</diffuse>
+          <specular>0.128 0.128 0.128 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <pose>0 0 0 0 -0 0</pose>
@@ -925,9 +925,9 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>1 0 0.9 1</ambient>
-          <diffuse>1 0 0.8 1</diffuse>
-          <specular>1 0 0.9 1</specular>
+          <ambient>0.128 0.128 0.128 1</ambient>
+          <diffuse>0.128 0.128 0.128 1</diffuse>
+          <specular>0.128 0.128 0.128 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <pose>0 0 0 0 -0 0</pose>
@@ -1024,9 +1024,9 @@
           <shader type='vertex'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>1 0 0.9 1</ambient>
-          <diffuse>1 0 0.8 1</diffuse>
-          <specular>1 0 0.9 1</specular>
+          <ambient>0.128 0.128 0.128 1</ambient>
+          <diffuse>0.128 0.128 0.128 1</diffuse>
+          <specular>0.128 0.128 0.128 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
         <pose>0 0 0 0 -0 0</pose>
