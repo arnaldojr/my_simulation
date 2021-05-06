@@ -18,6 +18,13 @@
       <pose> 0 0 0 0 0 -1.57</pose>
     </include>
 
+
+  <!-- Parede da sala - circuito -->
+    <include>
+      <uri>model://forca/parede</uri>
+      <pose> 0 0 0 0 0 0</pose>
+    </include>
+
 <!-- car -->
     <include>
       <uri>model://forca/objeto/car</uri>
