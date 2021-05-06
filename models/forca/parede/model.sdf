@@ -29,15 +29,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Black</name>
+            <name>Gazebo/DarkGrey</name>
           </script>
-          <ambient>0 0 0 1</ambient>
-          <shader type='vertex'>
-            <normal_map>__default__</normal_map>
-          </shader>
-          <diffuse>0 0 0 1</diffuse>
-          <specular>0 0 0 1</specular>
-          <emissive>0 0 0 1</emissive>
+          <ambient>0.5 0.5 0.5 1</ambient>
         </material>
         <meta>
           <layer>0</layer>
@@ -129,15 +123,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Black</name>
+            <name>Gazebo/DarkGrey</name>
           </script>
-          <ambient>0 0 0 1</ambient>
-          <shader type='vertex'>
-            <normal_map>__default__</normal_map>
-          </shader>
-          <diffuse>0 0 0 1</diffuse>
-          <specular>0 0 0 1</specular>
-          <emissive>0 0 0 1</emissive>
+          <ambient>0.5 0.5 0.5 1</ambient>
         </material>
         <meta>
           <layer>0</layer>
@@ -229,15 +217,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Black</name>
+            <name>Gazebo/DarkGrey</name>
           </script>
-          <ambient>0 0 0 1</ambient>
-          <shader type='vertex'>
-            <normal_map>__default__</normal_map>
-          </shader>
-          <diffuse>0 0 0 1</diffuse>
-          <specular>0 0 0 1</specular>
-          <emissive>0 0 0 1</emissive>
+          <ambient>0.5 0.5 0.5 1</ambient>
         </material>
         <meta>
           <layer>0</layer>
@@ -329,15 +311,9 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Black</name>
+            <name>Gazebo/DarkGrey</name>
           </script>
-          <ambient>0 0 0 1</ambient>
-          <shader type='vertex'>
-            <normal_map>__default__</normal_map>
-          </shader>
-          <diffuse>0 0 0 1</diffuse>
-          <specular>0 0 0 1</specular>
-          <emissive>0 0 0 1</emissive>
+          <ambient>0.5 0.5 0.5 1</ambient>
         </material>
         <meta>
           <layer>0</layer>
