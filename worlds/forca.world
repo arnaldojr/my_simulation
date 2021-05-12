@@ -247,7 +247,7 @@
  <!--  creeper_50 -->
     <include>
       <uri>model://forca/creepers/creeper_50</uri>
-      <pose> -4.79 2.256 0.1744 0 0 0.700</pose>
+      <pose> -4.79 2.256 0.25 0.1 0.32 0.700</pose>
     </include>
 
 
@@ -260,7 +260,7 @@
  <!--  creeper_150 -->
     <include>
       <uri>model://forca/creepers/creeper_150</uri>
-      <pose> -4.315 -3.09 0.1744 0 0 2.66</pose>
+      <pose> -4.315 -3.09 0.233 0.143 -0.25 2.66</pose>
     </include>
 
  <!--  creeper_200 -->
