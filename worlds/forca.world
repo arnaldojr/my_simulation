@@ -196,7 +196,7 @@
 <!--  creeper_11_laranja -->
     <include>
       <uri>model://forca/creepers/creeper_11_laranja</uri>
-      <pose> 2.75 2.74 0 0 0 -2.72</pose>
+      <pose> 4.96 -2.19 0 0 0 2.86</pose>
     </include>
 
  <!--  creeper_12_azul -->
@@ -230,7 +230,11 @@
       <pose> -3.45 -2.88 0 0 0 1.04</pose>
     </include> 
 
-
+<!--  creeper_21_laranja -->
+    <include>
+      <uri>model://forca/creepers/creeper_21_laranja</uri>
+      <pose> 3.29  2.82 0 0 0 -3.07</pose>
+    </include>
 
  <!--  creeper_51_azul -->
     <include>
