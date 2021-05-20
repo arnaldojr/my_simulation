@@ -70,3 +70,10 @@ https://www.youtube.com/watch?v=X9Sp60IPk0M&list=PLM8rZg4fCalht-rexa91MO1y3jxm9m
 
 
 
+# Link original das imagens
+
+cavalo: https://www.flickr.com/photos/33598193@N03/3705232382
+
+Vaca:  https://www.vetsmart.com.br/be/raca/17010/holandesa
+
+Cachorro: https://www.flickr.com/photos/150258205@N05/32255598460
