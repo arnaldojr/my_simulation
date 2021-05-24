@@ -38,10 +38,10 @@ for y in range(9):
     print("creeper escolhido:",creeper)
     print("posição no mapa: ",pose)
 
-    
+    creeper_clone = creeper + "_clone"    
     spawn_model_client = rospy.ServiceProxy('/gazebo/spawn_sdf_model', SpawnModel)
     spawn_model_client(
-        model_name=creeper,
+        model_name=creeper_clone,
         model_xml=open(pwd, 'r').read(),
         robot_namespace='/mybot',
         initial_pose=pose,
