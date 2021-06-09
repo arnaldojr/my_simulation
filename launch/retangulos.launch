@@ -20,8 +20,8 @@
   </include>
 
   <!-- Robot pose -->
-  <arg name="x" default="-1.98"/>
-  <arg name="y" default="0.0"/>
+  <arg name="x" default="-0.05"/>
+  <arg name="y" default="-1.68"/>
   <arg name="z" default="0"/>
   <arg name="roll" default="0"/>
   <arg name="pitch" default="0"/>
