@@ -1,8 +1,8 @@
 <?xml version='1.0'?>
-<sdf version='1.6'>
+<sdf version='1.7'>
   <model name='parede'>
     <link name='Wall_0'>
-      <pose frame=''>-0.004951 -5.56026 1.6176 0 -0 0</pose>
+      <pose>-0.004951 -5.56026 1.6176 0 -0 0</pose>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
@@ -16,14 +16,14 @@
           <izz>0</izz>
         </inertia>
         <mass>0</mass>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
       </inertial>
       <gravity>1</gravity>
       <visual name='Wall_0_Visual'>
-        <pose frame=''>0 0 0.25 0 -0 0</pose>
+        <pose>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>13.1161 0.15 3.80528</size>
+            <size>13.1161 0.15 1.80528</size>
           </box>
         </geometry>
         <material>
@@ -48,10 +48,10 @@
       <collision name='Wall_0_Collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0 0 0.25 0 -0 0</pose>
+        <pose>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>13.1161 0.15 3.80528</size>
+            <size>13.1161 0.15 1.80528</size>
           </box>
         </geometry>
         <surface>
@@ -102,7 +102,7 @@
       </collision>
     </link>
     <link name='Wall_1'>
-      <pose frame=''>0.061052 5.53717 1.56964 0 -0 3.14</pose>
+      <pose>0.061052 5.53717 1.56964 0 -0 3.14</pose>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
@@ -116,14 +116,14 @@
           <izz>0</izz>
         </inertia>
         <mass>0</mass>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
       </inertial>
       <gravity>1</gravity>
       <visual name='Wall_1_Visual'>
-        <pose frame=''>0 0 0.25 0 -0 0</pose>
+        <pose>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>13.2056 0.15 3.74882</size>
+            <size>13.1161 0.15 1.80528</size>
           </box>
         </geometry>
         <material>
@@ -148,10 +148,10 @@
       <collision name='Wall_1_Collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0 0 0.25 0 -0 0</pose>
+        <pose>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>13.2056 0.15 3.74882</size>
+            <size>13.1161 0.15 1.80528</size>
           </box>
         </geometry>
         <surface>
@@ -202,7 +202,7 @@
       </collision>
     </link>
     <link name='Wall_2'>
-      <pose frame=''>6.5 0.005899 1.60088 0 -0 1.57</pose>
+      <pose>6.5 0.005899 1.60088 0 -0 1.57</pose>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
@@ -216,14 +216,14 @@
           <izz>0</izz>
         </inertia>
         <mass>0</mass>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
       </inertial>
       <gravity>1</gravity>
       <visual name='Wall_2_Visual'>
-        <pose frame=''>0 0 0.25 0 -0 0</pose>
+        <pose>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>11.2703 0.15 3.76805</size>
+            <size>11.2748 0.15 1.80528</size>
           </box>
         </geometry>
         <material>
@@ -248,10 +248,10 @@
       <collision name='Wall_2_Collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0 0 0.25 0 -0 0</pose>
+        <pose>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>11.2703 0.15 3.76805</size>
+            <size>11.2748 0.15 1.80528</size>
           </box>
         </geometry>
         <surface>
@@ -302,7 +302,7 @@
       </collision>
     </link>
     <link name='Wall_3'>
-      <pose frame=''>-6.49998 -0.025026 1.60205 0 0 -1.57</pose>
+      <pose>-6.49998 -0.025026 1.60205 0 0 -1.57</pose>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
@@ -316,14 +316,14 @@
           <izz>0</izz>
         </inertia>
         <mass>0</mass>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose>0 0 0 0 -0 0</pose>
       </inertial>
       <gravity>1</gravity>
       <visual name='Wall_3_Visual'>
-        <pose frame=''>0 0 0.25 0 -0 0</pose>
+        <pose>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>11.2998 0.15 3.92171</size>
+            <size>11.223 0.15 1.80528</size>
           </box>
         </geometry>
         <material>
@@ -348,10 +348,10 @@
       <collision name='Wall_3_Collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0 0 0.25 0 -0 0</pose>
+        <pose>0 0 0.25 0 -0 0</pose>
         <geometry>
           <box>
-            <size>11.2998 0.15 3.92171</size>
+            <size>11.223 0.15 1.80528</size>
           </box>
         </geometry>
         <surface>
