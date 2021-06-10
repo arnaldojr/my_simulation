@@ -58,38 +58,38 @@
 <!-- creeper_21_ciano -->
     <include>
       <uri>model://encaixotado/creepers/creeper_21</uri>
-      <pose> 2.89 -6 0.546 0 0 -3.136</pose>
+      <pose> 2.89 -6 0.546 0 -0.47 -3.136</pose>
     </include>
 
 <!-- creeper_21_roxo -->
     <include>
       <uri>model://encaixotado/creepers/creeper_21_1</uri>
-      <pose> -0.196 -0.21 0.546 0 0 1.578</pose>
+      <pose> -0.196 -0.21 0.546 0 -0.47 1.578</pose>
     </include>
 
  <!-- creeper_41_ciano -->
     <include>
       <uri>model://encaixotado/creepers/creeper_41</uri>
-     <pose> 6.17  -0.22 0.546 0 0 -1.60</pose>
+     <pose> 6.17  -0.22 0.546 0  -0.47 -1.60</pose>
     </include>
 
  <!-- creeper_41_amarelo -->
     <include>
       <uri>model://encaixotado/creepers/creeper_41_1</uri>
-      <pose> -0.1 -4.26 0.546 0 0 1.54</pose>
+      <pose> -0.1 -4.26 0.546 0 -0.47 1.54</pose>
     </include>
 
  <!-- creeper_61_amarelo -->
     <include>
       <uri>model://encaixotado/creepers/creeper_61</uri>
-      <pose> 2.7 0.97 0.546 0 0 0</pose>
+      <pose> 2.7 0.97 0.546 0 -0.47 0</pose>
     </include>
 
 
  <!-- creeper_61_roxo -->
     <include>
       <uri>model://encaixotado/creepers/creeper_61_1</uri>
-       <pose> 6.17 -4.2 0.546 0 0 -1.54</pose>
+       <pose> 6.17 -4.2 0.546 0 -0.47 -1.54</pose>
     </include>
 
     <physics type="ode">
