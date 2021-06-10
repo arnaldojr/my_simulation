@@ -70,19 +70,19 @@
   <!-- creeper_15 -->
     <include>
       <uri>model://cruzamento/creepers/creeper_15</uri>
-      <pose> 1.38 3.68 0.35 0 0 0</pose>
+      <pose> 1.38 3.68 0.5 0 -0.47 0</pose>
     </include>
 
   <!-- creeper_25 -->
     <include>
       <uri>model://cruzamento/creepers/creeper_25</uri>
-      <pose> 1.38 -3.66 0.35 0 0 3.12</pose>
+      <pose> 1.38 -3.66 0.5 0 -0.47 3.12</pose>
     </include>
 
   <!-- creeper_35 -->
     <include>
       <uri>model://cruzamento/creepers/creeper_35</uri>
-      <pose> 4.87 0.0 0.35 0 0 -1.57</pose>>
+      <pose> 4.87 0.0 0.50 0 -0.47 -1.57</pose>>
     </include>
 
 
