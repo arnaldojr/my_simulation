@@ -29,13 +29,13 @@
   <!-- gato -->
     <include>
       <uri>model://retangulos/objeto/cat</uri>
-      <pose> 2.66 -0.19 0.25 0 0 0.56</pose>
+      <pose> 2.66 0.25 0.25 0 0 0.56</pose>
     </include>
 
   <!-- cachorro -->
     <include>
       <uri>model://retangulos/objeto/dog</uri>
-      <pose> -0.68 2.96 0.25 0 0 0.615</pose>
+      <pose> -0.22 2.96 0.25 0 0 0.615</pose>
     </include>
 
 
