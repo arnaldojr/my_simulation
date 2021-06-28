@@ -12,77 +12,67 @@
       <pose> -2.0 2.0 2.0 0 0 0</pose>
     </include>
 
-<!-- parede -->
+  <!-- Piso da sala  -->
     <include>
-      <uri>model://cruzamento/parede</uri>
-      <pose> 0 0 -1 0 0 0</pose>
-    </include>
-
-
-  <!-- Piso da sala - circuito -->
-    <include>
-      <uri>model://cruzamento/pisosala</uri>
+      <uri>model://salinha/pisosala</uri>
       <pose> 0 0 0 0 0 -1.57</pose>
     </include>
 
-  <!-- caixa_amarela_15 -->
+
+  <!-- Parede da sala  -->
     <include>
-      <uri>model://cruzamento/objeto/caixa_amarela</uri>
-      <pose> 0.114 4.38 0.75 0 0 0</pose>
+      <uri>model://salinha/parede</uri>
+      <pose> -0.53 -3.51 0 0 0 0</pose>
     </include>
 
- <!-- caixa_azul -->
+  <!-- trave  -->
     <include>
-      <uri>model://cruzamento/objeto/caixa_azul</uri>
-      <pose> 0.17 -4.40 0.75 0 0 0</pose>
+      <uri>model://salinha/trave</uri>
+      <pose> 0.002444 -1.98 0.15 0 0 0</pose>
     </include>
 
-  <!-- bola_verde -->
+     <!-- carrega base -->
     <include>
-      <uri>model://cruzamento/objeto/bola_verde</uri>
-      <pose> 0 0 1 0 0 0</pose>
+      <uri>model://salinha/base</uri>
+      <pose> 4.73 -1.73 0.0 0 0 0</pose>
     </include>
 
-  <!-- bola_azul_15 -->
+     <!-- carrega cilindro_vermelho -->
     <include>
-      <uri>model://cruzamento/objeto/bola_azul_15</uri>
-      <pose> -1.701 4.4 0.75 0 0 0</pose>
+      <uri>model://salinha/cilindro_vermelho</uri>
+      <pose> 4.406 -0.915 0.15 0 0 0</pose>
     </include>
 
- <!-- bola_azul_35 -->
+     <!-- carrega cilindro_azul -->
     <include>
-      <uri>model://cruzamento/objeto/bola_azul_35</uri>
-      <pose> 5.411 1.29 0 0 0</pose>
+      <uri>model://salinha/cilindro_azul</uri>
+      <pose> 4.406 -2.6 0.15 0 0 0</pose>
     </include>
 
- <!-- bola_amarela_35 -->
+
+     <!-- carrega cilindro_verde -->
     <include>
-      <uri>model://cruzamento/objeto/bola_amarela_35</uri>
-      <pose> 5.43 -1.28 0.75 0 0 0</pose>
+      <uri>model://salinha/cilindro_verde</uri>
+      <pose>  4.406 -1.699 0.15 0 0 0</pose>
     </include>
 
- <!-- bola_amarela_25 -->
+
+ <!--  creeper_50 -->
     <include>
-      <uri>model://cruzamento/objeto/bola_amarela_25</uri>
-      <pose> -1.42 -4.32 0.75 0 0 0</pose>
+      <uri>model://salinha/creepers/creeper_50</uri>
+      <pose> 4.613793 -0.85 0.5 0 0.79 -1.45</pose>
     </include>
 
-  <!-- creeper_15 -->
+ <!--  creeper_100 -->
     <include>
-      <uri>model://cruzamento/creepers/creeper_15</uri>
-      <pose> 1.38 3.68 0.5 0 -0.47 0</pose>
+      <uri>model://salinha/creepers/creeper_100</uri>
+      <pose> 4.613793 -1.7 0.5 0 0.79 -1.45</pose>
     </include>
 
-  <!-- creeper_25 -->
+ <!--  creeper_150 -->
     <include>
-      <uri>model://cruzamento/creepers/creeper_25</uri>
-      <pose> 1.38 -3.66 0.5 0 -0.47 3.12</pose>
-    </include>
-
-  <!-- creeper_35 -->
-    <include>
-      <uri>model://cruzamento/creepers/creeper_35</uri>
-      <pose> 4.87 0.0 0.50 0 -0.47 -1.57</pose>>
+      <uri>model://salinha/creepers/creeper_150</uri>
+      <pose> 4.613793 -2.55 0.5 0 0.79 -1.45</pose>
     </include>
 
 
