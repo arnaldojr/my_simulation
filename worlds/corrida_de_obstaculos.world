@@ -1,0 +1,172 @@
+<sdf version="1.4">
+  <world name="default">
+    <scene>
+      <ambient>0.8 0.8 0.8 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+      <pose> -2.0 2.0 2.0 0 0 0</pose>
+    </include>
+
+  <!-- Piso da sala - circuito -->
+    <include>
+      <uri>model://corrida_de_obstaculos/pisosala</uri>
+      <pose> 0 0 0 0 0 -1.57</pose>
+    </include>
+
+
+  <!-- Parede da sala - circuito -->
+    <include>
+      <uri>model://corrida_de_obstaculos/parede</uri>
+      <pose> 0 0 0 0 0 0</pose>
+    </include>
+
+ <!--  trave_1 -->
+    <include>
+      <uri>model://corrida_de_obstaculos/traves/trave_1</uri>
+      <pose> -3.43 -0.26 0.16 0 0 -1.48</pose>
+    </include>
+
+ <!--  trave_2 -->
+    <include>
+      <uri>model://corrida_de_obstaculos/traves/trave_2</uri>
+      <pose> -3.44 0.98 0.16 0 0 -1.48</pose>
+    </include>
+
+ <!--  trave_3 -->
+    <include>
+      <uri>model://corrida_de_obstaculos/traves/trave_3</uri>
+      <pose> -2.15 2.13 0.16 0 0 -3.1</pose>
+    </include>
+
+ <!--  trave_4 -->
+    <include>
+      <uri>model://corrida_de_obstaculos/traves/trave_4</uri>
+      <pose> -0.99 2.12 0.16 0 0 -3.10</pose>
+    </include>
+
+
+ <!--  trave_5 -->
+    <include>
+      <uri>model://corrida_de_obstaculos/traves/trave_5</uri>
+      <pose> 1.77 2.19 0.16 0 0 -3.10</pose>
+    </include>
+
+ <!--  trave_6 -->
+    <include>
+      <uri>model://corrida_de_obstaculos/traves/trave_6</uri>
+      <pose> 3.12 2.17 0.16 0 0 3.10</pose>
+    </include>
+
+ <!--  trave_7 -->
+    <include>
+      <uri>model://corrida_de_obstaculos/traves/trave_7</uri>
+      <pose> 3.70 1.08 0.16 0 0 -1.62</pose>
+    </include>
+
+
+ <!--  trave_8 -->
+    <include>
+      <uri>model://corrida_de_obstaculos/traves/trave_8</uri>
+      <pose> 3.69 -0.13 0.16 0 0 -1.62</pose>
+    </include>
+
+
+ <!--  creeper_10  -->
+    <include>
+      <uri>model://corrida_de_obstaculos/creepers/creeper_10</uri>
+      <pose> -2.79 -0.19 0.15 0 -0.45 0</pose>
+    </include>
+
+
+ <!--  creeper_20  -->
+    <include>
+      <uri>model://corrida_de_obstaculos/creepers/creeper_20</uri>
+      <pose> -3.83 0.94 0.15 0 -0.45 0</pose>
+    </include>
+
+
+ <!--  creeper_30  -->
+    <include>
+      <uri>model://corrida_de_obstaculos/creepers/creeper_30</uri>
+      <pose> -2.16 1.51 0.15 0 -0.45 -1.48</pose>
+    </include>
+
+
+ <!--  creeper_40  -->
+    <include>
+      <uri>model://corrida_de_obstaculos/creepers/creeper_40</uri>
+      <pose> -1.16 2.46 0.15 0 -0.45 -1.48</pose>
+    </include>
+
+ <!--  creeper_50  -->
+    <include>
+      <uri>model://corrida_de_obstaculos/creepers/creeper_50</uri>
+      <pose> 1.86 1.50 0.15 0 -0.45 -1.48</pose>
+    </include>
+
+
+ <!--  creeper_60  -->
+    <include>
+      <uri>model://corrida_de_obstaculos/creepers/creeper_50</uri>
+      <pose> 3.08 2.44 0.15 0 -0.45 -1.48</pose>
+    </include>
+
+ <!--  creeper_70  -->
+    <include>
+      <uri>model://corrida_de_obstaculos/creepers/creeper_70</uri>
+      <pose> 3.43 1.08 0.15 3.06 -0.45 0</pose>
+    </include>
+
+ <!--  creeper_80  -->
+    <include>
+      <uri>model://corrida_de_obstaculos/creepers/creeper_80</uri>
+      <pose> 4.33 -0.14 0.15 0 -0.45 -3.12</pose>
+    </include>
+
+
+ <!--  creeper_100 -->
+    <include>
+      <uri>model://corrida_de_obstaculos/creepers/creeper_100</uri>
+      <pose> 0.29 4.39 0.25 0 -0.47 0</pose>
+    </include>
+
+
+
+
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>150</iters>
+          <precon_iters>0</precon_iters>
+          <sor>1.400000</sor>
+          <use_dynamic_moi_rescaling>1</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <cfm>0.00001</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>2000.000000</contact_max_correcting_vel>
+          <contact_surface_layer>0.01000</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>
+   
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>0.238775 -6.8831 10.8485 -0 0.979642 1.5602</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+
+  </world>
+
+</sdf>

@@ -1,0 +1,14 @@
+material caixa
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture caixa.png
+      }
+    }
+  }
+}
+

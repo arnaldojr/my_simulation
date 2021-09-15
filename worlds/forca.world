@@ -18,6 +18,13 @@
       <pose> 0 0 0 0 0 -1.57</pose>
     </include>
 
+
+  <!-- Parede da sala - circuito -->
+    <include>
+      <uri>model://forca/parede</uri>
+      <pose> 0 0 0 0 0 0</pose>
+    </include>
+
 <!-- car -->
     <include>
       <uri>model://forca/objeto/car</uri>
@@ -189,7 +196,7 @@
 <!--  creeper_11_laranja -->
     <include>
       <uri>model://forca/creepers/creeper_11_laranja</uri>
-      <pose> 2.75 2.74 0 0 0 -2.72</pose>
+      <pose> 4.96 -2.19 0 0 0 2.86</pose>
     </include>
 
  <!--  creeper_12_azul -->
@@ -223,7 +230,11 @@
       <pose> -3.45 -2.88 0 0 0 1.04</pose>
     </include> 
 
-
+<!--  creeper_21_laranja -->
+    <include>
+      <uri>model://forca/creepers/creeper_21_laranja</uri>
+      <pose> 3.29  2.82 0 0 0 -3.07</pose>
+    </include>
 
  <!--  creeper_51_azul -->
     <include>
@@ -237,8 +248,30 @@
       <pose> -2.30 3.69 0 0 0 0</pose>
     </include>
 
+ <!--  creeper_50 -->
+    <include>
+      <uri>model://forca/creepers/creeper_50</uri>
+      <pose> -4.79 2.256 0.25 0.1 0.32 0.700</pose>
+    </include>
 
 
+ <!--  creeper_100 -->
+    <include>
+      <uri>model://forca/creepers/creeper_100</uri>
+      <pose> -3.4 -0.32 0.25 -0.104 0.403 1.63</pose>
+    </include>
+
+ <!--  creeper_150 -->
+    <include>
+      <uri>model://forca/creepers/creeper_150</uri>
+      <pose> -4.315 -3.09 0.25 0.143 -0.25 2.66</pose>
+    </include>
+
+ <!--  creeper_200 -->
+    <include>
+      <uri>model://forca/creepers/creeper_200</uri>
+      <pose> 1.72 -0.063 0.25 -0.195 0.416 -1.64</pose>
+    </include>
 
     <physics type="ode">
       <real_time_update_rate>1000.0</real_time_update_rate>
