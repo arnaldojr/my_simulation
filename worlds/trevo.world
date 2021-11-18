@@ -22,7 +22,7 @@
 <!-- car -->
     <include>
       <uri>model://trevo/objeto/car</uri>
-      <pose> -2.99 -1.66 0.251305 0 0 0</pose>
+      <pose> -5.88 -1.66 0.251305 0 0 0</pose>
     </include>
 
  <!-- horse -->
