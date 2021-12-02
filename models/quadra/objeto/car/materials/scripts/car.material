@@ -1,0 +1,14 @@
+material car
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture car.png
+      }
+    }
+  }
+}
+
