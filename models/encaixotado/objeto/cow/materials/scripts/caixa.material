@@ -1,0 +1,14 @@
+material cow
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture caixa.png
+      }
+    }
+  }
+}
+
