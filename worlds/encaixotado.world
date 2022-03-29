@@ -17,80 +17,36 @@
       <uri>model://ground_plane</uri>
     </include>
 
-    <!-- caixa_caino -->
+    <!-- parede -->
     <include>
-      <uri>model://encaixotado/cubo_ciano</uri>
-      <pose> 6.98 -0.23 0.162 0 0 0</pose>
+      <uri>model://encaixotado/parede</uri>
     </include>
+ 
 
-     <!-- caixa_amarelo -->
+    <!-- horse -->
     <include>
-      <uri>model://encaixotado/cubo_amarelo</uri>
-      <pose> -0.886720 -4.282310 0.162 0 0 0</pose>
-
-    </include> 
-
-    <!-- caixa_roxo -->
-    <include>
-      <uri>model://encaixotado/cubo_roxo</uri>
-      <pose> 6.974974 -4.34 0.162 0 0 0</pose>
+      <uri>model://encaixotado/objeto/horse</uri>
+      <pose> 1.526 -1.49 0.162 0 0 0.849</pose>
     </include>  
 
-    <!-- caixa_caino_1 -->
+    <!-- dog -->
     <include>
-      <uri>model://encaixotado/cubo_ciano_1</uri>
-      <pose> 2.883648 -6.76 0.162 0 0 -0</pose>
+      <uri>model://encaixotado/objeto/dog</uri>
+      <pose> -1.46 1.51 0.162 0 0 0.849</pose>
     </include>
 
-     <!-- caixa_amarelo_1 -->
+     <!-- cow -->
     <include>
-      <uri>model://encaixotado/cubo_amarelo_1</uri>
-      <pose> 2.76 1.77 0.162 0 0 -0</pose>
+      <uri>model://encaixotado/objeto/cow</uri>
+      <pose>  1.48 1.52 0.162 0 0 0.849</pose>
     </include> 
 
-    <!-- caixa_roxo -->
+    <!-- car -->
     <include>
-      <uri>model://encaixotado/cubo_roxo_1</uri>
-      <pose> -0.939583 -0.268110 0.546 0 0 0</pose>
+      <uri>model://encaixotado/objeto/car</uri>
+      <pose> -1.35 -1.477 0.162 0 0 0.849</pose>
     </include> 
 
-
-<!-- creeper_21_ciano -->
-    <include>
-      <uri>model://encaixotado/creepers/creeper_21</uri>
-      <pose> 2.89 -6 0.546 0 -0.47 -3.136</pose>
-    </include>
-
-<!-- creeper_21_roxo -->
-    <include>
-      <uri>model://encaixotado/creepers/creeper_21_1</uri>
-      <pose> -0.196 -0.21 0.546 0 -0.47 1.578</pose>
-    </include>
-
- <!-- creeper_41_ciano -->
-    <include>
-      <uri>model://encaixotado/creepers/creeper_41</uri>
-     <pose> 6.17  -0.22 0.546 0  -0.47 -1.60</pose>
-    </include>
-
- <!-- creeper_41_amarelo -->
-    <include>
-      <uri>model://encaixotado/creepers/creeper_41_1</uri>
-      <pose> -0.1 -4.26 0.546 0 -0.47 1.54</pose>
-    </include>
-
- <!-- creeper_61_amarelo -->
-    <include>
-      <uri>model://encaixotado/creepers/creeper_61</uri>
-      <pose> 2.7 0.97 0.546 0 -0.47 0</pose>
-    </include>
-
-
- <!-- creeper_61_roxo -->
-    <include>
-      <uri>model://encaixotado/creepers/creeper_61_1</uri>
-       <pose> 6.17 -4.2 0.546 0 -0.47 -1.54</pose>
-    </include>
 
     <physics type="ode">
       <real_time_update_rate>1000.0</real_time_update_rate>
