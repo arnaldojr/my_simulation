@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <model name="dog">
+  <model name="bicycle">
     <static>true</static>
     <link name="box">
       <pose>0 0 0 0 0 0</pose>
@@ -19,9 +19,9 @@
         </geometry>
         <material>
           <script>
-            <uri>model://encaixotado/objeto/dog/materials/scripts</uri>
-            <uri>model://encaixotado/objeto/dog/materials/textures</uri>
-            <name>dog</name>
+            <uri>model://pista_s/objeto/bicycle/materials/scripts</uri>
+            <uri>model://pista_s/objeto/bicycle/materials/textures</uri>
+            <name>bicycle</name>
           </script>
         </material>
       </visual>

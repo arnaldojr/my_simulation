@@ -29,9 +29,9 @@
       <pose> 1.526 -1.49 0.162 0 0 0.849</pose>
     </include>  
 
-    <!-- dog -->
+    <!-- bicycle -->
     <include>
-      <uri>model://encaixotado/objeto/dog</uri>
+      <uri>model://encaixotado/objeto/bicycle</uri>
       <pose> -1.46 1.51 0.162 0 0 0.849</pose>
     </include>
 
