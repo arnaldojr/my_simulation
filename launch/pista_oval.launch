@@ -21,7 +21,7 @@
 
   <!-- Robot pose -->
   <arg name="x" default="-0.2258"/>
-  <arg name="y" default="-1.3063"/>
+  <arg name="y" default="-1.9412"/>
   <arg name="z" default="0"/>
   <arg name="roll" default="0"/>
   <arg name="pitch" default="0"/>
