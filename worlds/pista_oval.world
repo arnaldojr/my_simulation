@@ -1,8 +1,7 @@
 <sdf version="1.4">
   <world name="default">
-
     <scene>
-      <ambient>0.4 0.4 0.4 1</ambient>
+      <ambient>0.8 0.8 0.8 1</ambient>
       <background>0.7 0.7 0.7 1</background>
       <shadows>true</shadows>
     </scene>
@@ -10,42 +9,14 @@
     <!-- A global light source -->
     <include>
       <uri>model://sun</uri>
+      <pose> 0 0 2.0 0 0 0</pose>
     </include>
 
-    <!-- A ground plane -->
+  <!-- Piso da sala - circuito -->
     <include>
-      <uri>model://ground_plane</uri>
+      <uri>model://pista_oval/pisosala</uri>
+      <pose> 0 0 0 0 0 -1.57</pose>
     </include>
-
-    <!-- parede -->
-    <include>
-      <uri>model://encaixotado/parede</uri>
-    </include>
- 
-
-    <!-- horse -->
-    <include>
-      <uri>model://encaixotado/objeto/horse</uri>
-      <pose> 1.526 -1.49 0.162 0 0 0.849</pose>
-    </include>  
-
-    <!-- bicycle -->
-    <include>
-      <uri>model://encaixotado/objeto/bicycle</uri>
-      <pose> -1.46 1.51 0.162 0 0 0.849</pose>
-    </include>
-
-     <!-- cow -->
-    <include>
-      <uri>model://encaixotado/objeto/cow</uri>
-      <pose>  1.48 1.52 0.162 0 0 0.849</pose>
-    </include> 
-
-    <!-- car -->
-    <include>
-      <uri>model://encaixotado/objeto/car</uri>
-      <pose> -1.35 -1.477 0.162 0 0 0.849</pose>
-    </include> 
 
 
     <physics type="ode">
@@ -68,6 +39,15 @@
         </constraints>
       </ode>
     </physics>
+   
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>0.238775 -6.8831 10.8485 -0 0.979642 1.5602</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+
   </world>
 
 </sdf>
