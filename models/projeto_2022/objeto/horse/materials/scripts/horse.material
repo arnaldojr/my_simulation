@@ -1,0 +1,14 @@
+material horse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture horse.png
+      }
+    }
+  }
+}
+
