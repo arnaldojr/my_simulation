@@ -56,13 +56,13 @@
     <!-- creeper_12_verde -->
     <include>
       <uri>model://projeto_2022/creeper/creeper_12_verde</uri>
-      <pose> -2.74 0.00 0 0 0 0.69</pose>
+      <pose> -2.86 -0.16 0 0 0 0.69</pose>
     </include>
 
     <!-- creeper_12_rosa -->
     <include>
       <uri>model://projeto_2022/creeper/creeper_12_rosa</uri>
-      <pose> -2.94 0.72 0 0 0 0.69</pose>
+      <pose> -3.01 0.64 0 0 0 0.69</pose>
     </include>
 
     <!-- creeper_12_azul -->
