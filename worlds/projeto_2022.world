@@ -112,13 +112,13 @@
       <!-- caixa_azul -->
     <include>
       <uri>model://projeto_2022/objeto/caixa_azul</uri>
-      <pose> 2.77 -0.98 0 0 0 0</pose>
+      <pose> 2.78 -0.61 0 0 0 0</pose>
     </include>
 
       <!-- caixa_vermelha -->
     <include>
       <uri>model://projeto_2022/objeto/caixa_vermelha</uri>
-      <pose> 2.97 -1.04 0 0 0 0</pose>
+      <pose> 2.98 -1.35 0 0 0 0</pose>
     </include>
 
       <!-- mesa01 -->
