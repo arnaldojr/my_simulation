@@ -6,7 +6,7 @@
       <shadows>true</shadows>
     </scene>
 
-    <!-- A global light source -->
+    <!-- A global light source  -->
     <include>
       <uri>model://sun</uri>
       <pose> -2.0 2.0 2.0 0 0 0</pose>
@@ -27,15 +27,7 @@
 
 
 
-
-    <!-- aruco_05 -->
-    <include>
-      <uri>model://projeto_2022/creeper/aruco_05</uri>
-      <pose> 3.22 -2.15 0 0 0 -2.02</pose>
-    </include>
-
-
-    <!-- creeper_11_azul -->
+   <!-- creeper_11_azul -->
     <include>
       <uri>model://projeto_2022/creeper/creeper_11</uri>
       <pose> -2.97 0.25 0 0 0 0.69</pose>
@@ -75,20 +67,20 @@
     <!-- aruco_5 -->
     <include>
       <uri>model://projeto_2022/creeper/aruco_05</uri>
-      <pose> 3.29 -2.18 0 0 0 -2.14</pose>
+      <pose> 3.29 -2.18 0.30 0 -0.75 -2.14</pose>
     </include>
 
 
     <!-- aruco_15 -->
     <include>
       <uri>model://projeto_2022/creeper/aruco_15</uri>
-      <pose> 3.30 -0.04 0 0 0 -1.49</pose>
+      <pose> 3.30 -0.04 0.30 0 -0.75 -1.49</pose>
     </include>
 
     <!-- aruco_55 -->
     <include>
       <uri>model://projeto_2022/creeper/aruco_55</uri>
-      <pose> -2.35 -0.09 0.25 0 0 -3.093356</pose>
+      <pose> -2.35 -0.09 0.30 0 -0.75 -3.093356</pose>
     </include>
 
     <!-- bicicleta -->

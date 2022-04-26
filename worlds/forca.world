@@ -258,7 +258,7 @@
  <!--  creeper_100 -->
     <include>
       <uri>model://forca/creepers/creeper_100</uri>
-      <pose> -3.4 -0.32 0.25 -0.104 0.403 1.63</pose>
+      <pose> -3.4 -0.32 0.25 0.104 0.403 1.63</pose>
     </include>
 
  <!--  creeper_150 -->
@@ -270,7 +270,7 @@
  <!--  creeper_200 -->
     <include>
       <uri>model://forca/creepers/creeper_200</uri>
-      <pose> 1.72 -0.063 0.25 -0.195 0.416 -1.64</pose>
+      <pose> 1.72 -0.063 0.25 0.195 0.416 -1.64</pose>
     </include>
 
     <physics type="ode">
