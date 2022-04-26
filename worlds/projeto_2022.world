@@ -88,7 +88,7 @@
     <!-- aruco_55 -->
     <include>
       <uri>model://projeto_2022/creeper/aruco_55</uri>
-      <pose> -2.48 -0.40 0 0 0 3.14</pose>
+      <pose> -2.35 -0.09 0.25 0 0 -3.093356</pose>
     </include>
 
     <!-- bicicleta -->
