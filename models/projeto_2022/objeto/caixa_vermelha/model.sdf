@@ -22,7 +22,7 @@
       <visual name='visual'>
         <geometry>
           <box>
-            <size>0.15 0.15 0.21</size>
+            <size>0.20 0.20 0.40</size>
           </box>
         </geometry>
         <material>
@@ -48,7 +48,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.15 0.15 0.21</size>
+            <size>0.20 0.20 0.40</size>
           </box>
         </geometry>
         <surface>
