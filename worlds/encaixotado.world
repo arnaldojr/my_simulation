@@ -26,25 +26,50 @@
     <!-- horse -->
     <include>
       <uri>model://encaixotado/objeto/horse</uri>
-      <pose> 1.526 -1.49 0.162 0 0 0.849</pose>
+      <pose> 1.526 -1.49 0.2 0 0 0.849</pose>
     </include>  
 
     <!-- bicycle -->
     <include>
       <uri>model://encaixotado/objeto/bicycle</uri>
-      <pose> -1.46 1.51 0.162 0 0 0.849</pose>
+      <pose> -1.46 1.51 0.2 0 0 0.849</pose>
     </include>
 
      <!-- cow -->
     <include>
       <uri>model://encaixotado/objeto/cow</uri>
-      <pose>  1.48 1.52 0.162 0 0 0.849</pose>
+      <pose>  1.48 1.52 0.2 0 0 0.849</pose>
     </include> 
 
     <!-- car -->
     <include>
       <uri>model://encaixotado/objeto/car</uri>
-      <pose> -1.35 -1.477 0.162 0 0 0.849</pose>
+      <pose> -1.35 -1.477 0.2 0 0 0.849</pose>
+    </include> 
+
+    <!-- cubo_amarelo -->
+    <include>
+      <uri>model://encaixotado/objeto/cubo_amarelo</uri>
+      <pose> -2.35 -0.01 0.2 0 0 0.849</pose>
+    </include> 
+
+    <!-- cubo_azul -->
+    <include>
+      <uri>model://encaixotado/objeto/cubo_azul</uri>
+      <pose> 0.02 -2.36 0.2 0 0 0.849</pose>
+    </include> 
+
+    <!-- cubo_majenta -->
+    <include>
+      <uri>model://encaixotado/objeto/cubo_majenta</uri>
+      <pose> -0.01 2.35 0.2 0 0 0.849</pose>
+    </include> 
+
+
+    <!-- cubo_verde -->
+    <include>
+      <uri>model://encaixotado/objeto/cubo_verde</uri>
+      <pose> 2.38 0.02 0.2 0 0 0.849</pose>
     </include> 
 
 
