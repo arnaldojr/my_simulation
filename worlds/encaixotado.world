@@ -50,26 +50,26 @@
     <!-- cubo_amarelo -->
     <include>
       <uri>model://encaixotado/objeto/cubo_amarelo</uri>
-      <pose> -2.35 -0.01 0.2 0 0 0.849</pose>
+      <pose> -1.97 0.01 0.2 0 0 0.849</pose>
     </include> 
 
     <!-- cubo_azul -->
     <include>
       <uri>model://encaixotado/objeto/cubo_azul</uri>
-      <pose> 0.02 -2.36 0.2 0 0 0.849</pose>
+      <pose> -0.02 -1.97 0.2 0 0 0.849</pose>
     </include> 
 
     <!-- cubo_majenta -->
     <include>
       <uri>model://encaixotado/objeto/cubo_majenta</uri>
-      <pose> -0.01 2.35 0.2 0 0 0.849</pose>
+      <pose> 0.00 1.96 0.2 0 0 0.849</pose>
     </include> 
 
 
     <!-- cubo_verde -->
     <include>
       <uri>model://encaixotado/objeto/cubo_verde</uri>
-      <pose> 2.38 0.02 0.2 0 0 0.849</pose>
+      <pose> 2.00 -0.02 0.2 0 0 0.849</pose>
     </include> 
 
 
