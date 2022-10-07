@@ -22,257 +22,117 @@
 <!-- car -->
     <include>
       <uri>model://trevo/objeto/car</uri>
-      <pose> -5.88 -1.66 0.251305 0 0 0</pose>
+      <pose> 4.54 -3.89 0.251305 0 0 0</pose>
     </include>
 
  <!-- horse -->
     <include>
       <uri>model://trevo/objeto/horse</uri>
-      <pose> 2.05 0.85 0.251305 0 0 0</pose>
+      <pose> -4.95 3.16 0.251305 0 0 0</pose>
     </include>
    
 
  <!-- cow -->
     <include>
       <uri>model://trevo/objeto/cow</uri>
-      <pose> -4.28 2.95 0.251305 0 0 0</pose>
+      <pose> -2.58 -1.79 0.251305 0 0 0</pose>
     </include>
 
 <!-- dog -->
     <include>
       <uri>model://trevo/objeto/dog</uri>
-      <pose> 4.18 -3.63 0.251305 0 0 -0.52</pose>
+      <pose> 2.53 -1.76 0.251305 0 0 0</pose>
+    </include>
+b
+<!-- cat -->
+    <include>
+      <uri>model://trevo/objeto/cat</uri>
+      <pose> -4.68 -3.82 0.251305 0 0 0</pose>
+    </include>
+
+<!-- bird -->
+    <include>
+      <uri>model://trevo/objeto/bird</uri>
+      <pose> 4.86 3.37 0.251305 0 0 0</pose>
     </include>
 
 <!--  creeper_50 -->
     <include>
       <uri>model://trevo/creepers/creeper_50</uri>
-      <pose> -1.16 0.76 0.26 0 0.67 2.07</pose>
+      <pose> -1.02 -1.16 0.26 0.09 0.69 1.24</pose>
     </include>
 
 <!--  creeper_100 -->
     <include>
       <uri>model://trevo/creepers/creeper_100</uri>
-      <pose> 1.06 -1.38 0.26 0 0.88 -1.45</pose>
+      <pose> 0.95 -1.00 0.26 0.21 -0.81 -1.45</pose>
     </include>
 
 <!--  creeper_200 -->
     <include>
       <uri>model://trevo/creepers/creeper_200</uri>
-      <pose> -0.82 2.96 0.26 0 0.77 0</pose>
+      <pose> 0.80 3.13 0.26 0 0.77 0</pose>
     </include>
 
+<!-- creeper_11_laranja -->
+    <include>
+      <uri>model://trevo/creepers/creeper_11_laranja</uri>
+      <pose> -5.8 0.30 0.25 0 0 0.04</pose>
+    </include>
 
+<!-- creeper_11_azul -->
+    <include>
+      <uri>model://trevo/creepers/creeper_11_azul</uri>
+      <pose> -5.8 0.00 0.25 0 0 0.04</pose>
+    </include>
 
+<!-- creeper_21_vermelho -->
+    <include>
+      <uri>model://trevo/creepers/creeper_21_vermelho</uri>
+      <pose> -5.8 -0.30 0.25 0 0 0.04</pose>
+    </include>
 
+<!-- creeper_22_vermelho -->
+    <include>
+      <uri>model://trevo/creepers/creeper_22_vermelho</uri>
+      <pose> 5.8 0.30 0.25 0 0 0.04</pose>
+    </include>
 
+<!-- creeper_13_verde -->
+    <include>
+      <uri>model://trevo/creepers/creeper_13_verde</uri>
+      <pose> 5.8 0.00 0.25 0 0 0.04</pose>
+    </include>
 
+ <!-- creeper_51_magenta -->
+    <include>
+      <uri>model://trevo/creepers/creeper_51_magenta</uri>
+      <pose> 5.8 -0.30 0.25 0 0 0.04</pose>
+    </include>   
 
- <!-- Testing the automatic population of objects 
-    <population name="creeper_11_azul">
-      <model name="creeper_11_azul_radom">
-        <include>
-            <uri>model://forca/creepers/creeper_11_azul</uri>
-        </include>
-      </model>
-      <pose> -5.63 1.81 0.26 0 0.77 0</pose>
-      <box>
-        <size>1 1 1</size>
-      </box>
-      <model_count>1</model_count>
-      <distribution>
-        <type>random</type>
-      </distribution>
-    </population> -->
+ <!-- caixa_vermelha -->
+    <include>
+      <uri>model://trevo/objeto/caixa_vermelha</uri>
+      <pose> 0.10 0.40 0.25 0 0 0</pose>
+    </include>   
 
+ <!-- caixa_azul -->
+    <include>
+      <uri>model://trevo/objeto/caixa_azul</uri>
+      <pose> -0.10 -0.2 0 0 0 0</pose>
+    </include>
 
-
-
-
-<!--  creeper_11_laranja -->
-    <population name="creeper_11_laranja">
-      <model name="creeper_11_laranja_radom">
-        <include>
-            <uri>model://forca/creepers/creeper_11_laranja</uri>
-        </include>
-      </model>
-      <pose> -1.27 -3.94 0.26 0 0.77 0</pose>
-      <box>
-        <size>1 1 1</size>
-      </box>
-      <model_count>1</model_count>
-      <distribution>
-        <type>random</type>
-      </distribution>
-    </population>
-
-
-
- <!--  creeper_12_azul -->
-
-     <population name="creeper_12_azul">
-      <model name="creeper_12_azul_radom">
-        <include>
-            <uri>model://forca/creepers/creeper_12_azul</uri>
-        </include>
-      </model>
-      <pose> -1.46 -0.23 0 0 0 0</pose>
-      <box>
-        <size>1 1 1</size>
-      </box>
-      <model_count>1</model_count>
-      <distribution>
-        <type>random</type>
-      </distribution>
-    </population>
-
-
-<!--  creeper_13_verde -->
-
-     <population name="creeper_13_verde">
-       <model name="creeper_13_verde_radom">
-        <include>
-            <uri>model://forca/creepers/creeper_13_verde</uri>
-        </include>
-      </model>
-     <pose> 2.89 0.72 0 0 0 -1.57</pose>
-      <box>
-        <size>1 1 1</size>
-      </box>
-      <model_count>1</model_count>
-      <distribution>
-        <type>random</type>
-      </distribution>
-    </population>
-
-
-
- <!-- creeper_21_verde -->
-
-      <population name="creeper_21_verde">
-      <model name="creeper_21_verde_radom">
-        <include>
-            <uri>model://forca/creepers/creeper_21_verde</uri>
-        </include>
-      </model>
-      <pose> -5.84 -1.88 0.26 0 0 -1.45</pose>
-      <box>
-        <size>1 1 1</size>
-      </box>
-      <model_count>1</model_count>
-      <distribution>
-        <type>random</type>
-      </distribution>
-    </population>
-
-
-
- <!-- creeper_21_laranja -->
-
-      <population name="creeper_21_laranja">
-      <model name="creeper_21_laranja_radom">
-        <include>
-        <uri>model://forca/creepers/creeper_21_laranja</uri>
-        </include>
-      </model>
-      <pose> -1.89 -2.23 0.26 0 0.77 0</pose>
-      <box>
-        <size>1 1 1</size>
-      </box>
-      <model_count>1</model_count>
-      <distribution>
-        <type>random</type>
-      </distribution>
-    </population>
-
-
-
-<!--  creeper_22_azul -->
-
-
-      <population name="creeper_22_azul">
-  <model name="creeper_22_azul_radom">
-        <include>
-            <uri>model://forca/creepers/creeper_22_azul</uri>
-        </include>
-      </model>
-      <pose> -2.77 3.09 0.26 0 0.77 0</pose>
-      <box>
-        <size>1 1 1</size>
-      </box>
-      <model_count>1</model_count>
-      <distribution>
-        <type>random</type>
-      </distribution>
-    </population>
-
-
-      
-<-- creeper_23_verde -->
-
-      <population name="creeper_23_verde">
-      <model name="creeper_23_verde_radom">
-        <include>
-            <uri>model://forca/creepers/creeper_23_verde</uri>
-        </include>
-      </model>
-      <pose> 1.65 -1.85 0.26 0 0.77 0</pose>
-      <box>
-        <size>1 1 1</size>
-      </box>
-      <model_count>1</model_count>
-      <distribution>
-        <type>random</type>
-      </distribution>
-    </population>
-
-
-
-
- <!--  creeper_51_azul -->
-
-      <population name="creeper_51_azul">
-    <model name="creeper_51_azul_radom">
-        <include>
-        <uri>model://forca/creepers/creeper_51_azul</uri>
-        </include>
-      </model>
-      <pose> 2.41 3.69 0 0 0 0</pose>
-      <box>
-        <size>1 1 1</size>
-      </box>
-      <model_count>1</model_count>
-      <distribution>
-        <type>random</type>
-      </distribution>
-    </population>
-
-
-
- <!--  creeper_52_verde -->
-
-
-      <population name="creeper_52_verde">
-     <model name="creeper_52_verde_radom">
-        <include>
-      <uri>model://forca/creepers/creeper_52_verde</uri>
-        </include>
-      </model>
-      <pose> 5.84 -1.88 0.26 0 0 -1.45</pose>
-      <box>
-        <size>1 1 1</size>
-      </box>
-      <model_count>1</model_count>
-      <distribution>
-        <type>random</type>
-      </distribution>
-    </population>
+ <!-- caixa_vermelha_2 -->
+    <include>
+      <uri>model://trevo/objeto/caixa_vermelha_2</uri>
+      <pose> 0.10 -0.8 0.25 0 0 0</pose>
+    </include>  
 
 <!-- mapa sala -->
     <include>
       <uri>model://trevo/parede</uri>
       <pose> 0 0 0 0 0 0</pose>
-    </include>
+    </include>c
 
     <physics type="ode">
       <real_time_update_rate>1000.0</real_time_update_rate>
