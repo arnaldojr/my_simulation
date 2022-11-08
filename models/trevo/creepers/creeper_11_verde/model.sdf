@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='creeper_51_magenta'>
+  <model name='creeper_11_verde'>
     <link name='link'>
       <pose frame=''>0 -0 0.115 0 -0 0</pose>
       <inertial>
@@ -23,7 +23,7 @@
         <pose frame=''>0 0 -0.15 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://trevo/creepers/creeper_51_magenta/materials/textures/creeper.dae</uri>
+            <uri>model://trevo/creepers/creeper_11_verde/materials/textures/creeper.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -88,7 +88,7 @@
     </link>
     <static>0</static>
     <allow_auto_disable>1</allow_auto_disable>
-  <link name='link_0'>
+ <link name='link_0'>
       <inertial>
         <mass>1.97443e-05</mass>
         <inertia>
