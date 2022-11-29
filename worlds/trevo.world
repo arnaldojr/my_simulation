@@ -74,9 +74,9 @@ b
       <pose> 0.80 3.13 0.26 0 0.77 0</pose>
     </include>
 
-<!-- creeper_11_laranja -->
+<!-- creeper_11_verde -->
     <include>
-      <uri>model://trevo/creepers/creeper_11_laranja</uri>
+      <uri>model://trevo/creepers/creeper_11_verde</uri>
       <pose> -5.8 0.30 0.25 0 0 0.04</pose>
     </include>
 
@@ -104,9 +104,9 @@ b
       <pose> 5.8 0.00 0.25 0 0 0.04</pose>
     </include>
 
- <!-- creeper_51_magenta -->
+ <!-- creeper_51_azul -->
     <include>
-      <uri>model://trevo/creepers/creeper_51_magenta</uri>
+      <uri>model://trevo/creepers/creeper_51_azul</uri>
       <pose> 5.8 -0.30 0.25 0 0 0.04</pose>
     </include>   
 
