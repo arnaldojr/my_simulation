@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='creeper_11_verde'>
+  <model name='creeper_21_vermelho'>
     <link name='link'>
       <pose frame=''>0 -0 0.115 0 -0 0</pose>
       <inertial>
@@ -23,8 +23,8 @@
         <pose frame=''>0 0 -0.15 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://projeto_2023/creeper/creeper_11_verde/materials/textures/creeper.dae</uri>
-         <scale>1 1 1</scale>
+            <uri>model://projeto_2023/creeper/creeper_21_vermelho/materials/textures/creeper.dae</uri>
+            <scale>1 1 1</scale>
           </mesh>
         </geometry>
         <transparency>0</transparency>
@@ -88,28 +88,28 @@
     </link>
     <static>0</static>
     <allow_auto_disable>1</allow_auto_disable>
-        <link name='link_0'>
+ <link name='link_0'>
       <inertial>
-        <mass>1.17438e-05</mass>
+        <mass>1.97443e-05</mass>
         <inertia>
-          <ixx>3.26224e-09</ixx>
+          <ixx>1.1422e-08</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>4.1282e-10</iyy>
+          <iyy>1.38195e-09</iyy>
           <iyz>0</iyz>
-          <izz>3.29988e-09</izz>
+          <izz>1.21731e-08</izz>
         </inertia>
         <pose>0 0 0 0 -0 0</pose>
       </inertial>
-      <pose>-0.0007 0.00118 0.189635 -1.2e-05 1e-06 8e-06</pose>
+      <pose>-0.0007 0.000208 0.189635 -1.2e-05 1e-06 8e-06</pose>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
       <visual name='visual'>
-        <pose frame=''>0 0 0.2 0 -0 0</pose>
+        <pose>0 0 0.2 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.0000006 0.000008 0.000001</size>
+            <size>1e-06 8e-06 1e-06</size>
           </box>
         </geometry>
         <transparency>0</transparency>
@@ -126,7 +126,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.01517 0.062 0.035</size>
+            <size>0.02546 0.08216 0.013845</size>
           </box>
         </geometry>
         <surface>
@@ -176,7 +176,7 @@
         </surface>
       </collision>
     </link>
-    <joint name='link_0_JOINT_0' type='fixed'>
+       <joint name='link_0_JOINT_0' type='fixed'>
       <parent>link</parent>
       <child>link_0</child>
       <pose>0 0 0 0 -0 0</pose>
@@ -195,5 +195,5 @@
     </joint>
     <static>0</static>
     <allow_auto_disable>1</allow_auto_disable>
- </model>
+  </model> 
 </sdf>

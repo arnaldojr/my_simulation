@@ -6,7 +6,7 @@
       <shadows>true</shadows>
     </scene>
 
-    <!-- A global light source  -->
+  <!-- A global light source  -->
     <include>
       <uri>model://sun</uri>
       <pose> -2.0 2.0 2.0 0 0 0</pose>
@@ -19,105 +19,113 @@
     </include>
 
 
-    <!-- parede -->
-  <include>
-    <uri>model://projeto_2023/parede</uri>
-    <pose> -0.96 -3.25 0 0 0 -1.577</pose>
-  </include>
+  <!-- parede -->
+    <include>
+      <uri>model://projeto_2023/parede</uri>
+      <pose> -0.96 -3.25 0 0 0 -1.577</pose>
+    </include>
 
-   <!-- mesa_1 -->
+
+  <!-- mesa_1 -->
     <include>
       <uri>model://projeto_2023/mesa/mesa_1</uri>
       <pose> 0.891 -0.707 0 0 0 1.562</pose>
     </include>
 
-    <!-- mesa_02 -->
+  <!-- mesa_02 -->
     <include>
       <uri>model://projeto_2023/mesa/mesa_02</uri>
       <pose> -1.04 -0.7 0 0 0 1.567</pose>
     </include>
 
-   <!-- creeper_11_azul -->
+
+  <!-- creeper_11_azul -->
     <include>
       <uri>model://projeto_2023/creeper/creeper_11</uri>
-      <pose> 0.36 2.72 0 0 0 0</pose>
+      <pose> 0.36 2.72 0 0 0 -1.5</pose>
     </include>
 
-    <!-- creeper_11_vermelho -->
+  <!-- creeper_21_vermelho -->
     <include>
-      <uri>model://projeto_2023/creeper/creeper_11_vermelho</uri>
-      <pose> -0.46 2.70 0 0 0 0</pose>
+      <uri>model://projeto_2023/creeper/creeper_21_vermelho</uri>
+      <pose> -0.46 2.70 0 0 0 -1.5</pose>
     </include>
 
-
-    <!-- creeper_11_verde -->
+  <!-- creeper_11_verde -->
     <include>
       <uri>model://projeto_2023/creeper/creeper_11_verde</uri>
-      <pose> -0.02 2.80 0 0 0 0</pose>
+      <pose> -0.02 2.80 0 0 0 -1.5</pose>
     </include>
 
 
-    <!-- aruco_5 -->
+  <!-- aruco_5 -->
     <include>
       <uri>model://projeto_2023/creeper/aruco_05</uri>
-      <pose> 1.17 -1.69 0.30 0 -0.75 -2.14</pose>
+      <pose> 0.259 0.218 0.30 0.177 0.696 -3.0192</pose>
     </include>
 
-
-    <!-- aruco_15 -->
+  <!-- aruco_15 -->
     <include>
       <uri>model://projeto_2023/creeper/aruco_15</uri>
-      <pose> 1.24 -0.31 0.30 0 -0.75 -1.49</pose>
+      <pose> 0.262 0.165 0.30 -0.176 0.873 -0.1484</pose>
     </include>
 
-    <!-- aruco_55 -->
+  <!-- aruco_25 -->
+    <include>
+      <uri>model://projeto_2023/creeper/aruco_25</uri>
+      <pose> 0.397 -2.202 0.327 -0.073 0.659 3.1246</pose>
+    </include>
+
+  <!-- aruco_55 -->
     <include>
       <uri>model://projeto_2023/creeper/aruco_55</uri>
-      <pose> -0.28 0.65 0.30 0.08 0.84 -0.402019</pose>
+      <pose> 0.401 -2.233 0.30 2.952 -0.926 -2.978</pose>
     </include>
 
-    <!-- bicicleta -->
+
+  <!-- bicicleta -->
     <include>
       <uri>model://projeto_2023/objeto/bicycle</uri>
       <pose> -0.52 -0.88 0.15 0 0 0</pose>
     </include>
 
-    <!-- cat -->
+  <!-- cat -->
     <include>
       <uri>model://projeto_2023/objeto/cat</uri>
       <pose> -1.63 -2.27 0.15 0 0 0</pose>
     </include>
 
-    <!-- dog -->
+  <!-- dog -->
     <include>
       <uri>model://projeto_2023/objeto/dog</uri>
       <pose> 1.93 1.18 0.15 0 0 0</pose>
     </include>
 
-    <!-- cavalo -->
+  <!-- cavalo -->
     <include>
       <uri>model://projeto_2023/objeto/horse</uri>
       <pose> -1.7 0.922 0.15 0 0 0</pose>
     </include>
 
-    <!-- caixa_azul -->
+  <!-- caixa_azul -->
     <include>
       <uri>model://projeto_2023/objeto/caixa_azul</uri>
-      <pose> -2.3 -0.62 0 0 0 0</pose>
+      <pose> -2.082 -0.606 0 0 0 0</pose>
     </include>
 
-    <!-- caixa_vermelha_01 -->
+  <!-- caixa_vermelha_01 -->
     <include>
       <uri>model://projeto_2023/objeto/caixa_vermelha_01</uri>
-      <pose> -1.94 -1.37 0 0 0 0</pose>
+      <pose> -2.217 -1.399 0 0 0 0</pose>
     </include>
 
-    <!-- caixa_vermelha_02 -->
+  <!-- caixa_vermelha_02 -->
     <include>
       <uri>model://projeto_2023/objeto/caixa_vermelha_02</uri>
-      <pose> -1.97 -0.02 0 0 0 0</pose>
+      <pose> -2.233 0.100 0 0 0 0</pose>
     </include>
 
+  <!-- fisica do mundo -->
     <physics type="ode">
       <real_time_update_rate>1000.0</real_time_update_rate>
       <max_step_size>0.001</max_step_size>
@@ -139,6 +147,7 @@
       </ode>
     </physics>
    
+  <!-- posicao camera inicial -->  
     <gui fullscreen='0'>
       <camera name='user_camera'>
         <pose frame=''>0.238775 -6.8831 10.8485 -0 0.979642 1.5602</pose>
