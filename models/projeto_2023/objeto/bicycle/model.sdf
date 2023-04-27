@@ -7,20 +7,20 @@
       <collision name="collision">
         <geometry>
           <box>
-            <size>0.15 0.15 0.21</size>
+            <size>0.25 0.25 0.25</size>
           </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
           <box>
-            <size>0.15 0.15 0.21</size>
+            <size>0.25 0.25 0.25</size>
           </box>
         </geometry>
         <material>
           <script>
-            <uri>model://projeto_2022/objeto/bicycle/materials/scripts</uri>
-            <uri>model://projeto_2022/objeto/bicycle/materials/textures</uri>
+            <uri>model://projeto_2023/objeto/bicycle/materials/scripts</uri>
+            <uri>model://projeto_2023/objeto/bicycle/materials/textures</uri>
             <name>bicycle</name>
           </script>
         </material>

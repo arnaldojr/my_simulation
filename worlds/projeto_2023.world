@@ -1,5 +1,5 @@
 <sdf version="1.4">
-  <world name="default">
+  <world name="dprojeto_2023">
     <scene>
       <ambient>0.8 0.8 0.8 1</ambient>
       <background>0.7 0.7 0.7 1</background>
@@ -22,28 +22,38 @@
     <!-- parede -->
   <include>
     <uri>model://projeto_2023/parede</uri>
-    <pose> 3.32 -1.04 0 0 0 0</pose>
+    <pose> -0.96 -3.25 0 0 0 -1.577</pose>
   </include>
 
+   <!-- mesa_1 -->
+    <include>
+      <uri>model://projeto_2023/mesa/mesa_1</uri>
+      <pose> 0.891 -0.707 0 0 0 1.562</pose>
+    </include>
 
+    <!-- mesa_02 -->
+    <include>
+      <uri>model://projeto_2023/mesa/mesa_02</uri>
+      <pose> -1.04 -0.7 0 0 0 1.567</pose>
+    </include>
 
    <!-- creeper_11_azul -->
     <include>
       <uri>model://projeto_2023/creeper/creeper_11</uri>
-      <pose> -0.55 0.81 0 0 0 0.69</pose>
+      <pose> 0.36 2.72 0 0 0 0</pose>
     </include>
 
-    <!-- creeper_11_rosa -->
+    <!-- creeper_11_vermelho -->
     <include>
-      <uri>model://projeto_2023/creeper/creeper_11_rosa</uri>
-      <pose> -1.20 0.88 0 0 0 0.69</pose>
+      <uri>model://projeto_2023/creeper/creeper_11_vermelho</uri>
+      <pose> -0.46 2.70 0 0 0 0</pose>
     </include>
 
 
-    <!-- creeper_12_verde -->
+    <!-- creeper_11_verde -->
     <include>
-      <uri>model://projeto_2023/creeper/creeper_12_verde</uri>
-      <pose> -0.87 0.85 0 0 0 0.69</pose>
+      <uri>model://projeto_2023/creeper/creeper_11_verde</uri>
+      <pose> -0.02 2.80 0 0 0 0</pose>
     </include>
 
 
@@ -69,33 +79,44 @@
     <!-- bicicleta -->
     <include>
       <uri>model://projeto_2023/objeto/bicycle</uri>
-      <pose> 3.05 -0.10 0.10 0 0 0</pose>
+      <pose> -0.52 -0.88 0.15 0 0 0</pose>
     </include>
 
-    <!-- passaro -->
+    <!-- cat -->
     <include>
-      <uri>model://projeto_2023/objeto/bird</uri>
-      <pose> 3.24 -0.84 0.10 0 0 0</pose>
+      <uri>model://projeto_2023/objeto/cat</uri>
+      <pose> -1.63 -2.27 0.15 0 0 0</pose>
+    </include>
+
+    <!-- dog -->
+    <include>
+      <uri>model://projeto_2023/objeto/dog</uri>
+      <pose> 1.93 1.18 0.15 0 0 0</pose>
     </include>
 
     <!-- cavalo -->
     <include>
       <uri>model://projeto_2023/objeto/horse</uri>
-      <pose> 2.94 -1.58 0.10 0 0 0</pose>
+      <pose> -1.7 0.922 0.15 0 0 0</pose>
     </include>
 
-      <!-- caixa_azul -->
+    <!-- caixa_azul -->
     <include>
       <uri>model://projeto_2023/objeto/caixa_azul</uri>
-      <pose> -2.28 -0.73 0 0 0 0</pose>
+      <pose> -2.3 -0.62 0 0 0 0</pose>
     </include>
 
-      <!-- caixa_vermelha -->
+    <!-- caixa_vermelha_01 -->
     <include>
-      <uri>model://projeto_2023/objeto/caixa_vermelha</uri>
-      <pose> -1.40 -0.88 0 0 0 0</pose>
+      <uri>model://projeto_2023/objeto/caixa_vermelha_01</uri>
+      <pose> -1.94 -1.37 0 0 0 0</pose>
     </include>
 
+    <!-- caixa_vermelha_02 -->
+    <include>
+      <uri>model://projeto_2023/objeto/caixa_vermelha_02</uri>
+      <pose> -1.97 -0.02 0 0 0 0</pose>
+    </include>
 
     <physics type="ode">
       <real_time_update_rate>1000.0</real_time_update_rate>
