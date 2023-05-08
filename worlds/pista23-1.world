@@ -73,13 +73,13 @@
   <!-- aruco_25 -->
     <include>
       <uri>model://pista23-1/creeper/aruco_25</uri>
-      <pose> 0.397 -2.202 0.327 -0.073 0.659 3.1246</pose>
+      <pose> 0.32675 -1.503 0.2498 -0.073 0.659 3.1246</pose>
     </include>
 
   <!-- aruco_55 -->
     <include>
       <uri>model://pista23-1/creeper/aruco_55</uri>
-      <pose> 0.401 -2.233 0.30 2.952 -0.926 -2.978</pose>
+      <pose> 0.3362 -1.5628 0.23 2.952 -0.926 -2.978</pose>
     </include>
 
 
