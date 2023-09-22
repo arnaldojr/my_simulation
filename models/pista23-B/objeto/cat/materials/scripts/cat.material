@@ -1,0 +1,14 @@
+material cat
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture cat.png
+      }
+    }
+  }
+}
+
