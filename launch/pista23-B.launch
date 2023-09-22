@@ -20,12 +20,12 @@
   </include>
 
   <!-- Robot pose -->
-  <arg name="x" default="1.544692"/>
-  <arg name="y" default="-1.905419"/>
+  <arg name="x" default="-3.061771"/>
+  <arg name="y" default="-1.882660"/>
   <arg name="z" default="0"/>
   <arg name="roll" default="0"/>
   <arg name="pitch" default="0.0077"/>
-  <arg name="yaw" default="1.579460"/>
+  <arg name="yaw" default="1.578867"/>
 
   <!-- send robot urdf to param server -->
 
