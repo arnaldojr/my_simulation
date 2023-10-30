@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='creeper_11_azul'>
+  <model name='creeper_13_verde'>
     <link name='link'>
       <pose frame=''>0 -0 0.115 0 -0 0</pose>
       <inertial>
@@ -20,10 +20,10 @@
       <kinematic>0</kinematic>
       <gravity>1</gravity>
       <visual name='visual'>
-        <pose frame=''>0 0 -0.15 0 0 0</pose>
+        <pose frame=''>0 0 -0.15 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://pista23-B/creeper/creeper_11_azul/materials/textures/creeper.dae</uri>
+            <uri>model://pista23-B/creeper/creeper_13_verde/materials/textures/creeper.dae</uri>
          <scale>1 1 1</scale>
           </mesh>
         </geometry>
