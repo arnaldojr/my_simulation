@@ -41,45 +41,45 @@
 
   <!-- creeper_11_azul -->
     <include>
-      <uri>model://pista23-B/creeper/creeper_11</uri>
-      <pose> 3.022511 -0.630638 0 0 0 3.137215</pose>
+      <uri>model://pista23-B/creeper/creeper_11_azul</uri>
+      <pose> 3.021388 -0.874813 0 0 0 3.137215</pose>
     </include>
 
-  <!-- creeper_21_vermelho -->
+  <!-- creeper_21_azul -->
     <include>
-      <uri>model://pista23-B/creeper/creeper_21_vermelho</uri>
-      <pose> 2.996559 -0.090204 0 0 0 0.125166</pose>
+      <uri>model://pista23-B/creeper/creeper_21_azul</uri>
+      <pose> 3.046647 -0.255304 0 0 0 3.137215</pose>
     </include>
 
-  <!-- creeper_11_verde -->
+  <!-- creeper_13_verde -->
     <include>
-      <uri>model://pista23-B/creeper/creeper_11_verde</uri>
-      <pose> 3.078518 -0.348859 0 0 0 -0.013058</pose>
+      <uri>model://pista23-B/creeper/creeper_13_verde</uri>
+      <pose> 3.181150 -0.591498 0 0 0 -0.013058</pose>
+    </include>
+
+  <!-- creeper_32_verde -->
+    <include>
+      <uri>model://pista23-B/creeper/creeper_32_verde</uri>
+      <pose> 3.191493 0.057269 0 0 0 -0.013058</pose>
     </include>
 
 
-  <!-- aruco_5 -->
+  <!-- aruco_100 -->
     <include>
-      <uri>model://pista23-B/creeper/aruco_05</uri>
-      <pose> -1.569977 -0.033659 0.300000 0.176999 0.696000 -3.019200</pose>
+      <uri>model://pista23-B/creeper/aruco_100</uri>
+      <pose> 0.151969 -0.081828 0.300000 0.176999 0.696000 -3.019200</pose>
     </include>
 
-  <!-- aruco_15 -->
+  <!-- aruco_150 -->
     <include>
-      <uri>model://pista23-B/creeper/aruco_15</uri>
+      <uri>model://pista23-B/creeper/aruco_150</uri>
       <pose> 0.159696 -0.111550 0.30 -0.176 0.873 -0.1484</pose>
     </include>
 
-  <!-- aruco_25 -->
+  <!-- aruco_250 -->
     <include>
-      <uri>model://pista23-B/creeper/aruco_25</uri>
-      <pose> 0.934762 -0.089920 0.249800 0.232928 0.892044 1.813793</pose>
-    </include>
-
-  <!-- aruco_55 -->
-    <include>
-      <uri>model://pista23-B/creeper/aruco_55</uri>
-      <pose> -0.058649 -1.621248 0.23 -3.131686 0.645185 1.568118</pose>
+      <uri>model://pista23-B/creeper/aruco_250</uri>
+      <pose> -1.458588 -1.462211 0.23 -3.131686 0.645185 1.568118</pose>
     </include>
 
 
