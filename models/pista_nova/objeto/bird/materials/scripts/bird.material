@@ -1,0 +1,14 @@
+material bird
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture bird.png
+      }
+    }
+  }
+}
+

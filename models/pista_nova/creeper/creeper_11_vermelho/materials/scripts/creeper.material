@@ -1,0 +1,14 @@
+material creeper_11_vermelho
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture MarkerData_1.png
+      }
+    }
+  }
+}
+
