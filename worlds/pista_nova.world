@@ -39,11 +39,6 @@
       <pose> 2.610025 1.735497 0 0 0 -3.140931</pose>
     </include>
 
-  <!-- caixa_vermelha_02 -->
-    <include>
-      <uri>model://pista23-B/objeto/caixa_vermelha_02</uri>
-      <pose> -2.319589 -1.970593 0 0 0 0</pose>
-    </include>
 
   <!-- fisica do mundo -->
     <physics type="ode">
